@@ -21,6 +21,19 @@
           "img": "/img/uploads/banner2.webp",
           "alt": "Banner sample two",
           "mobile_img": "/img/uploads/passion.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/COPA DAS NAÇÕES AFRICANA.png"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/COPA DAS NAÇÕES AFRICANA.png"
         }
       ]
     },
@@ -42,14 +55,6 @@
       "type": "page-title",
       "title": "Loja demo da E-Com Plus",
       "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/COPA DAS NAÇÕES AFRICANA.png"
-        }
-      ]
     }
   ]
 }
