@@ -1,1 +1,26 @@
 // Add your custom CSS here.
+.arte-capa {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+}
+@media(min-width: 767px) {
+    .arte-capa img {
+        min-width: 79px;
+    }
+    .arte-capa span {
+        max-width: 79px;
+        height: 48px;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+@media(max-width: 767px) {
+    .arte-capa img {
+        min-width: 100px;
+    }
+    .arte-capa span {
+        max-width: 100px;
+        height: 48px;
+    }
+}
