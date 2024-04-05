@@ -25,6 +25,7 @@
     }
 }
  
+ 
 .variations__option--Libertadores::after {
   content: "";
   background-image: url(/img/uploads/LIBERTADORES.png);
@@ -241,77 +242,6 @@
   font-size: 0
 }
   
-.variations__option--Libertadores.1::after {
-  content: "";
-  background-image: url(/img/uploads/LIBERTADORES.png);
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-size: 100% 100%;
-}
-.variations__option--Libertadores.1 span {
-  font-size: 0
-}
-  
-.variations__option--Libertadores.2::after {
-  content: "";
-  background-image: url(/img/uploads/BlocLIBERTADORES%202%20TAÇA.png);
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-size: 100% 100%;
-}
-.variations__option--Libertadores.2 span {
-  font-size: 0
-}
-  
-.variations__option--Libertadores.3.Taças::after {
-  content: "";
-  background-image: url(/img/uploads/LIBERTADORES%203%20TAÇA.png);
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-size: 100% 100%;
-}
-.variations__option--Libertadores.3.Taças span {
-  font-size: 0
-}
-  
-.variations__option--Libertadores.4.Taças		::after {
-  content: "";
-  background-image: url(/img/uploads/LIBERTADORES%204%20TAÇA.png);
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-size: 100% 100%;
-}
-.variations__option--Libertadores.4.Taças span {
-  font-size: 0
-}
-  
-.variations__option--Libertadores.5.Taças::after {
-  content: "";
-  background-image: url(/img/uploads/LIBERTADORES%205%20TAÇA.png);
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-size: 100% 100%;
-}
-.variations__option--Libertadores.5.Taças span {
-  font-size: 0
-}
-  
-.variations__option--Libertadores.6.Taças::after {
-  content: "";
-  background-image: url(/img/uploads/LIBERTADORES%206%20TAÇA.png);
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-size: 100% 100%;
-}
-.variations__option--Libertadores.6.Taças span {
-  font-size: 0
-}
   
 .variations__option--Libertadores.Campeão::after {
   content: "";
@@ -408,66 +338,7 @@
 .variations__option--Europa.League.Campeão span {
   font-size: 0
 }
-  
-.variations__option--UCL.4.Taças::after {
-  content: "";
-  background-image: url(/img/uploads/ULC%204%20TAÇAS.jpg);
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-size: 100% 100%;
-}
-.variations__option--UCL.4.Taças span {
-  font-size: 0
-}
-  
-.variations__option--UCL.5.Taças::after {
-  content: "";
-  background-image: url(/img/uploads/UCL%205%20TAÇAS.png);
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-size: 100% 100%;
-}
-.variations__option--UCL.5.Taças span {
-  font-size: 0
-}
-  
-.variations__option--UCL.6.Taças::after {
-  content: "";
-  background-image: url(/img/uploads/UCL%206%20TAÇAS.jpg);
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-size: 100% 100%;
-}
-.variations__option--UCL.6.Taças span {
-  font-size: 0
-}
-  
-.variations__option--UCL.7.Taças::after {
-  content: "";
-  background-image: url(/img/uploads/UCL%207%20TAÇAS.jpg);
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-size: 100% 100%;
-}
-.variations__option--UCL.7.Taças span {
-  font-size: 0
-}
-  
-.variations__option--UCL.14.Taças::after {
-  content: "";
-  background-image: url(/img/uploads/ULC%2014%20TAÇAS.png);
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-size: 100% 100%;
-}
-.variations__option--UCL.14.Taças span {
-  font-size: 0
-}
+
   
 .variations__option--UCL::after {
   content: "";
@@ -706,5 +577,137 @@
   background-size: 100% 100%;
 }
 .variations__option--Copa.do.Rei span {
+  font-size: 0
+}
+
+.variations__option--Libertadores.1.Taça::after {
+  content: "";
+  background-image: url(/img/uploads/LIBERTADORES.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.1.Taça span {
+  font-size: 0
+}
+  
+.variations__option--Libertadores.2.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/BlocLIBERTADORES%202%20TAÇA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.2.Taças span {
+  font-size: 0
+}
+  
+.variations__option--Libertadores.3.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/LIBERTADORES%203%20TAÇA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.3.Taças span {
+  font-size: 0
+}
+  
+.variations__option--Libertadores.4.Taças		::after {
+  content: "";
+  background-image: url(/img/uploads/LIBERTADORES%204%20TAÇA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.4.Taças span {
+  font-size: 0
+}
+  
+.variations__option--Libertadores.5.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/LIBERTADORES%205%20TAÇA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.5.Taças span {
+  font-size: 0
+}
+  
+.variations__option--Libertadores.6.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/LIBERTADORES%206%20TAÇA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.6.Taças span {
+  font-size: 0
+}
+  
+.variations__option--UCL.4.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/ULC%204%20TAÇAS.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--UCL.4.Taças span {
+  font-size: 0
+}
+  
+.variations__option--UCL.5.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/UCL%205%20TAÇAS.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--UCL.5.Taças span {
+  font-size: 0
+}
+  
+.variations__option--UCL.6.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/UCL%206%20TAÇAS.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--UCL.6.Taças span {
+  font-size: 0
+}
+  
+.variations__option--UCL.7.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/UCL%207%20TAÇAS.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--UCL.7.Taças span {
+  font-size: 0
+}
+  
+.variations__option--UCL.14.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/ULC%2014%20TAÇAS.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--UCL.14.Taças span {
   font-size: 0
 }
