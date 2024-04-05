@@ -1,4 +1,3 @@
- 
 .variations__option--Libertadores::after {
   content: "";
   background-image: url(/img/uploads/LIBERTADORES.png);
@@ -7,7 +6,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Libertadores span {
+.variations__option--Libertadores {
   font-size: 0;
 }
  
@@ -19,7 +18,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Não span {
+.variations__option--Não {
   font-size: 0;
 }
   
@@ -31,7 +30,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Liga.Argentina span {
+.variations__option--Liga.Argentina {
   font-size: 0;
 }
   
@@ -43,7 +42,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Eliminatórias span {
+.variations__option--Eliminatórias {
   font-size: 0;
 }
   
@@ -55,7 +54,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Championship span {
+.variations__option--Championship {
   font-size: 0;
 }
   
@@ -67,7 +66,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Bundesliga span {
+.variations__option--Bundesliga {
   font-size: 0;
 }
   
@@ -79,7 +78,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--La.Liga span {
+.variations__option--La.Liga {
   font-size: 0;
 }
   
@@ -91,7 +90,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Europa.League span {
+.variations__option--Europa.League {
   font-size: 0;
 }
   
@@ -103,7 +102,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Premier.League span {
+.variations__option--Premier.League {
   font-size: 0;
 }
   
@@ -115,7 +114,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Sul.Americana span {
+.variations__option--Sul.Americana {
   font-size: 0;
 }
   
@@ -127,7 +126,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Eredivisie span {
+.variations__option--Eredivisie {
   font-size: 0;
 }
   
@@ -139,7 +138,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Serie A TIM span {
+.variations__option--Serie A TIM {
   font-size: 0;
 }
   
@@ -151,7 +150,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--.Ligue1 span {
+.variations__option--.Ligue1 {
   font-size: 0;
 }
   
@@ -175,7 +174,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Liga.Mexicana span {
+.variations__option--Liga.Mexicana {
   font-size: 0;
 }
   
@@ -187,7 +186,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Liga.Portugal.Campeão span {
+.variations__option--Liga.Portugal.Campeão {
   font-size: 0;
 }
   
@@ -199,7 +198,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--.Ligue1.Campeão span {
+.variations__option--.Ligue1.Campeão {
   font-size: 0;
 }
   
@@ -211,7 +210,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Eredivisie.Campeão span {
+.variations__option--Eredivisie.Campeão {
   font-size: 0;
 }
   
@@ -224,7 +223,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Libertadores.Campeão span {
+.variations__option--Libertadores.Campeão {
   font-size: 0;
 }
   
@@ -236,7 +235,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Premier.League.Campeão span {
+.variations__option--Premier.League.Campeão {
   font-size: 0;
 }
   
@@ -248,7 +247,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--La.Liga.Campeão span {
+.variations__option--La.Liga.Campeão {
   font-size: 0;
 }
   
@@ -260,7 +259,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Liga.Argentina.Campeão span {
+.variations__option--Liga.Argentina.Campeão {
   font-size: 0;
 }
   
@@ -272,7 +271,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Bundesliga.Campeão span {
+.variations__option--Bundesliga.Campeão {
   font-size: 0;
 }
   
@@ -284,7 +283,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Serie A TIM.Campeão span {
+.variations__option--Serie A TIM.Campeão {
   font-size: 0;
 }
   
@@ -296,7 +295,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--UCL.Campeão span {
+.variations__option--UCL.Campeão {
   font-size: 0;
 }
  
@@ -308,7 +307,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Europa.League.Campeão span {
+.variations__option--Europa.League.Campeão {
   font-size: 0;
 }
 
@@ -321,7 +320,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--UCL span {
+.variations__option--UCL {
   font-size: 0;
 }
   
@@ -333,7 +332,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Conference.League span {
+.variations__option--Conference.League {
   font-size: 0;
 }
   
@@ -345,7 +344,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Copa.das.Nações.Africana span {
+.variations__option--Copa.das.Nações.Africana {
   font-size: 0;
 }
   
@@ -357,7 +356,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Scottish.Premiership span {
+.variations__option--Scottish.Premiership {
   font-size: 0;
 }
   
@@ -369,7 +368,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Liga.Portugal span {
+.variations__option--Liga.Portugal {
   font-size: 0;
 }
   
@@ -383,7 +382,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--SüperLig span {
+.variations__option--SüperLig {
   font-size: 0;
 }
   
@@ -395,7 +394,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--League.ONE span {
+.variations__option--League.ONE {
   font-size: 0;
 }
   
@@ -407,7 +406,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Liga.das.Nações.da.UEFA span {
+.variations__option--Liga.das.Nações.da.UEFA {
   font-size: 0;
 }
   
@@ -419,7 +418,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Liga.Mexicana.Campeão span {
+.variations__option--Liga.Mexicana.Campeão {
   font-size: 0;
 }
   
@@ -431,7 +430,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Serie.A.TIM.B span {
+.variations__option--Serie.A.TIM.B {
   font-size: 0;
 }
   
@@ -443,7 +442,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Liga.Saudita span {
+.variations__option--Liga.Saudita {
   font-size: 0;
 }
   
@@ -456,7 +455,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--EFL.Cup span {
+.variations__option--EFL.Cup {
   font-size: 0;
 }
   
@@ -468,7 +467,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Copa.Itália span {
+.variations__option--Copa.Itália {
   font-size: 0;
 }
   
@@ -480,7 +479,7 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Copa.da.Alemanha span {
+.variations__option--Copa.da.Alemanha {
   font-size: 0;
 }
   
@@ -492,7 +491,6 @@
   height: 70px;
   background-size: 100% 100%;
 }
-.variations__option--Copa.do.Rei span {
+.variations__option--Copa.do.Rei {
   font-size: 0;
 }
-
