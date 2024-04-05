@@ -241,7 +241,7 @@
   font-size: 0
 }
   
-.variations__option--Libertadores.1.Taça::after {
+.variations__option--Libertadores.1::after {
   content: "";
   background-image: url(/img/uploads/LIBERTADORES.png);
   display: inline-block;
@@ -249,11 +249,11 @@
   height: 40px;
   background-size: 100% 100%;
 }
-.variations__option--Libertadores.1.Taça span {
+.variations__option--Libertadores.1 span {
   font-size: 0
 }
   
-.variations__option--Libertadores.2.Taças::after {
+.variations__option--Libertadores.2::after {
   content: "";
   background-image: url(/img/uploads/BlocLIBERTADORES%202%20TAÇA.png);
   display: inline-block;
@@ -261,7 +261,7 @@
   height: 40px;
   background-size: 100% 100%;
 }
-.variations__option--Libertadores.2.Taças span {
+.variations__option--Libertadores.2 span {
   font-size: 0
 }
   
