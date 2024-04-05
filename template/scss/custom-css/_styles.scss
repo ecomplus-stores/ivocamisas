@@ -24,3 +24,687 @@
         height: 48px;
     }
 }
+ 
+.variations__option--Libertadores::after {
+  content: "";
+  background-image: url(/img/uploads/LIBERTADORES.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.span {
+  font-size: 0
+}
+ 
+.variations__option--Não::after {
+  content: "";
+  background-image: url(/img/uploads/BlockTransp.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Não span {
+  font-size: 0
+}
+  
+.variations__option--Liga.Argentina::after {
+  content: "";
+  background-image: url(/img/uploads/LIGA%20ARGENTINA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Liga.Argentina span {
+  font-size: 0
+}
+  
+.variations__option--Eliminatórias::after {
+  content: "";
+  background-image: url(/img/uploads/ELIMINATÓRIAS.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Eliminatórias span {
+  font-size: 0
+}
+  
+.variations__option--Championship::after {
+  content: "";
+  background-image: url(/img/uploads/CHAMPIONSHIP.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Championship span {
+  font-size: 0
+}
+  
+.variations__option--Bundesliga::after {
+  content: "";
+  background-image: url(/img/uploads/BUNDESLIGA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Bundesliga span {
+  font-size: 0
+}
+  
+.variations__option--La.Liga::after {
+  content: "";
+  background-image: url(/img/uploads/LA%20LIGA.jpeg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--La.Liga span {
+  font-size: 0
+}
+  
+.variations__option--Europa.League::after {
+  content: "";
+  background-image: url(/img/uploads/EUROPA%20LEAGUE.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Europa.League span {
+  font-size: 0
+}
+  
+.variations__option--Premier.League::after {
+  content: "";
+  background-image: url(/img/uploads/PREMIER%20LEAGUE.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Premier.League span {
+  font-size: 0
+}
+  
+.variations__option--Sul.Americana::after {
+  content: "";
+  background-image: url(/img/uploads/SUL%20AMERICANA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Sul.Americana span {
+  font-size: 0
+}
+  
+.variations__option--Eredivisie::after {
+  content: "";
+  background-image: url(/img/uploads/EREDIVISIE.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Eredivisie span {
+  font-size: 0
+}
+  
+.variations__option--Serie A TIM::after {
+  content: "";
+  background-image: url(/img/uploads/SERIE%20A%20TIM.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Serie A TIM span {
+  font-size: 0
+}
+  
+.variations__option--.Ligue1::after {
+  content: "";
+  background-image: url(/img/uploads/LIGUE%201.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--.Ligue1 span {
+  font-size: 0
+}
+  
+.variations__option--Major.League Soccer::after {
+  content: "";
+  background-image: url(/img/uploads/MAJOR%20LEAGUE%20SOCCER.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Major.League.Soccerspan {
+  font-size: 0
+}
+  
+.variations__option--Liga.Mexicana::after {
+  content: "";
+  background-image: url(/img/uploads/LIGA%20MEXICANA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Liga.Mexicana span {
+  font-size: 0
+}
+  
+.variations__option--Liga.Portugal.Campeão::after {
+  content: "";
+  background-image: url(/img/uploads/LIGA%20PORTUGAL%20CAMPEÃO.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Liga.Portugal.Campeão span {
+  font-size: 0
+}
+  
+.variations__option--.Ligue1.Campeão::after {
+  content: "";
+  background-image: url(/img/uploads/LIGUE%201%20CAMPEÃO.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--.Ligue1.Campeão span {
+  font-size: 0
+}
+  
+.variations__option--Eredivisie.Campeão::after {
+  content: "";
+  background-image: url(/img/uploads/EREDIVISIE%20CAMPEÃO.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Eredivisie.Campeão span {
+  font-size: 0
+}
+  
+.variations__option--Libertadores.1.Taça::after {
+  content: "";
+  background-image: url(/img/uploads/LIBERTADORES.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.1.Taça span {
+  font-size: 0
+}
+  
+.variations__option--Libertadores.2.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/BlocLIBERTADORES%202%20TAÇA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.2.Taças span {
+  font-size: 0
+}
+  
+.variations__option--Libertadores.3.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/LIBERTADORES%203%20TAÇA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.3.Taças span {
+  font-size: 0
+}
+  
+.variations__option--Libertadores.4.Taças		::after {
+  content: "";
+  background-image: url(/img/uploads/LIBERTADORES%204%20TAÇA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.4.Taças span {
+  font-size: 0
+}
+  
+.variations__option--Libertadores.5.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/LIBERTADORES%205%20TAÇA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.5.Taças span {
+  font-size: 0
+}
+  
+.variations__option--Libertadores.6.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/LIBERTADORES%206%20TAÇA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.6.Taças span {
+  font-size: 0
+}
+  
+.variations__option--Libertadores.Campeão::after {
+  content: "";
+  background-image: url(/img/uploads/LIGA%20ARGENTINA%20CAMPEÃO.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Libertadores.Campeão span {
+  font-size: 0
+}
+  
+.variations__option--Premier.League.Campeão::after {
+  content: "";
+  background-image: url(/img/uploads/PREMIER%20LEAGUE%20CAMPEÃO.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Premier.League.Campeão span {
+  font-size: 0
+}
+  
+.variations__option--La.Liga.Campeão::after {
+  content: "";
+  background-image: url(/img/uploads/LA%20LIGA%20CAMPEÃO.jpeg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--La.Liga.Campeão span {
+  font-size: 0
+}
+  
+.variations__option--Liga.Argentina.Campeão::after {
+  content: "";
+  background-image: url(/img/uploads/LIGA%20ARGENTINA%20CAMPEÃO.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Liga.Argentina.Campeão span {
+  font-size: 0
+}
+  
+.variations__option--Bundesliga.Campeão::after {
+  content: "";
+  background-image: url(/img/uploads/BUNDESLIGA%20CAMPEÃO.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Bundesliga.Campeão span {
+  font-size: 0
+}
+  
+.variations__option--Serie A TIM.Campeão::after {
+  content: "";
+  background-image: url(/img/uploads/SERIE%20A%20TI%20CAMPEÃO.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Serie A TIM.Campeão span {
+  font-size: 0
+}
+  
+.variations__option--UCL.Campeão::after {
+  content: "";
+  background-image: url(/img/uploads/UCL%20CAMPEÃO.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--UCL.Campeão span {
+  font-size: 0
+}
+ 
+.variations__option--Europa.League.Campeão::after {
+  content: "";
+  background-image: url(/img/uploads/EUROPA%20LEAGUE.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Europa.League.Campeão span {
+  font-size: 0
+}
+  
+.variations__option--UCL.4.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/ULC%204%20TAÇAS.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--UCL.4.Taças span {
+  font-size: 0
+}
+  
+.variations__option--UCL.5.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/UCL%205%20TAÇAS.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--UCL.5.Taças span {
+  font-size: 0
+}
+  
+.variations__option--UCL.6.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/UCL%206%20TAÇAS.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--UCL.6.Taças span {
+  font-size: 0
+}
+  
+.variations__option--UCL.7.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/UCL%207%20TAÇAS.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--UCL.7.Taças span {
+  font-size: 0
+}
+  
+.variations__option--UCL.14.Taças::after {
+  content: "";
+  background-image: url(/img/uploads/ULC%2014%20TAÇAS.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--UCL.14.Taças span {
+  font-size: 0
+}
+  
+.variations__option--UCL::after {
+  content: "";
+  background-image: url(/img/uploads/UCL.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--UCL.span {
+  font-size: 0
+}
+  
+.variations__option--Conference.League::after {
+  content: "";
+  background-image: url(/img/uploads/CONFERENCE%20LEAGUE.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Conference.League span {
+  font-size: 0
+}
+  
+.variations__option--Copa.das.Nações.Africana::after {
+  content: "";
+  background-image: url(/img/uploads/COPA%20DAS%20NAÇÕES%20AFRICANA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Copa.das.Nações.Africana span {
+  font-size: 0
+}
+  
+.variations__option--Scottish.Premiership::after {
+  content: "";
+  background-image: url(/img/uploads/SCOTTISH%20PREMIERSHIP.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Scottish.Premiership span {
+  font-size: 0
+}
+  
+.variations__option--Liga.Portugal::after {
+  content: "";
+  background-image: url(/img/uploads/LIGA%20PORTUGAL.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Liga.Portugal.span {
+  font-size: 0
+}
+  
+.variations__option--Bundesliga.2::after {
+  content: "";
+  background-image: url(/img/uploads/BUNDESLIGA%202.png.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Bundesliga.2 span {
+  font-size: 0
+}
+  
+.variations__option--SüperLig::after {
+  content: "";
+  background-image: url(/img/uploads/SUPERLIG.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--SüperLig span {
+  font-size: 0
+}
+  
+.variations__option--Copa.do.Mundo.2022::after {
+  content: "";
+  background-image: url(/img/uploads/COPA%20DO%20MUNDO%202022.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Copa.do.Mundo.2022 span {
+  font-size: 0
+}
+  
+.variations__option--League.ONE::after {
+  content: "";
+  background-image: url(/img/uploads/LEAGUE%20ONE.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--League.ONE span {
+  font-size: 0
+}
+  
+.variations__option--Liga.das.Nações.da.UEFA::after {
+  content: "";
+  background-image: url(/img/uploads/LIGA%20DAS%20NAÇÕES%20DA%20EUFA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Liga.das.Nações.da.UEFA span {
+  font-size: 0
+}
+  
+.variations__option--Serie.A.TIM.+.Copa.Itália::after {
+  content: "";
+  background-image: url(/img/uploads/SERIE%20A%20TIM%20+%20COPA%20ITÁLIA.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Serie.A.TIM.+.Copa.Itália span {
+  font-size: 0
+}
+  
+.variations__option--Liga.Mexicana.Campeão::after {
+  content: "";
+  background-image: url(/img/uploads/LIGA%20MEXICANA%20CAMPEÃO.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Liga.Mexicana.Campeão span {
+  font-size: 0
+}
+  
+.variations__option--Serie.A.TIM.B::after {
+  content: "";
+  background-image: url(/img/uploads/SERIE%20A%20TIM%20B.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Serie.A.TIM.B span {
+  font-size: 0
+}
+  
+.variations__option--EURO.2024::after {
+  content: "";
+  background-image: url(/img/uploads/EURO%202024.jpeg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--EURO.2024 span {
+  font-size: 0
+}
+  
+.variations__option--Liga.Saudita::after {
+  content: "";
+  background-image: url(/img/uploads/LIGA%20SAUDITA.png);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Liga.Saudita span {
+  font-size: 0
+}
+  
+.variations__option--Ligue.2::after {
+  content: "";
+  background-image: url(/img/uploads/LIGUE%202.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Ligue.2 span {
+  font-size: 0
+}
+  
+.variations__option--EFL.Cup::after {
+  content: "";
+  background-image: url(/img/uploads/EFL%20CUP.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--EFL.Cup span {
+  font-size: 0
+}
+  
+.variations__option--Copa.Itália::after {
+  content: "";
+  background-image: url(/img/uploads/COPA%20ITÁLIA.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Copa.Itália span {
+  font-size: 0
+}
+  
+.variations__option--Copa.da.Alemanha::after {
+  content: "";
+  background-image: url(/img/uploads/COPA%20DA%20ALEMANHA.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Copa.da.Alemanha span {
+  font-size: 0
+}
+  
+.variations__option--Copa.do.Rei::after {
+  content: "";
+  background-image: url(/img/uploads/COPA%20DO%20REI.jpg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+.variations__option--Copa.do.Rei span {
+  font-size: 0
+}
