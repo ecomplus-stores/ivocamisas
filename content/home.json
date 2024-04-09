@@ -3,34 +3,28 @@
   "meta_description": "",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
+      "type": "banners-grid",
+      "banners": [
         {
-          "img": "/img/uploads/rect89.webp",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z",
-          "mobile_img": "/img/uploads/headphone.webp"
+          "img": "/img/uploads/Logo-premier-league.png"
         },
         {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner2.webp",
-          "alt": "Banner sample two",
-          "mobile_img": "/img/uploads/passion.webp"
+          "img": "/img/uploads/LOGO-LA-LIGA-IVO.png"
         },
         {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/COPA DAS NAÇÕES AFRICANA.png"
+          "img": "/img/uploads/Logo-bundesliga.png"
         },
         {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/BUNDESLIGA.png"
+          "img": "/img/uploads/Logo-ligue1.png"
+        },
+        {
+          "img": "/img/uploads/Logo-Serie-A-Tim.png"
+        },
+        {
+          "img": "/img/uploads/logo-outros-clubes.png"
+        },
+        {
+          "img": "/img/uploads/logo-selecoes-atualizado.png"
         }
       ]
     },
@@ -38,7 +32,59 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/COPA DAS NAÇÕES AFRICANA.png"
+          "img": "/img/uploads/BANNER-CATEGORIA-NETSHOES-INFANTIL_FJQ6poSH11.jpeg"
+        },
+        {
+          "img": "/img/uploads/BANNER-CATEGORIA-NETSHOES-RETRO_6lwdTec57X.jpeg"
+        },
+        {
+          "img": "/img/uploads/BANNER-CATEGORIA-NETSHOES-FEMININO_MCguBuZD48.jpeg"
+        },
+        {
+          "img": "/img/uploads/BANNER-CATEGORIA-NETSHOES-IVO_GLLtLHDp15.jpeg"
+        },
+        {
+          "img": "/img/uploads/BANNER-CATEGORIA-NETSHOES-CAMISAS-PERSONALIZADAS_lf6ypNyl7t.jpeg"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/Feedback-Marco-2024-1.jpg"
+        },
+        {
+          "img": "/img/uploads/Feedback-Marco-2024-2.jpg"
+        },
+        {
+          "img": "/img/uploads/Feedback-Marco-2024-3.jpg"
+        },
+        {
+          "img": "/img/uploads/Feedback-Marco-2024-4.jpg"
+        },
+        {
+          "img": "/img/uploads/Feedback-Marco-2024-5.jpg"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/BANNER-LOGO-MESSI_ayZXzgsZ03.jpeg"
+        },
+        {
+          "img": "/img/uploads/LOGO-NEYMAR-IVO.jpg"
+        },
+        {
+          "img": "/img/uploads/LOGO-CRISTIANO-RONALDO-IVO.jpg"
+        },
+        {
+          "img": "/img/uploads/LOGO-HAALAND-IVO.jpg"
+        },
+        {
+          "img": "/img/uploads/LOGO-VINI-JR-IVO.jpg"
         }
       ]
     },
