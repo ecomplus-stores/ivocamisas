@@ -7,6 +7,7 @@ import getExtraPages from "@ecomplus/storefront-template/template/js/netlify-cms
 import getWidgets from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/collections/widgets"
 
 export default options => {
+  options.sections = getSections(options)
 
   return {
     backend: {
@@ -35,7 +36,6 @@ export default options => {
       getSettings(options),
       getPages(options),
       getLayout(options),
-      getSections(options),
       getBlogPosts(options),
       getExtraPages(options),
       getWidgets(options),
