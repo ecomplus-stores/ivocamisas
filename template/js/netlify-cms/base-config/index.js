@@ -64,7 +64,7 @@ export default options => {
                     .filter(el => el.resource === 'categories')
                     .map((el) => ({
                       label: el.name,
-                      value: el.path
+                      value: el._id
                     }))
                   },
                   {
@@ -90,6 +90,12 @@ export default options => {
                                         "name": "price_patch",
                                         "widget": "number",
                                         required: false
+                                    },
+                                    {
+                                      "label": "Nome do patch",
+                                      "name": "title",
+                                      "widget": "string",
+                                      required: false
                                     }
                                 ]
                             }
@@ -106,6 +112,12 @@ export default options => {
                             "name": "img_guide",
                             "widget": "image",
                             required: false
+                        },
+                        {
+                          "label": "Nome do bloco guia de tamanho",
+                          "name": "title",
+                          "widget": "string",
+                          required: false
                         }
                     ]
                 }
