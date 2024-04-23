@@ -43,6 +43,79 @@
       "page": 1,
       "collection_id": "660dbc290fc534303debe9b4:categories:Seleções:/selecoes/",
       "sort": "sales"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/BANNER-CATEGORIA-NBA-MARcO-2024.jpeg"
+        },
+        {
+          "img": "/img/uploads/BANNER-CATEGORIA-RUGBY-MARcO-2024.jpeg"
+        },
+        {
+          "img": "/img/uploads/BANNER-CATEGORIA-F1-MARcO-2024.jpeg"
+        },
+        {
+          "img": "/img/uploads/BANNER-CATEGORIA-NFL-MARcO-2024.jpeg"
+        }
+      ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/BANNER-Prancheta-1_1HDm3pRd8Z.jpeg"
+        },
+        {
+          "img": "/img/uploads/BANNER-Prancheta-3-1_PdGD6SPB9S.jpeg"
+        },
+        {
+          "img": "/img/uploads/BANNER-Prancheta-2_ifGIa6nV63.jpeg"
+        }
+      ]
+    },
+    {
+      "type": "banner-slider",
+      "autoplay": 5000,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/BANNER-SHOP-ROMA_O4QebzIn01.jpeg",
+          "link": ""
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/BANNER-SHOP-REAL-MADRID_67t3TvJ609.jpeg"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/BANNER-SHOP-AL-NASSR_q751yRNR69.jpeg"
+        }
+      ],
+      "full_width": false
+    },
+    {
+      "type": "custom-html",
+      "html": "<div id=\"international__stamps\" class=\"footer__stamps\" style=\"text-align: center;background: #FFFFFF;padding: 0.5rem;\"><p>CLIQUE NA SUA SELEÇÃO</p><ul class=\"stamps\"><li><a href=\"https://www.ivocamisas.com.br/alemanha/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOalemanha.png\" alt=\"\" alemanha\"=\"\"></a></li><li><a href=\"https://www.ivocamisas.com.br/franca/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOfrance.png\" alt=\"\" franÇa\"=\"\"></a></li><li><a href=\"https://www.ivocamisas.com.br/argentina/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOargentina.png\" alt=\"ARGENTINA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/inglaterra/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOinglaterra.png\" alt=\"INGLATERRA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/portugal/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOportugal.png\" alt=\"\" portugal\"=\"\"></a></li><li><a href=\"https://www.ivocamisas.com.br/uruguai/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOuruguai.png\" alt=\"URUGUAI\"></a></li><li><a href=\"https://www.ivocamisas.com.br/espanha/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOspain.png\" alt=\"ESPANHA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/mexico/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOmexico.png\" alt=\"MÉXICO\"></a></li><li><a href=\"https://www.ivocamisas.com.br/japao/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOjapan.png\" alt=\"JAPÃO\"></a></li><li><a href=\"https://www.ivocamisas.com.br/dinamarca/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOdinamarca.png\" alt=\"DINAMARCA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/belgica/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGObelgica.png\" alt=\"BÉLGICA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/croacia/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOcroacia.png\" alt=\"CROÁCIA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/polonia/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOpolonia.png\" alt=\"POLONIA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/estados-unidos/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOusa.png\" alt=\"USA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/senegal/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOsenegal.png\" alt=\"SENEGAL\"></a></li><li><a href=\"https://www.ivocamisas.com.br/camaroes/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOcamaroes.png\" alt=\"CAMARÕES\"></a></li><li><a href=\"https://www.ivocamisas.com.br/gana/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOgana.png\" alt=\"GANA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/canada/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOcanada.png\" alt=\"CANADA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/coreia-do-sul/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOcoreiadosul.png\" alt=\"CORÉIA DO SUL\"></a></li><li><a href=\"https://www.ivocamisas.com.br/equador/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOequador.png\" alt=\"EQUADOR\"></a></li><li><a href=\"https://www.ivocamisas.com.br/marrocos/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOmarrocos.png\" alt=\"MARROCOS\"></a></li><li><a href=\"https://www.ivocamisas.com.br/servia/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOservia.png\" alt=\"SERVIA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/pais-de-gales/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOwales.png\" alt=\"PAÍS DE GALES\"></a></li><li><a href=\"https://www.ivocamisas.com.br/tunisia/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOtunisia.png\" alt=\"TUNISIA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/suica/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOsuica.png\" alt=\"SUIÇA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/ira/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOiran.png\" alt=\"IRÃ\"></a></li><li><a href=\"https://www.ivocamisas.com.br/qatar/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOqatar.png\" alt=\"QATAR\"></a></li><li><a href=\"https://www.ivocamisas.com.br/arabia-saudita/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOarabia-saudita.png\" alt=\"ARABIA SAUDITA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/australia/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOaustralia.png\" alt=\"AUSTRALIA\"></a></li><li><a href=\"https://www.ivocamisas.com.br/costa-rica/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGOcosta-rica.png\" alt=\"COSTA RICA\"></a></li></ul></div>"
+    },
+    {
+      "type": "dynamic-showcase",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "sort": "sales"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/BANNER-SUPORTE-MARcO-2024.jpeg"
+        }
+      ]
     }
   ]
 }

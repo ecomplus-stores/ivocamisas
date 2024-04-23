@@ -178,7 +178,7 @@
     margin:0;
     max-width:100%
   }
-  
+
   .stamps li {
     display:flex;
     justify-content:center;
@@ -212,3 +212,46 @@
   }
 }
 
+
+#international__stamps {
+  .stamps {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .stamps li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #7200DD;
+    box-shadow: .0625rem .0625rem .25rem #979798;
+  }
+
+  .stamps > li {
+    min-width: 120px;
+    max-width: 180px;
+    padding: 1rem 0;
+      padding-bottom: 1rem;
+    text-align: center;
+  }
+}
+
+.footer {
+  background-color: black;
+  color: #fff;
+  * {
+    color: #fff !important;
+  }
+}
+
+.product__customization--patch {
+  display: flex;
+  flex-direction: column;
+}

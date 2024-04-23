@@ -155,7 +155,7 @@
               v-if="body.customizations"
             >
               <div
-                v-for="custom in body.customizations"
+                v-for="custom in bodyCustomizations"
                 v-if="custom.custom_value"
                 :key="custom._id"
                 class="product__customization form-group"
@@ -173,10 +173,17 @@
 
                 <input
                   type="text"
+                  v-if="!custom.img"
                   class="form-control"
                   :id="`c-${custom._id}`"
                   @keyup="ev => setCustomizationOption(custom, ev.target.value)"
                 >
+
+                <span
+                  v-else 
+                >
+                  <img :src="custom.img" alt="" width="100px">
+                </span>
               </div>
             </slot>
 

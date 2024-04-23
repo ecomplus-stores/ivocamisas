@@ -163,6 +163,7 @@ import {
         hasLoadError: false,
         paymentOptions: [],
         customizations: [],
+        bodyCustomizations: [],
         kitItems: [],
         currentTimer: null
       }
@@ -530,6 +531,25 @@ import {
         this.qntToBuy = this.body.min_quantity || 1
       }
       if (this.product) {
+        if (this.product.customizations) {
+          this.bodyCustomizations = [
+            ...this.product.customizations
+          ]
+        }
+        if (window.patchConfig && window.patchConfig.length) {
+          window.patchConfig.forEach(({patch}) => {
+            this.bodyCustomizations.push({
+              "_id": genRandomObjectId(),
+              "label":"Patch",
+              "grid_id":"patch",
+              "custom_value":true,
+              "attachment":false,
+              "img": patch.img_patch,
+              "add_to_price":{"type":"fixed","addition": patch.price_patch},
+              "require":false
+            })
+          })
+        }
         this.body = this.product
         if (this.isSSR) {
           this.fetchProduct().then(presetQntToBuy)
@@ -582,6 +602,7 @@ import {
         }
         setStickyBuyObserver()
       }
+      
       if (this.isOnSale) {
         const promotionDate = new Date(this.body.price_effective_date.end)
         const now = Date.now()

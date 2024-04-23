@@ -3,7 +3,7 @@
     "featured": [
       "/novidades/?Novidades",
       "/ligas-de-futebol/?Ligas de Futebol",
-      "/categorias/?#NAME?",
+      "/categorias/?Categorias",
       "/promocao/?Promoção"
     ],
     "random": 0,
@@ -19,7 +19,7 @@
   "name_all_departments": "",
   "search_input": true,
   "desktop_megamenu": true,
-  "full_width_submenu": false,
+  "full_width_submenu": true,
   "contacts_stripe": {
     "pages": [
       {
