@@ -40,6 +40,11 @@ export default options => {
           "label": "Título da Vitrine",
           "name": "title",
           "widget": "string",
+        },
+        {
+          "label": "Tipo da Vitrine",
+          "name": "type",
+          "widget": "string",
         }
     ]
 }])
