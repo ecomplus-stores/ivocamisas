@@ -47,6 +47,25 @@ export default options => {
           "widget": "string",
         }
     ]
+}, {
+  "label": "Título de vitrine",
+  "name": "title-block",
+  "widget": "object",
+  "required": false,
+  "fields": [
+    {
+      "label": "Título do bloco",
+      "name": "title",
+      "required": false,
+      "widget": "string",
+    },
+    {
+      "label": "Link do Título",
+      "name": "link",
+      "required": false,
+      "widget": "string",
+    }
+]
 }])
   return {
     backend: {

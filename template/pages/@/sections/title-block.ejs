@@ -1,0 +1,15 @@
+<% if (opt.title-block) { %>
+    <h4 class="products-carousel__title">
+      <% if (opt.title-block.title) { %>
+        <% if (opt.title-block.link) { %>
+          <a href="<%= link %>">
+            <%= opt.title-block.title %>
+          </a>
+        <% } else { %>
+          <span><%= opt.title-block.title %></span>
+        <% } %>
+      <% } else { %>
+          <%= opt.title-block.title %>
+      <% } %>
+    </h4>
+  <% } %>
