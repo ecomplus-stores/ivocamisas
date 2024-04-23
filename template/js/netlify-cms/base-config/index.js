@@ -7,8 +7,42 @@ import getExtraPages from "@ecomplus/storefront-template/template/js/netlify-cms
 import getWidgets from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/collections/widgets"
 
 export default options => {
-  options.sections = getSections(options)
-
+  options.sections = getSections(options).concat([{
+    "label": "Vitrine de imagens horizontal",
+    "name": "grid-op",
+    "widget": "object",
+    "fields": [
+        {
+            "label": "Banners",
+            "name": "banners",
+            "widget": "list",
+            "fields": [
+                {
+                    "label": "Imagem",
+                    "name": "img",
+                    "widget": "image"
+                },
+                {
+                    "label": "Link",
+                    "required": false,
+                    "name": "link",
+                    "widget": "string"
+                },
+                {
+                    "label": "Alt",
+                    "required": false,
+                    "name": "alt",
+                    "widget": "string"
+                }
+            ]
+        },
+        {
+          "label": "Título da Vitrine",
+          "name": "title",
+          "widget": "string",
+        }
+    ]
+}])
   return {
     backend: {
       name: "git-gateway",
