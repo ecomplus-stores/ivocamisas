@@ -8,6 +8,11 @@
             "img_patch": "/img/uploads/patch-copa-do-mundo-qatar-2022-atualizado.png",
             "price_patch": 10
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/eliminatorias-2026.png"
+          }
         }
       ],
       "size_guide_category": {
