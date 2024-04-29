@@ -543,6 +543,7 @@ import {
               "grid_id":"patch",
               "custom_value":true,
               "attachment":false,
+              "value": patch.title,
               "img": patch.img_patch,
               "add_to_price":{"type":"fixed","addition": patch.price_patch},
               "require":false

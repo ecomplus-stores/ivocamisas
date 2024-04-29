@@ -6,13 +6,15 @@
         {
           "patch": {
             "img_patch": "/img/uploads/patch-copa-do-mundo-qatar-2022-atualizado.png",
-            "price_patch": 10
+            "price_patch": 10,
+            "title": "Copa do mundo 2022"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/eliminatorias-2026.png",
-            "price_patch": 10
+            "price_patch": 10,
+            "title": "Eliminiatórias"
           }
         }
       ],
