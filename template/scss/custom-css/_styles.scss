@@ -298,3 +298,15 @@
     }
   }
 }
+
+.choose-patch ul {
+  display: flex;
+  padding-left: 0;
+  li {
+    padding-left: 5px;
+    padding-right: 5px;
+    img {
+      height: 100px !important;
+    }
+  }
+}

@@ -360,10 +360,14 @@ import {
       },
   
       setCustomizationOption (customization, text) {
-        const index = this.customizations.findIndex(({ _id }) => _id === customization._id)
+        const index = this.customizations.findIndex(({ _id, label }) => _id === customization._id || (label === customization.label))
         if (text) {
           if (index > -1) {
             this.customizations[index].option = { text }
+            if (customization.label === 'Patch') {
+              this.customizations[index] = customization
+              this.customizations[index].option = { text }
+            }
           } else {
             this.customizations.push({
               _id: customization._id,
@@ -531,11 +535,6 @@ import {
         this.qntToBuy = this.body.min_quantity || 1
       }
       if (this.product) {
-        if (this.product.customizations) {
-          this.bodyCustomizations = [
-            ...this.product.customizations
-          ]
-        }
         if (window.patchConfig && window.patchConfig.length) {
           window.patchConfig.forEach(({patch}) => {
             this.bodyCustomizations.push({
