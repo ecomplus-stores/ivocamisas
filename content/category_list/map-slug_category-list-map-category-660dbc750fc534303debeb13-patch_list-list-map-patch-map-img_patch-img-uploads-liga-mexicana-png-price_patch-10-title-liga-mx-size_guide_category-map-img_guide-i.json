@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbc750fc534303debeb13",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/LIGA MEXICANA.png",
+            "price_patch": 10,
+            "title": "LIGA MX"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
