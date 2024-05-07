@@ -12,11 +12,11 @@ const hasCategory = _.state.categories && _.state.categories.length && _.state.c
 if (hasCategory) {
   categoryConfig = _.cms(`category_list/${listPatchGuide[0]}`)
 }
-const addConfigCategory = categoryConfig.slug_category && categoryConfig.slug_category.length && categoryConfig.slug_category[0]
+const addConfigCategory = categoryConfig && categoryConfig.slug_category && categoryConfig.slug_category.length && categoryConfig.slug_category[0]
 %>
 
 <script>
-  window.patchConfig = <%- JSON.stringify(addConfigCategory.patch_list || []) %>
+  window.patchConfig = <%- JSON.stringify(addConfigCategory && addConfigCategory.patch_list || []) %>
 </script>
 <div id="product-block" class="product-block my-4 mb-lg-5">
   <div class="container">
