@@ -16,6 +16,13 @@
             "price_patch": 20,
             "title": "PREMIER LEAGUE CAMPEÃO"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/EFL CUP.jpg",
+            "price_patch": 10,
+            "title": "EFL CUP"
+          }
         }
       ],
       "size_guide_category": {
