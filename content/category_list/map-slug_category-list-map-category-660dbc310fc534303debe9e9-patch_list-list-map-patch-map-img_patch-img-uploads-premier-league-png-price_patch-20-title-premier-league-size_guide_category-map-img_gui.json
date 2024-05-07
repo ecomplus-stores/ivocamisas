@@ -1,0 +1,19 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbc310fc534303debe9e9",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/PREMIER LEAGUE.png",
+            "price_patch": 20,
+            "title": "PREMIER LEAGUE"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg"
+      }
+    }
+  ]
+}
