@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbe1c0fc534303debf15a",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/SCOTTISH PREMIERSHIP.png",
+            "price_patch": 10,
+            "title": "LIGA ESCOCESA"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
