@@ -9,6 +9,13 @@
             "price_patch": 20,
             "title": "UCL"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/UCL CAMPEÃO.png",
+            "price_patch": 20,
+            "title": "UCL CAMPEÃO"
+          }
         }
       ],
       "size_guide_category": {
