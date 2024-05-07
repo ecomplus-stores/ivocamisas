@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbdc60fc534303debf005",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/CONFERENCE LEAGUE.png",
+            "price_patch": 20,
+            "title": "CONFERENCE LEAGUE"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
