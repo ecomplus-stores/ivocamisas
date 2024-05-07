@@ -9,6 +9,13 @@
             "price_patch": 10,
             "title": "BUNDESLIGA"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/BUNDESLIGA CAMPEÃO.png",
+            "price_patch": 10,
+            "title": "BUNDESLIGA CAMPEÃO"
+          }
         }
       ],
       "size_guide_category": {
