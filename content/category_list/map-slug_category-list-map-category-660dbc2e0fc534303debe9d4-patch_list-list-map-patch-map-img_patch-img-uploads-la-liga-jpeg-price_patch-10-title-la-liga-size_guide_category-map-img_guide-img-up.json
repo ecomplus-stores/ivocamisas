@@ -9,6 +9,13 @@
             "price_patch": 10,
             "title": "LA LIGA"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/LA LIGA CAMPEÃO.jpeg",
+            "price_patch": 20,
+            "title": "LA LIGA CAMPEÃO"
+          }
         }
       ],
       "size_guide_category": {
