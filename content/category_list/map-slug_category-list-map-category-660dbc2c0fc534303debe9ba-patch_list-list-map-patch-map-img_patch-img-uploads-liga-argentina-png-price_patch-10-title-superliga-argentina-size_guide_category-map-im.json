@@ -9,6 +9,13 @@
             "price_patch": 10,
             "title": "SUPERLIGA ARGENTINA"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/LIGA ARGENTINA CAMPEÃO.png",
+            "price_patch": 10,
+            "title": "LIGA ARGENTINA CAMPEAO"
+          }
         }
       ],
       "size_guide_category": {
