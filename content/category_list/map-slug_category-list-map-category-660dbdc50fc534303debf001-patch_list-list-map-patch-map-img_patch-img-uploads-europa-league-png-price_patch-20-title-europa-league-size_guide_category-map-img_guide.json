@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbdc50fc534303debf001",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/EUROPA LEAGUE.png",
+            "price_patch": 20,
+            "title": "EUROPA LEAGUE"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
