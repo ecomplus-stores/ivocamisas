@@ -9,10 +9,18 @@
             "price_patch": 20,
             "title": "PREMIER LEAGUE"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/PREMIER LEAGUE CAMPEÃO.png",
+            "price_patch": 20,
+            "title": "PREMIER LEAGUE CAMPEÃO"
+          }
         }
       ],
       "size_guide_category": {
-        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg"
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
       }
     }
   ]
