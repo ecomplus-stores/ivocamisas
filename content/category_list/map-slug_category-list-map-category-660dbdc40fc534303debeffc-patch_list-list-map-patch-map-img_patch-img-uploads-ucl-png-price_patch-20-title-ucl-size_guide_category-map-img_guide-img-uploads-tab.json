@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbdc40fc534303debeffc",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/UCL.png",
+            "price_patch": 20,
+            "title": "UCL"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
