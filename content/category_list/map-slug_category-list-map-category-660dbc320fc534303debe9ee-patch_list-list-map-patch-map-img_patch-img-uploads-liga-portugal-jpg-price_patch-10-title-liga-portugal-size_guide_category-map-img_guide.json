@@ -9,6 +9,13 @@
             "price_patch": 10,
             "title": "LIGA PORTUGAL"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/LIGA PORTUGAL CAMPEÃO.jpg",
+            "price_patch": 20,
+            "title": "LIGA PORTUGAL CAMPEÃO"
+          }
         }
       ],
       "size_guide_category": {
