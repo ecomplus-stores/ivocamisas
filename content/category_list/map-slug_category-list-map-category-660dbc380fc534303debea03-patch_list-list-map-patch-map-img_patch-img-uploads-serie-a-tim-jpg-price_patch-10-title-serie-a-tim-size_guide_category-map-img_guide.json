@@ -23,6 +23,13 @@
             "price_patch": 20,
             "title": "SERIE A TIM + COPA ITÁLIA"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/COPA ITÁLIA.jpg",
+            "price_patch": 10,
+            "title": "COPA ITÁLIA"
+          }
         }
       ],
       "size_guide_category": {
