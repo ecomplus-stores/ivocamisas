@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbdc90fc534303debf011",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/SERIE A TIM B.png",
+            "price_patch": 10,
+            "title": "SERIE A TIM B"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
