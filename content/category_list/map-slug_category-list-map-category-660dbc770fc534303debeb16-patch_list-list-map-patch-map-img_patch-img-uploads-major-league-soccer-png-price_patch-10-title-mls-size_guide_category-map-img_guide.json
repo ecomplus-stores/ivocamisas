@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbc770fc534303debeb16",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/MAJOR LEAGUE SOCCER.png",
+            "price_patch": 10,
+            "title": "MLS"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
