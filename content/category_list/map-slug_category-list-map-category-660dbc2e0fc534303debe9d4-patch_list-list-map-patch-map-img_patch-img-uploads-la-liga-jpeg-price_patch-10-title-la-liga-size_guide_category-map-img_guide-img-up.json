@@ -16,6 +16,13 @@
             "price_patch": 20,
             "title": "LA LIGA CAMPEÃO"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/COPA DO REI.jpg",
+            "price_patch": 10,
+            "title": "COPA DO REI"
+          }
         }
       ],
       "size_guide_category": {
