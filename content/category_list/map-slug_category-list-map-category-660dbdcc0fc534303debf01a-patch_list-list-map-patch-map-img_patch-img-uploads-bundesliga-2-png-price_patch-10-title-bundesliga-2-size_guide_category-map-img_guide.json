@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbdcc0fc534303debf01a",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/BUNDESLIGA 2.png",
+            "price_patch": 10,
+            "title": "BUNDESLIGA 2 "
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
