@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbdca0fc534303debf013",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/LIGUE 2.jpg",
+            "price_patch": 10,
+            "title": "LIGUE 2 "
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
