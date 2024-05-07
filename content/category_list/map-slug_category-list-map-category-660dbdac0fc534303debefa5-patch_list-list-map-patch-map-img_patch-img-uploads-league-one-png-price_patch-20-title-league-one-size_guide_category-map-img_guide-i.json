@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbdac0fc534303debefa5",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/LEAGUE ONE.png",
+            "price_patch": 20,
+            "title": "LEAGUE ONE"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
