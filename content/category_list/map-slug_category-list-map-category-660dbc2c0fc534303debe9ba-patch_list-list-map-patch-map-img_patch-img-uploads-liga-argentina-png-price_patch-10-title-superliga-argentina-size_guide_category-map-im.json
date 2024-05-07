@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbc2c0fc534303debe9ba",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/LIGA ARGENTINA.png",
+            "price_patch": 10,
+            "title": "SUPERLIGA ARGENTINA"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
