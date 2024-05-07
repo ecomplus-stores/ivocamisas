@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbd130fc534303debed4b",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/CHAMPIONSHIP.png",
+            "price_patch": 20,
+            "title": "CHAMPIONSHIP"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
