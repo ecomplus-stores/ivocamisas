@@ -16,6 +16,13 @@
             "price_patch": 20,
             "title": "SERIE A TIM CAMPEÃO"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/SERIE A TIM + COPA ITÁLIA.jpg",
+            "price_patch": 20,
+            "title": "SERIE A TIM + COPA ITÁLIA"
+          }
         }
       ],
       "size_guide_category": {
