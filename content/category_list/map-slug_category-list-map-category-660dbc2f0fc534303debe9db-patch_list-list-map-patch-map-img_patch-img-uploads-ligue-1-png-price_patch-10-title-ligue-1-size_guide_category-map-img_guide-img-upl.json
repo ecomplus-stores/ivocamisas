@@ -15,6 +15,22 @@
         "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
         "title": "GUIA DE TAMANHO"
       }
+    },
+    {
+      "category": "660dbc2f0fc534303debe9db",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/LIGUE 1 CAMPEÃO.png",
+            "price_patch": 10,
+            "title": "LIGUE 1 CAMPEÃO"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
     }
   ]
 }
