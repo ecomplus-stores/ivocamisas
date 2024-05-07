@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbdce0fc534303debf020",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/SUL AMERICANA.png",
+            "price_patch": 10,
+            "title": "SUL AMERICANA"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
