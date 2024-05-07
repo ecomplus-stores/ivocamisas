@@ -16,6 +16,13 @@
             "price_patch": 10,
             "title": "BUNDESLIGA CAMPEÃO"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/COPA DA ALEMANHA.jpg",
+            "price_patch": 10,
+            "title": "COPA DA ALEMANHA"
+          }
         }
       ],
       "size_guide_category": {
