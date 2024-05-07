@@ -15,6 +15,22 @@
         "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
         "title": "GUIA DE TAMANHO"
       }
+    },
+    {
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/EREDIVISIE CAMPEÃO.png",
+            "price_patch": 10,
+            "title": "EREDIVISIE CAMPEÃO"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      },
+      "category": "660dbc2d0fc534303debe9c4"
     }
   ]
 }
