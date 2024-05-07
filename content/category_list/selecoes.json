@@ -16,6 +16,13 @@
             "price_patch": 20,
             "title": "Eliminatórias"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/EURO 2024.jpeg",
+            "price_patch": 20,
+            "title": "EURO 2024"
+          }
         }
       ],
       "size_guide_category": {
