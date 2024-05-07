@@ -1,0 +1,20 @@
+{
+  "slug_category": [
+    {
+      "category": "660dbdcf0fc534303debf024",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/LIBERTADORES.png",
+            "price_patch": 10,
+            "title": "LIBERTADORES"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
