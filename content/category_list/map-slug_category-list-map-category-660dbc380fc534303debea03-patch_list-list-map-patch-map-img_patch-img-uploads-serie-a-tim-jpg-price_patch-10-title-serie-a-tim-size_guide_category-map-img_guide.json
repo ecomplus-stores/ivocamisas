@@ -9,6 +9,13 @@
             "price_patch": 10,
             "title": "SERIE A TIM"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/SERIE A TIM CAMPEÃO.jpg",
+            "price_patch": 20,
+            "title": "SERIE A TIM CAMPEÃO"
+          }
         }
       ],
       "size_guide_category": {
