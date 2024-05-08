@@ -1,10 +1,7 @@
 {
   "categories_list": {
     "featured": [
-      "/ligas-de-futebol/?Ligas de Futebol",
-      "/ligas-de-futebol/?Ligas de Futebol",
-      "/categorias/?Categorias",
-      "/promocao/?Promoção"
+      "/ligas-de-futebol/?Ligas de Futebol"
     ],
     "random": 0,
     "full_width": true
@@ -25,10 +22,6 @@
       {
         "title": "Sobre nós",
         "link": "/pages/sobre-nos"
-      },
-      {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
       }
     ],
     "phone_wpp": true,
