@@ -1,7 +1,7 @@
 {
   "categories_list": {
     "featured": [
-      "/novidades/?Novidades",
+      "/ligas-de-futebol/?Ligas de Futebol",
       "/ligas-de-futebol/?Ligas de Futebol",
       "/categorias/?Categorias",
       "/promocao/?Promoção"
@@ -9,13 +9,13 @@
     "random": 0,
     "full_width": true
   },
-  "menu_all_departments": false,
+  "menu_all_departments": true,
   "centralized_logo": false,
   "marketing_stripe": {
-    "text": "Confira nossas promoções!",
+    "text": "Uma experiência de fanáticos",
     "link": "/promotion"
   },
-  "alphabetical_order_submenu": false,
+  "alphabetical_order_submenu": true,
   "name_all_departments": "",
   "search_input": true,
   "desktop_megamenu": true,
