@@ -1,7 +1,8 @@
 {
   "categories_list": {
     "featured": [
-      "/ligas-de-futebol/?Ligas de Futebol"
+      "/ligas-de-futebol/?Ligas de Futebol",
+      "/nba/?NBA"
     ],
     "random": 0,
     "full_width": true
