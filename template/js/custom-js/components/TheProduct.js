@@ -165,7 +165,8 @@ import {
         customizations: [],
         bodyCustomizations: [],
         kitItems: [],
-        currentTimer: null
+        currentTimer: null,
+        selectedPatch: null
       }
     },
   
@@ -362,6 +363,9 @@ import {
       setCustomizationOption (customization, text) {
         const index = this.customizations.findIndex(({ _id, label }) => _id === customization._id || (label === customization.label))
         if (text) {
+          if (customization.label === 'Patch') {
+            this.selectedPatch = text
+          }
           if (index > -1) {
             this.customizations[index].option = { text }
             if (customization.label === 'Patch') {

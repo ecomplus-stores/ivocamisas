@@ -215,12 +215,14 @@
                       type="text"
                       v-if="custom.img"
                       class="form-control"
+                      :class="custom.value === selectedPatch ? 'active' : ''"
                       :id="`c-${custom._id}`"
                       :src="custom.img"
                       width="100"
                       height="100"
                       @click="ev => setCustomizationOption(custom, custom.value)"
                     >
+                    <small>{{ custom.value }}</small>
                   </li>
                   </ul>
                 </div>

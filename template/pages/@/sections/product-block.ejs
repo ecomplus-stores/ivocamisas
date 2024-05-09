@@ -7,10 +7,10 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
 let categoryConfig
 const listPatchGuide = _.cms('category_list') || {}
 
-const hasCategory = _.state.categories && _.state.categories.length && _.state.categories.some(({slug}) => slug.includes(listPatchGuide[0]))
+const hasCategory = _.state.categories && _.state.categories.length && _.state.categories.find(({slug}) => listPatchGuide.some(cat => slug.includes(cat)))
 
-if (hasCategory) {
-  categoryConfig = _.cms(`category_list/${listPatchGuide[0]}`)
+if (hasCategory && hasCategory._id) {
+  categoryConfig = _.cms(`category_list/${hasCategory.slug.endsWith('/') ? hasCategory.slug.slice(0, -1) : hasCategory.slug}`)
 }
 const addConfigCategory = categoryConfig && categoryConfig.slug_category && categoryConfig.slug_category.length && categoryConfig.slug_category[0]
 %>
