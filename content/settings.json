@@ -1,12 +1,12 @@
 {
   "domain": "ivo-camisas-loja.web.app",
   "currency_symbol": "R$",
-  "primary_color": "#000000",
+  "primary_color": "#ffffff",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
   },
-  "bg_color": "#ffffff",
+  "bg_color": "#000000",
   "repository": "ecomplus-stores/ivocamisas",
   "logo": "/img/uploads/logo.png",
   "name": "Ivo Camisas",
