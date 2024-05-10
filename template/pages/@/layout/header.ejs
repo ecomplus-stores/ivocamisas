@@ -296,7 +296,7 @@ const hasAllDepartments = header.menu_all_departments
                         <% if (subcategories.length) { %>
                           <div id="header__submenu-<%= slug %>">
                             <ul class="header__links">
-                              <% subcategories.forEach(subcategory => { %>
+                              <% subcategories.forEach((subcategory, index) => { %>
                                 <li>
                                   <a id="td-all-<%= subcategory._id %>" class="header__submenu-subcategory" href="/<%= subcategory.slug %>">
                                     <% if (subcategory.icon) { %>
