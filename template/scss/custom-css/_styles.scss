@@ -319,3 +319,16 @@
     }
   }
 }
+
+.menu__item-icon, .menu__item-icon img {
+  height: 55px;
+  width: auto;
+}
+.header__submenu div a {
+  min-width: 200px;
+  padding: 10px 30px;
+}
+.header__submenu a {
+  display: inline-flex;
+  align-items: center
+}
