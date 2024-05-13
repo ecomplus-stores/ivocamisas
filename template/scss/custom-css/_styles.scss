@@ -308,7 +308,7 @@
     img {
       height: 100px !important;
       &:hover {
-        border: .5px solid;
+        border: 2.5px solid;
       }
       &.active {
         border: .5px solid;
@@ -316,6 +316,7 @@
     }
     small {
       font-size: 75%;
+      max-width: 122px;
     }
   }
 }
