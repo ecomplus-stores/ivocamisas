@@ -1,7 +1,7 @@
 {
   "domain": "ivo-camisas-loja.web.app",
   "currency_symbol": "R$",
-  "primary_color": "#ffffff",
+  "primary_color": "#8c8c8c",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
