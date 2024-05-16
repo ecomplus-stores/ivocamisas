@@ -16,6 +16,12 @@
             "price_patch": 10,
             "title": "LIGA ARGENTINA CAMPEÃO"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/BlockTransp.png",
+            "title": "NÃO"
+          }
         }
       ],
       "size_guide_category": {
