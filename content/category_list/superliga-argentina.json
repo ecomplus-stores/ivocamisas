@@ -6,7 +6,8 @@
         {
           "patch": {
             "img_patch": "/img/uploads/blocktransp.png",
-            "title": "NÃO"
+            "title": "NÃO",
+            "price_patch": 0
           }
         },
         {
