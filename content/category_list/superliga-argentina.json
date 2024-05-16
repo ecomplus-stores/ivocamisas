@@ -5,6 +5,12 @@
       "patch_list": [
         {
           "patch": {
+            "img_patch": "/img/uploads/blocktransp.png",
+            "title": "NÃO"
+          }
+        },
+        {
+          "patch": {
             "img_patch": "/img/uploads/LIGA ARGENTINA.png",
             "price_patch": 10,
             "title": "LIGA ARGENTINA"
@@ -15,12 +21,6 @@
             "img_patch": "/img/uploads/LIGA ARGENTINA CAMPEÃO.png",
             "price_patch": 10,
             "title": "LIGA ARGENTINA CAMPEÃO"
-          }
-        },
-        {
-          "patch": {
-            "img_patch": "/img/uploads/BlockTransp.png",
-            "title": "NÃO"
           }
         }
       ],
