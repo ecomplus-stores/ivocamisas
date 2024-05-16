@@ -106,8 +106,20 @@ export default options => {
         create: true,
         slug: '{{slug}}',
         fields: [
+          {
+            label: 'Escolha a categoria',
+            name: 'title',
+            widget: 'select',
+            required: false,
+            options: options.state.routes
+            .filter(el => el.resource === 'categories')
+            .map((el) => ({
+              label: el.name,
+              value: el._id
+            }))
+          },
             {
-                label: 'Ordenação Submenu',
+                label: 'Listagem',
                 name: 'slug_category',
                 widget: 'list',
                 icon: 'https://api.iconify.design/mdi:copyright.svg',
