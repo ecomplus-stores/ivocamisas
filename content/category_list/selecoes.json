@@ -5,6 +5,13 @@
       "patch_list": [
         {
           "patch": {
+            "img_patch": "/img/uploads/blocktransp.png",
+            "price_patch": 0,
+            "title": "NÃO"
+          }
+        },
+        {
+          "patch": {
             "img_patch": "/img/uploads/eliminatorias-2026.png",
             "price_patch": 20,
             "title": "Eliminatórias"
