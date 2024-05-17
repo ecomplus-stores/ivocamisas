@@ -5,16 +5,16 @@
       "patch_list": [
         {
           "patch": {
-            "img_patch": "/img/uploads/PREMIER LEAGUE.png",
-            "price_patch": 20,
-            "title": "PREMIER LEAGUE"
+            "img_patch": "/img/uploads/blocktransp.png",
+            "price_patch": 0,
+            "title": "NÃO"
           }
         },
         {
           "patch": {
-            "img_patch": "/img/uploads/PREMIER LEAGUE CAMPEÃO.png",
+            "img_patch": "/img/uploads/PREMIER LEAGUE.png",
             "price_patch": 20,
-            "title": "PREMIER LEAGUE CAMPEÃO"
+            "title": "PREMIER LEAGUE"
           }
         },
         {
