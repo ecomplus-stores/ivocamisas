@@ -5,16 +5,16 @@
       "patch_list": [
         {
           "patch": {
-            "img_patch": "/img/uploads/LIGUE 1.png",
-            "price_patch": 10,
-            "title": "LIGUE 1"
+            "img_patch": "/img/uploads/blocktransp.png",
+            "price_patch": 0,
+            "title": "NÃO"
           }
         },
         {
           "patch": {
-            "img_patch": "/img/uploads/LIGUE 1 CAMPEÃO.png",
+            "img_patch": "/img/uploads/LIGUE 1.png",
             "price_patch": 10,
-            "title": "LIGUE 1 CAMPEÃO"
+            "title": "LIGUE 1"
           }
         }
       ],
