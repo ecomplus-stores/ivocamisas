@@ -12,16 +12,16 @@
         },
         {
           "patch": {
-            "img_patch": "/img/uploads/SERIE A TIM CAMPEÃO.jpg",
-            "price_patch": 20,
-            "title": "SERIE A TIM CAMPEÃO"
+            "img_patch": "/img/uploads/COPA ITÁLIA.jpg",
+            "price_patch": 10,
+            "title": "COPA ITÁLIA"
           }
         },
         {
           "patch": {
-            "img_patch": "/img/uploads/COPA ITÁLIA.jpg",
-            "price_patch": 10,
-            "title": "COPA ITÁLIA"
+            "img_patch": "/img/uploads/blocktransp.png",
+            "price_patch": 0,
+            "title": "NÃO"
           }
         }
       ],
