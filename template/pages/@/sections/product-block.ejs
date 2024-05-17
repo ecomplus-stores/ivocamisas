@@ -8,11 +8,14 @@ let categoryConfig
 const listPatchGuide = _.cms('category_list') || {}
 
 const hasCategory = _.state.categories && _.state.categories.length && _.state.categories.find(({slug}) => listPatchGuide.some(cat => slug && slug.includes(cat)))
+console.log(_.state.categories)
 
 if (hasCategory && hasCategory._id) {
   categoryConfig = _.cms(`category_list/${hasCategory.slug.endsWith('/') ? hasCategory.slug.slice(0, -1) : hasCategory.slug}`)
 }
+
 const addConfigCategory = categoryConfig && categoryConfig.slug_category && categoryConfig.slug_category.length && categoryConfig.slug_category[0]
+
 %>
 
 <script>
