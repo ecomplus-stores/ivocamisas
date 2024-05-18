@@ -1,8 +1,15 @@
 {
   "slug_category": [
     {
-      "category": "660dbdcf0fc534303debf024",
+      "category": "copa-libertadores",
       "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/blocktransp.png",
+            "price_patch": 0,
+            "title": "NÃO"
+          }
+        },
         {
           "patch": {
             "img_patch": "/img/uploads/LIBERTADORES.png",
