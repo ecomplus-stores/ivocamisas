@@ -1,20 +1,20 @@
 {
   "slug_category": [
     {
-      "category": "660dbc2e0fc534303debe9d4",
+      "category": "la-liga",
       "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/blocktransp.png",
+            "price_patch": 0,
+            "title": "NÃO"
+          }
+        },
         {
           "patch": {
             "img_patch": "/img/uploads/LA LIGA.jpeg",
             "price_patch": 10,
             "title": "LA LIGA"
-          }
-        },
-        {
-          "patch": {
-            "img_patch": "/img/uploads/LA LIGA CAMPEÃO.jpeg",
-            "price_patch": 20,
-            "title": "LA LIGA CAMPEÃO"
           }
         },
         {
