@@ -1,8 +1,15 @@
 {
   "slug_category": [
     {
-      "category": "660dbdac0fc534303debefa5",
+      "category": "efl-league-one",
       "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/blocktransp.png",
+            "price_patch": 0,
+            "title": "NÃO"
+          }
+        },
         {
           "patch": {
             "img_patch": "/img/uploads/LEAGUE ONE.png",
