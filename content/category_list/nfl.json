@@ -1,0 +1,11 @@
+{
+  "title": "NFL",
+  "slug_category": [
+    {
+      "category": "nfl",
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabelas-medidas-nfl.jpg"
+      }
+    }
+  ]
+}
