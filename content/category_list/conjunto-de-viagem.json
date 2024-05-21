@@ -9,7 +9,10 @@
             "img_patch": "/img/uploads/tabela-de-tamanho-conjuntos-de-frio.jpg"
           }
         }
-      ]
+      ],
+      "size_guide_category": {
+        "title": "GUIA DE TAMANHO"
+      }
     }
   ]
 }
