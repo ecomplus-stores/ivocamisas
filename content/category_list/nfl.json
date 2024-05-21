@@ -4,7 +4,8 @@
     {
       "category": "nfl",
       "size_guide_category": {
-        "img_guide": "/img/uploads/tabelas-medidas-nfl.jpg"
+        "img_guide": "/img/uploads/tabelas-medidas-nfl.jpg",
+        "title": "GUIA DE TAMANHO"
       }
     }
   ]
