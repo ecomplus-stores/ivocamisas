@@ -1,0 +1,15 @@
+{
+  "title": "Conjunto-de-Viagem",
+  "slug_category": [
+    {
+      "category": "conjunto-de-viagem",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/tabela-de-tamanho-conjuntos-de-frio.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
