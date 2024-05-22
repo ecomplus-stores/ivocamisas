@@ -3,15 +3,15 @@
     "featured": [
       "/ligas-de-futebol/?Ligas de Futebol",
       "/nba/?NBA",
-      "/selecoes/?Seleções",
       "/premier-league/?Premier League",
       "/la-liga/?La Liga",
       "/bundesliga/?Bundesliga",
+      "/ligue-1/?Ligue 1",
       "/serie-a-tim/?Serie A TIM",
-      "/ligue-1/?Ligue 1"
+      "/selecoes/?Seleções"
     ],
     "random": 0,
-    "full_width": true
+    "full_width": false
   },
   "menu_all_departments": false,
   "centralized_logo": false,
@@ -19,12 +19,12 @@
     "text": "Uma experiência de fanáticos",
     "link": "/promotion"
   },
-  "alphabetical_order_submenu": false,
+  "alphabetical_order_submenu": true,
   "popup": "/img/uploads/banner-o-melhor-do-seu-time-1-_boyofkqc17.jpeg",
   "name_all_departments": "",
   "search_input": true,
   "desktop_megamenu": true,
-  "full_width_submenu": true,
+  "full_width_submenu": false,
   "contacts_stripe": {
     "pages": [
       {
