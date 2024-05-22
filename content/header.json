@@ -1,14 +1,15 @@
 {
   "categories_list": {
     "featured": [
-      "/ligas-de-futebol/?Ligas de Futebol",
-      "/nba/?NBA",
       "/premier-league/?Premier League",
       "/la-liga/?La Liga",
       "/bundesliga/?Bundesliga",
       "/ligue-1/?Ligue 1",
       "/serie-a-tim/?Serie A TIM",
-      "/selecoes/?Seleções"
+      "/outros-clubes/?Outros Clubes",
+      "/selecoes/?Seleções",
+      "/ligas-de-futebol/?Ligas de Futebol",
+      "/nba/?NBA"
     ],
     "random": 0,
     "full_width": false
