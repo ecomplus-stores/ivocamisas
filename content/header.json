@@ -5,6 +5,7 @@
       "/la-liga/?La Liga",
       "/bundesliga/?Bundesliga",
       "/ligue-1/?Ligue 1",
+      "/major-league-soccer/?Major League Soccer",
       "/serie-a-tim/?Serie A TIM",
       "/outros-clubes/?Outros Clubes",
       "/selecoes/?Seleções",
@@ -25,7 +26,7 @@
   "name_all_departments": "",
   "search_input": true,
   "desktop_megamenu": true,
-  "full_width_submenu": true,
+  "full_width_submenu": false,
   "contacts_stripe": {
     "pages": [
       {
