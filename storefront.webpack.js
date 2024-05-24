@@ -1,6 +1,6 @@
 const path = require('path')
-/* const dirSearchAlias = path.resolve(__dirname, 'template/js/lib/search-engine')
-const pathDslAlias = path.resolve(dirSearchAlias, 'dsl') */
+const dirSearchAlias = path.resolve(__dirname, 'template/js/lib/search-engine')
+const pathDslAlias = path.resolve(dirSearchAlias, 'dsl')
 
 module.exports = () => ({
   resolve: {
@@ -8,6 +8,7 @@ module.exports = () => ({
     /*   './lib/dsl': pathDslAlias,
       './../lib/dsl': pathDslAlias,
       '../lib/dsl': pathDslAlias, */
+      './methods/set-search-term': path.resolve(dirSearchAlias, 'set-search-term'),
       './base-config': path.resolve(__dirname, 'template/js/netlify-cms/base-config'),/*
       './methods/set-search-term': path.resolve(dirSearchAlias, 'set-search-term'), */
       /* './html/ProductGallery.html': path.resolve(__dirname, 'template/js/custom-js/components/ProductGallery.html'),
