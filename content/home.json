@@ -30,14 +30,6 @@
       "sort": "views"
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": null,
-      "sort": "sales"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
