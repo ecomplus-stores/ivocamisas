@@ -19,17 +19,6 @@
       "html": "<div id=\"col-fav\" class=\"footer__stamps craque\" style=\"text-align: center;background: #ffffff;padding: 0.5rem;\"><p>CLIQUE NO SEU CRAQUE</p><ul class=\"stamps\"><li><a href=\"https://www.ivocamisas.com.br/craque-messi/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/BANNER-LOGO-MESSI_ayZXzgsZ03.jpeg\" alt=\"\" messi\"=\"\"></a></li><li><a href=\"https://www.ivocamisas.com.br/craque-neymar/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGO-NEYMAR-IVO.jpg\" alt=\"\" neymar\"=\"\"></a></li><li><a href=\"https://www.ivocamisas.com.br/craque-ronaldo/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGO-CRISTIANO-RONALDO-IVO.jpg\" alt=\"\" ronaldo\"=\"\"></a></li><li><a href=\"https://www.ivocamisas.com.br/craque-haaland/\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGO-HAALAND-IVO.jpg\" alt=\"HAALAND\"></a></li><li><a href=\"\" https:=\"\" www.ivocamisas.com.br=\"\" craque-vini-jr=\"\" \"=\"\"><img src=\"https://cdn.ecvol.com/s/www.ivocamisas.com.br/uploads/LOGO-VINI-JR-IVO.jpg\" alt=\"VINI JR\"></a></li></ul></div>"
     },
     {
-      "autoplay": 2000,
-      "page": 1,
-      "title": "",
-      "shuffle": true,
-      "headless": false,
-      "type": "collection-shelf",
-      "limit": "",
-      "collection_id": "660dbc9a0fc534303debebb1:categories:Novidades:/novidades/",
-      "sort": "views"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
