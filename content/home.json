@@ -37,25 +37,6 @@
       "sort": "sales"
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "660dbc290fc534303debe9b4:categories:Seleções:/selecoes/",
-      "sort": "news"
-    },
-    {
-      "autoplay": 4000,
-      "page": 1,
-      "title": "TOP 12 PREMIER LEAGUE",
-      "shuffle": true,
-      "headless": true,
-      "type": "collection-shelf",
-      "limit": 12,
-      "collection_id": "660dbc310fc534303debe9e9:categories:Premier League:/premier-league/",
-      "sort": "news"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
