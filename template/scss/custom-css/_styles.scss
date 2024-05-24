@@ -328,3 +328,25 @@
   display: inline-flex;
   align-items: center
 }
+
+.product-card__prices {
+  text-align: center;
+  text-transform: uppercase;
+  .prices__discount span {
+    color: orange;
+    font-size: 18px;
+  }
+  .prices__value {
+    font-size: 14px;
+    color: orange;
+    font-weight: normal;
+    &::before {
+      content: 'OU ';
+    }
+  }
+}
+
+.product-card__name {
+  text-align: center;
+  text-transform: uppercase;
+}
