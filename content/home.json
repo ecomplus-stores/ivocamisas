@@ -45,6 +45,17 @@
       "sort": "news"
     },
     {
+      "autoplay": 4000,
+      "page": 1,
+      "title": "TOP 12 PREMIER LEAGUE",
+      "shuffle": true,
+      "headless": true,
+      "type": "collection-shelf",
+      "limit": 12,
+      "collection_id": "660dbc310fc534303debe9e9:categories:Premier League:/premier-league/",
+      "sort": "news"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -109,17 +120,6 @@
           "img": "/img/uploads/BANNER-SUPORTE-MARcO-2024.jpeg"
         }
       ]
-    },
-    {
-      "autoplay": 4000,
-      "page": 1,
-      "title": "TOP 12 PREMIER LEAGUE",
-      "shuffle": true,
-      "headless": true,
-      "type": "collection-shelf",
-      "limit": 12,
-      "collection_id": "660dbc310fc534303debe9e9:categories:Premier League:/premier-league/",
-      "sort": "news"
     }
   ]
 }
