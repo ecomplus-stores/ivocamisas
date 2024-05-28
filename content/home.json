@@ -24,7 +24,8 @@
       "limit": 12,
       "page": 1,
       "sort": "news",
-      "autoplay": 2000
+      "autoplay": 3000,
+      "title": "Lançamentos"
     },
     {
       "type": "collection-shelf",
@@ -34,6 +35,12 @@
       "sort": "offers",
       "autoplay": 2000,
       "title": "Ofertas em destaque"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1
     },
     {
       "type": "banners-grid",
