@@ -24,7 +24,7 @@
       "limit": 12,
       "page": 1,
       "sort": "news",
-      "autoplay": 3000
+      "autoplay": 2000
     },
     {
       "type": "banners-grid",
