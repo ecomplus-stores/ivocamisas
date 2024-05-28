@@ -30,7 +30,9 @@
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
-      "page": 1
+      "page": 1,
+      "sort": "offers",
+      "autoplay": 6000
     },
     {
       "type": "banners-grid",
