@@ -21,7 +21,7 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 12,
+      "limit": 24,
       "page": 1,
       "sort": "news",
       "autoplay": 3000,
