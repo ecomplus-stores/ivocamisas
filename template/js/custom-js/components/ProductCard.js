@@ -99,7 +99,7 @@ import {
       },
 
       whatsappUrl () {
-        return `https://web.whatsapp.com/send?1=pt_BR&amp;phone=5551994688672&amp;text=Ola,%20quero%20comprar%20o%20produto%20www.ivocamisas.com.br/${this.body.slug}`
+        return `https://web.whatsapp.com/send?1=pt_BR&amp;phone=5551994688672&amp;text=Ola,%20quero%20comprar%20o%20produto%20/${this.body.slug}`
       },
   
       ratingHtml () {
