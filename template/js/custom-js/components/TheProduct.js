@@ -194,7 +194,7 @@ import {
       i19workingDays: () => i18n(i19workingDays),
 
       urlWhatsapp () {
-        return `https://wa.me/5541992335174?text=Ol%C3%A1,%20estou%20na%20Ivo%20Camisas%20e%20gostaria%20de%20 comprar o produto ${window.location.href}`
+        return `https://wa.me/5551994688672?text=Ol%C3%A1,%20estou%20na%20Ivo%20Camisas%20e%20gostaria%20de%20 comprar o produto ${window.location.href}`
       },
 
       directCheckout () {
