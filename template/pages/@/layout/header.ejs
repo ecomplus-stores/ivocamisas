@@ -338,7 +338,8 @@ const hasAllDepartments = header.menu_all_departments
                 </a>
                 <%- $categoryLink %>
                 <%  if (slug && hasMegamenu) { %>
-                  <% const subcategories = _.categories.filter(({ parent }) => parent && parent.slug === slug) %>
+                  <% const subcategories = _.categories.filter(({ parent }) => parent && parent.slug === slug)
+                   %>
                   <% if (subcategories.length) { %>
                     <%
                       if (isAlphabeticalOrderSubmenu) {
@@ -348,10 +349,22 @@ const hasAllDepartments = header.menu_all_departments
                       }
                     %>
                     <nav class="header__submenu<%= fullWidthSubmenu ? ' header__submenu--full' : '' %>" id="<%= `s-${slug.replace(/\//g, '_')}` %>">
-                      <% subcategories.forEach(subcategory => { 
+                      <% subcategories.forEach((subcategory, i) => { 
                         %>
                         <div>               
-                          <a id="sd-<%= subcategory._id %>" href="/<%= subcategory.slug %>"><%= subcategory.name %></a>
+                          <a id="sd-<%= subcategory._id %>" href="/<%= subcategory.slug %>">
+                            <% if (subcategory.icon) { %>
+                                      <span class="menu__item-icon">
+                                        <img
+                                          data-src="<%= subcategory.icon.url %>"
+                                          alt="<%= subcategory.icon.alt || subcategory.name %>"
+                                          class="lozad"
+                                          data-preload="<%= (i * 200) %>"
+                                        >
+                                      </span>
+                                    <% } %>
+                            <%= subcategory.name %>
+                          </a>
                           <% const thirdCategories = _.categories.filter(({ parent }) => parent && parent.slug === subcategory.slug) %>
                           <%
                             if (isAlphabeticalOrderSubmenu) {
