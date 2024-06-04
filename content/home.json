@@ -32,15 +32,6 @@
       "shuffle": false,
       "limit": 24,
       "page": 1,
-      "sort": "news",
-      "autoplay": 3000,
-      "title": "Lançamentos"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 24,
-      "page": 1,
       "sort": "sales",
       "title": "Mais vendidos",
       "autoplay": 3000
@@ -131,6 +122,13 @@
           "img": "/img/uploads/BANNER-SUPORTE-MARcO-2024.jpeg"
         }
       ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "660dbc270fc534303debe9ab:categories:Hashtag United:/hashtag-united/"
     }
   ]
 }
