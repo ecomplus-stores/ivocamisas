@@ -32,9 +32,10 @@
       "shuffle": false,
       "limit": 24,
       "page": 1,
-      "sort": "sales",
-      "title": "Mais vendidos",
-      "autoplay": 3000
+      "sort": null,
+      "title": "Destaques",
+      "autoplay": 3000,
+      "collection_id": "665e4fe0f4e6d85ab29e3ef5:categories:Novidades:/novidades/"
     },
     {
       "type": "collection-shelf",
