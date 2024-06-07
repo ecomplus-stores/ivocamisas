@@ -11,6 +11,7 @@ on:
       - '.ecomplus.cd.json'
       - '.functions/**'
       - 'firebase.json'
+      - 'storefront.webpack.js'
       - '.github/build-and-deploy'
       - '.github/workflows/build-and-deploy.yml'
 
