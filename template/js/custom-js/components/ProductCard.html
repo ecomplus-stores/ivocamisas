@@ -105,8 +105,8 @@
           />
         </slot>
 
-        <div
-          @click="buy"
+        <a-link
+          :href="`/${body.slug}`"
           class="product-card__buy fade"
         >
           <slot name="buy">
@@ -114,7 +114,6 @@
               v-if="buyHtml"
               v-html="buyHtml"
             ></div>
-
             <button
               type="button"
               class="btn btn-primary"
@@ -135,10 +134,8 @@
               </slot>
             </button>
           </slot>
-        </div>
-
-       
-      </template>      
+        </a-link>
+      </template>
       
       <slot name="favorite">
         <a 
