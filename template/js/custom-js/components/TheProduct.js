@@ -166,7 +166,8 @@ import {
         bodyCustomizations: [],
         kitItems: [],
         currentTimer: null,
-        selectedPatch: null
+        selectedPatch: null,
+        updateCustomization: 0
       }
     },
   
@@ -266,12 +267,16 @@ import {
       },
   
       ghostProductForPrices () {
+        const indexCustom = this.updateCustomization
+        console.log(indexCustom)
         const prices = {}
         ;['price', 'base_price'].forEach(field => {
           let price = this.selectedVariation[field] || this.body[field]
           if (price !== undefined) {
+            console.log('price', price)
             this.customizations.forEach(customization => {
-              if (customization.add_to_price) {
+              console.log(customization.add_to_price, price)
+              if (customization.add_to_price && customization.add_to_price.addition >= 0) {
                 price += this.getAdditionalPrice(customization.add_to_price)
               }
             })
@@ -361,6 +366,8 @@ import {
       },
   
       setCustomizationOption (customization, text) {
+        console.log(customization, text)
+        this.updateCustomization++
         const index = this.customizations.findIndex(({ _id, label }) => _id === customization._id || (label === customization.label))
         if (text) {
           if (customization.label === 'Patch') {
