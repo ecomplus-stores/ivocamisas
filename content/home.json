@@ -43,7 +43,7 @@
       "limit": 24,
       "page": 1,
       "sort": "offers",
-      "autoplay": 3000,
+      "autoplay": 0,
       "title": "Ofertas em destaque"
     },
     {
