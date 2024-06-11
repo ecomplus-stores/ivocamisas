@@ -114,7 +114,7 @@
       ],
       "sort": "news",
       "shelfs_title": "Seleções em destaque",
-      "autoplay": 3000
+      "autoplay": 0
     },
     {
       "type": "banners-grid",
