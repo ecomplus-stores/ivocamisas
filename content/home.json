@@ -123,6 +123,10 @@
           "img": "/img/uploads/BANNER-SUPORTE-MARcO-2024.jpeg"
         }
       ]
+    },
+    {
+      "type": "info-bar",
+      "enabled": true
     }
   ]
 }
