@@ -2,6 +2,81 @@
   "hosting": {
     "redirects": [
       {
+        "source": "/contato",
+        "destination": "/pages/contato",
+        "type": 301
+        },
+        {
+        "source": "/pagina/duvidas",
+        "destination": "/pages/como-comprar",
+        "type": 301
+        },
+        {
+        "source": "/pagina/como-lavar-a-camisa-do-seu-time",
+        "destination": "/pages/como-lavar-a-camisa-do-seu-time",
+        "type": 301
+        },
+        {
+        "source": "/pagina/cupom-de-desconto",
+        "destination": "/pages/cupom-de-desconto",
+        "type": 301
+        },
+        {
+        "source": "/pagina/feedback-de-clientes",
+        "destination": "/pages/feedback-de-clientes",
+        "type": 301
+        },
+        {
+        "source": "/pagina/pagamento",
+        "destination": "/pages/pagamentos",
+        "type": 301
+        },
+        {
+        "source": "/pagina/frete-gratis",
+        "destination": "/pages/frete-gratis",
+        "type": 301
+        },
+        {
+        "source": "/pagina/horario-de-atendimento",
+        "destination": "/pages/horario-de-atendimento",
+        "type": 301
+        },
+        {
+        "source": "/pagina/perguntas-frequentes",
+        "destination": "/pages/perguntas-frequentes",
+        "type": 301
+        },
+        {
+        "source": "/pagina/personalizacao",
+        "destination": "/pages/personalizacao",
+        "type": 301
+        },
+        {
+        "source": "/pagina/privacidade",
+        "destination": "/pages/privacidade",
+        "type": 301
+        },
+        {
+        "source": "/pagina/entrega",
+        "destination": "/pages/prazo-de-entrega",
+        "type": 301
+        },
+        {
+        "source": "/pagina/termos",
+        "destination": "/pages/precos-produtos-importados",
+        "type": 301
+        },
+        {
+        "source": "/pagina/sobre",
+        "destination": "/pages/sobre-nos",
+        "type": 301
+        },
+        {
+        "source": "/pagina/trocas",
+        "destination": "/pages/trocas",
+        "type": 301
+        },
+      {
         "source": "/sitemap",
         "destination": "/sitemap.xml",
         "type": 301
