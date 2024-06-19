@@ -52,7 +52,8 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/BANNER-CATEGORIA-NBA-MARcO-2024.jpeg"
+          "img": "/img/uploads/BANNER-CATEGORIA-NBA-MARcO-2024.jpeg",
+          "link": "https://ivocamisas.com.br/nba/"
         },
         {
           "img": "/img/uploads/BANNER-CATEGORIA-RUGBY-MARcO-2024.jpeg"
