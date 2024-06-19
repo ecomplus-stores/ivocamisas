@@ -89,10 +89,10 @@
       "autoplay": 5000,
       "slides": [
         {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/BANNER-SHOP-ROMA_O4QebzIn01.jpeg",
-          "link": ""
+          "start": "2024-06-19T17:39:10.808Z",
+          "end": "2024-08-19T17:38:50.629Z",
+          "img": "/img/uploads/c1_20240619_14363741.jpeg",
+          "link": "https://ivocamisas.com.br/alemanha/"
         },
         {
           "start": "",
@@ -105,7 +105,7 @@
           "img": "/img/uploads/BANNER-SHOP-AL-NASSR_q751yRNR69.jpeg"
         }
       ],
-      "full_width": false
+      "full_width": true
     },
     {
       "type": "custom-html",
