@@ -1,5 +1,16 @@
 {
-  "sort_categories": [],
+  "sort_categories": [
+    "novidades/",
+    "mais",
+    "bundesliga/",
+    "la-liga/",
+    "ligue-1/",
+    "premier-league/",
+    "serie-a-tim/",
+    "major-league-soccer/",
+    "outros-clubes/",
+    "selecoes/"
+  ],
   "alphabetical_order": false,
   "phone_wpp": true,
   "socials": true
