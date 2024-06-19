@@ -73,7 +73,8 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/BANNER-Prancheta-1_1HDm3pRd8Z.jpeg"
+          "img": "/img/uploads/BANNER-Prancheta-1_1HDm3pRd8Z.jpeg",
+          "link": "https://m.17track.net/pt?v=2"
         },
         {
           "img": "/img/uploads/BANNER-Prancheta-3-1_PdGD6SPB9S.jpeg"
