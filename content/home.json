@@ -135,6 +135,12 @@
     {
       "type": "info-bar",
       "enabled": true
+    },
+    {
+      "type": "brands-carousel",
+      "limit": 24,
+      "offset": 0,
+      "sort": null
     }
   ]
 }
