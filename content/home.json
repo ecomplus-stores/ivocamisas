@@ -107,7 +107,7 @@
           "link": "https://ivocamisas.com.br/italia/"
         }
       ],
-      "full_width": true
+      "full_width": false
     },
     {
       "type": "custom-html",
@@ -135,12 +135,6 @@
     {
       "type": "info-bar",
       "enabled": true
-    },
-    {
-      "type": "brands-carousel",
-      "limit": 24,
-      "offset": 0,
-      "sort": null
     }
   ]
 }
