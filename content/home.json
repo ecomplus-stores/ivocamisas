@@ -127,7 +127,8 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/BANNER-SUPORTE-MARcO-2024.jpeg"
+          "img": "/img/uploads/c1_20240619_14455856.jpeg",
+          "link": "https://api.whatsapp.com/send?phone=5551994688672&text=Ol%C3%A1%2C%20Como%20podemos%20ajudar%3F"
         }
       ]
     },
