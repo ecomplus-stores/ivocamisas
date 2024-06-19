@@ -28,7 +28,7 @@
       ],
       "sort": "news",
       "shelfs_title": "Seleções em destaque",
-      "autoplay": 0
+      "autoplay": 5000
     },
     {
       "type": "collection-shelf",
@@ -36,7 +36,7 @@
       "limit": 24,
       "page": 1,
       "sort": "news",
-      "autoplay": 0,
+      "autoplay": 5000,
       "title": "Lançamentos"
     },
     {
@@ -45,7 +45,7 @@
       "limit": 24,
       "page": 1,
       "sort": "offers",
-      "autoplay": 0,
+      "autoplay": 5000,
       "title": "Ofertas em destaque"
     },
     {
@@ -120,7 +120,7 @@
       "page": 1,
       "sort": null,
       "title": "Destaques",
-      "autoplay": 0,
+      "autoplay": 5000,
       "collection_id": "665e4fe0f4e6d85ab29e3ef5:categories:Novidades:/novidades/"
     },
     {
