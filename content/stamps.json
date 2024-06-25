@@ -3,6 +3,22 @@
     {
       "id": "FRETE GRÁTIS",
       "img": "/img/uploads/frete-gratis.png"
+    },
+    {
+      "id": "NOVO",
+      "img": "/img/uploads/botao-novo-1.png",
+      "skus": [
+        "XOD5690",
+        "HKK2047",
+        "SIW7283",
+        "SJQ2830",
+        "KTY3145",
+        "DTI7781",
+        "PUB4643",
+        "OOG8084",
+        "AYG2942",
+        "WNV5062"
+      ]
     }
   ]
 }
