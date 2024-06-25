@@ -19,6 +19,18 @@
         "AYG2942",
         "WNV5062"
       ]
+    },
+    {
+      "id": "DESTAQUE",
+      "img": "/img/uploads/destaque.png",
+      "skus": [
+        "LXD4739",
+        "PON3609",
+        "GQM6088",
+        "COS6054",
+        "LPB6334",
+        "LQR9317"
+      ]
     }
   ]
 }
