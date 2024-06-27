@@ -135,6 +135,12 @@
     {
       "type": "info-bar",
       "enabled": true
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/copa-america-euro-2.png",
+      "link": "https://www.ivocamisas.com.br/selecoes/",
+      "alt": "EURO 2024 + COPA AMÉRICA 2024"
     }
   ]
 }
