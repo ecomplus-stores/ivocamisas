@@ -16,9 +16,10 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/eurocopa-copa-america.png",
+      "img": "/img/uploads/eurocopa-copa-america-2.png",
       "link": "https://www.ivocamisas.com.br/selecoes/",
-      "alt": ""
+      "alt": "",
+      "mobile_img": "/img/uploads/eurocopa-copa-america.png"
     },
     {
       "type": "shelfs-nav",
