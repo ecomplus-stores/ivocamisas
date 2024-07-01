@@ -55,19 +55,19 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/BANNER-CATEGORIA-NBA-MARcO-2024.jpeg",
+          "img": "/img/uploads/moda-nba-1-.png",
           "link": "https://ivocamisas.com.br/nba/"
         },
         {
-          "img": "/img/uploads/BANNER-CATEGORIA-RUGBY-MARcO-2024.jpeg",
+          "img": "/img/uploads/moda-rugby-1-.png",
           "link": "https://ivocamisas.com.br/search?term=RUGBY"
         },
         {
-          "img": "/img/uploads/BANNER-CATEGORIA-F1-MARcO-2024.jpeg",
+          "img": "/img/uploads/moda-f1-1-.png",
           "link": "https://ivocamisas.com.br/formula-1/"
         },
         {
-          "img": "/img/uploads/BANNER-CATEGORIA-NFL-MARcO-2024.jpeg",
+          "img": "/img/uploads/moda-nfl-1-.png",
           "link": "https://ivocamisas.com.br/nfl/"
         }
       ]
