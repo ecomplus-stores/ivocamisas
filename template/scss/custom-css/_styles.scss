@@ -422,3 +422,376 @@
     font-weight: 700;
   }
 }
+
+
+.modal-white::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  border-bottom: 5px solid #fff;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.modal-white.not-width {
+  width: auto;
+  white-space: nowrap;
+}
+
+.modal-white {
+  width: 236px;
+  padding: 25px 20px 18px;
+  right: -40px;
+  left: auto;
+  cursor: auto;
+  text-align: center;
+  transition: unset;
+  border-radius: 8px;
+}
+
+.modal-white {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  color: #000;
+  -webkit-transition: ease-in-out .3s;
+  -o-transition: ease-in-out .3s;
+  transition: ease-in-out .3s;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+  line-height: 1.17;
+}
+
+.account:hover .modal-white {
+  opacity: 1;
+  visibility: visible;
+  transition: ease-in-out .2s;
+  z-index: 1000;
+  right: 82%;
+}
+
+.account:hover .modal-white {
+  visibility: visible;
+}
+
+.account {
+  .icon-user {
+    path {
+      fill: #fff;
+    }
+    width: 32px;
+  }
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.account .modal-white::before {
+  right: 40px;
+}
+
+.account .modal-white {
+  cursor: auto;
+  text-align: center;
+}
+
+.account .box-contact {
+  width: 180px;
+  padding-left: 10px;
+}
+
+.account .box-contact .icon {
+  width: 53px;
+  height: 53px;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+.account .icon {
+  width: 0.48rem;
+  margin-left: 0.313rem;
+  display: block;
+  margin-right: 10px;
+  fill: #000;
+}
+
+.modal-white .title {
+  font-size: 1.375rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.header__buttons i {
+  height: 32px;
+  width: auto;
+}
+
+.account {
+  margin-right: 60px;
+}
+
+@media(min-width: 992px) {
+  .account, #user-button {
+    margin-right: 60px;
+  }
+
+  #user-button {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+  }
+
+  #cart-button {
+    font-size: 32px;
+  }
+
+  #user-button::after {
+    content: 'Minha Conta';
+    color: #fff;
+    font-size: .875rem;
+    cursor: pointer;
+    width: 78px;
+    letter-spacing: 0.14px;
+    display: inline-block;
+    padding-left: 10px;
+    text-align: left;
+  }
+}
+
+.description-lead[aria-expanded="false"]::after {
+  content: "+";
+  opacity: 1;
+}
+
+.description-lead[aria-expanded="true"]::after {
+  content: "-";
+}
+
+.description-lead::after {
+  display: inline;
+  font-weight: 700;
+  position: absolute;
+  right: var(--spacer-4);
+  transition: opacity .2s;
+}
+
+@media(max-width: 567px) {
+  .account {
+    display: none !important;
+  }
+  .sub-container .contact {
+    padding: 30px 24px 30px 16px;
+    background: #fff;
+    color: #000;
+    font-size: 0.875rem;
+  }
+  .sub-container .contact .icon {
+    width: 53px;
+    height: 53px;
+    display: block;
+    margin-right: 10px;
+    fill: #000;
+  }
+
+  .sub-container {
+    .title {
+      font-size: 1.125rem;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    .text-rastreio {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: #000;
+      text-align: center;
+      display: block;
+    }
+
+    
+input:not([type="radio"]):not([type="checkbox"])::placeholder, textarea::placeholder {
+  color: var(--text_input);
+
+}
+element {
+}
+input:not([type="radio"]):not([type="checkbox"]), button, select, textarea {
+  font-family: inherit;
+
+  -webkit-appearance: none;
+
+  font-weight: normal;
+
+  background: var(--bg_input);
+
+}
+.modal- form input {
+  width: 90%;
+
+  border: 1px solid grey;
+
+  height: 30px;
+
+  padding: 10px;
+
+  display: block;
+
+  background: #fff;
+
+  margin: 0 auto;
+
+  border-radius: 4px;
+
+}
+.modal- form .rastreio {
+  width: 30%;
+  display: block;
+  margin: 10px auto;
+  background: #000;
+  padding: 8px 0;
+  color: #fff;
+  border-radius: 4px;
+}
+  }
+  .align-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.modal-white::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  border-bottom: 5px solid #fff;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.account .modal-white.not-width {
+  width: auto;
+  white-space: nowrap;
+}
+
+.account:hover .modal-white {
+  opacity: 1;
+  visibility: visible;
+  transition: ease-in-out .2s;
+}
+
+.account .modal-white {
+  width: 236px;
+  padding: 25px 20px 18px;
+  right: -40px;
+  left: auto;
+  cursor: auto;
+  text-align: center;
+  transition: unset;
+  border-radius: 8px;
+}
+
+.modal-white {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  color: #000;
+  -webkit-transition: ease-in-out .3s;
+  -o-transition: ease-in-out .3s;
+  transition: ease-in-out .3s;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+  line-height: 1.17;
+}
+
+.account .box-contact {
+  width: 180px;
+  padding-left: 10px;
+}
+
+.account .rastreio {
+  width: 228px;
+  padding-left: 30px;
+}
+
+.account .box-contact .icon {
+  width: 53px;
+  height: 53px;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+.modal-white .title {
+  font-size: 1.375rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.modal-white .option {
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.14px;
+}
+
+.line-options.flex {
+  display: flex;
+}
+
+.modal-white .rastreio .title {
+  font-size: 1.125rem;
+  margin: -6px 0 10px;
+  text-transform: uppercase;
+}
+
+.modal-white input {
+  width: 100%;
+  display: block;
+  height: 44px;
+  font-weight: 600;
+  font-size: .875rem;
+  border: 1px solid #000;
+  padding: 0 14px;
+  color: #000;
+  margin: 10px 0;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.modal-white .botao-commerce {
+  background-color: #000;
+}
+
+.modal-white .botao-commerce {
+  width: 100%;
+  box-shadow: 1px 1px 1px 0 rgba(9, 74, 102, 0.16);
+}
+
+.botao-commerce {
+  color: #fff !important;
+  background-color: #000;
+  border-radius: 4px;
+  font-size: 1rem;
+  line-height: 44px;
+  padding: 0 20px;
+  -webkit-transition: background-color ease-in-out .3s;
+  -o-transition: background-color ease-in-out .3s;
+  transition: background-color ease-in-out .3s;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+}

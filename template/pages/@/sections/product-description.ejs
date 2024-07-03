@@ -2,10 +2,18 @@
   <section id="product-description" class="product-description my-4 my-lg-5">
     <div class="container">
       <p class="lead">
-        <a href="#description" name="description">#</a>
-        <%= _.dictionary('productDescription') %>
+        <a
+          class="description-lead"
+          href="#description" 
+          name="description"
+          data-toggle="collapse"
+          role="button"
+          aria-expanded="false"
+          aria-controls="description"
+        ># <%= _.dictionary('productDescription') %></a>
+        
       </p>
-      <div class="html-clearfix">
+      <div id="description" class="html-clearfix collapse">
         <%- _.state.body_html.replace(
           /<img ([^/>]+)?src=['"]([^'"]+)['"]([^/>]+)?\/?>/g,
           '<img class="lozad" data-src="$2" $1 $3>'
