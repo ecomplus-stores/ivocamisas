@@ -1,0 +1,20 @@
+{
+  "title": "1-Taça",
+  "slug_category": [
+    {
+      "category": "1-taça",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/libertadores-1-taca.png",
+            "price_patch": 20,
+            "title": "1 Taça"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg"
+      }
+    }
+  ]
+}
