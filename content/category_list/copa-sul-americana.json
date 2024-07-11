@@ -1,0 +1,21 @@
+{
+  "title": "Copa-Sul-Americana",
+  "slug_category": [
+    {
+      "category": "copa-sul-americana",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/sul-americana.png",
+            "price_patch": 10,
+            "title": "SUL AMERICANA"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
