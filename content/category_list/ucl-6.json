@@ -1,0 +1,21 @@
+{
+  "title": "UCL-6",
+  "slug_category": [
+    {
+      "category": "ucl-6",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/353fc5fb84db44d9afcc2154df56e7fd2dad899f519f1a093fed61e8e754a9c4.jpeg",
+            "price_patch": 20,
+            "title": "UCL 6"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
