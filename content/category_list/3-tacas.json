@@ -1,0 +1,20 @@
+{
+  "title": "3-Taças",
+  "slug_category": [
+    {
+      "category": "3-taças",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/libertadores-3-tacas.png",
+            "price_patch": 20,
+            "title": "3 Taças"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg"
+      }
+    }
+  ]
+}
