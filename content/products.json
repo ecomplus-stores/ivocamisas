@@ -25,6 +25,14 @@
       "type": "product-description",
       "title": "Quem comprou este produto, também comprou:",
       "enabled": true
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 24,
+      "page": 1,
+      "collection_id": "665e4fe0f4e6d85ab29e3ef5:categories:Novidades:/novidades/",
+      "autoplay": 3000
     }
   ]
 }
