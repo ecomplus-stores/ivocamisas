@@ -1,0 +1,21 @@
+{
+  "title": "UCL-5",
+  "slug_category": [
+    {
+      "category": "ucl-5",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/3522f865f4155e7a867d2dc556a5fc81c6371c22d149d81a8f6bd63f736e3232.jpeg",
+            "price_patch": 20,
+            "title": "UCL 5"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
