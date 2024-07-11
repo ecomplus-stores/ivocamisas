@@ -1,0 +1,21 @@
+{
+  "title": "UCL-4",
+  "slug_category": [
+    {
+      "category": "ucl-4",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/ulc-4-tacas.jpg",
+            "price_patch": 20,
+            "title": "UCL 4"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
