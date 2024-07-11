@@ -1,0 +1,21 @@
+{
+  "title": "Euro-2024",
+  "slug_category": [
+    {
+      "category": "euro-2024",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/uefaeuro2024-atualizado.jpg",
+            "price_patch": 20,
+            "title": "EURO 2024"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
