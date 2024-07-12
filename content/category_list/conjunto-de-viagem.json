@@ -3,15 +3,10 @@
   "slug_category": [
     {
       "category": "conjunto-de-viagem",
-      "patch_list": [
-        {
-          "patch": {
-            "img_patch": "/img/uploads/tabela-de-medidas-jaqueta-e-calca.png"
-          }
-        }
-      ],
+      "patch_list": [],
       "size_guide_category": {
-        "title": "GUIA DE TAMANHO"
+        "title": "GUIA DE TAMANHO",
+        "img_guide": "/img/uploads/tabela-de-medidas-jaqueta-e-calca.png"
       }
     }
   ]
