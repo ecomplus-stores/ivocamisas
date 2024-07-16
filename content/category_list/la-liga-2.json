@@ -1,0 +1,28 @@
+{
+  "title": "La-Liga-2",
+  "slug_category": [
+    {
+      "category": "la-liga-2",
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/LA LIGA.jpeg",
+            "price_patch": 10,
+            "title": "LA LIGA "
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/COPA DO REI.jpg",
+            "price_patch": 10,
+            "title": "COPA DO REI"
+          }
+        }
+      ],
+      "size_guide_category": {
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
+        "title": "GUIA DE TAMANHO"
+      }
+    }
+  ]
+}
