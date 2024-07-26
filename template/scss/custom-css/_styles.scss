@@ -796,3 +796,10 @@ input:not([type="radio"]):not([type="checkbox"]), button, select, textarea {
   cursor: pointer;
   font-weight: 700;
 }
+
+.products-carousel__title a::after {
+  content: " + Ver mais";
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: .5rem;
+}
