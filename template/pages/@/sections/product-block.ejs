@@ -4,18 +4,34 @@ let stampsList
 if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
   stampsList = stamps.stamps_list
 }
-let categoryConfig
+let categoryConfig, categoryConfigAux, concatPatch
 const listPatchGuide = _.cms('category_list') || {}
 
 const hasCategory = _.state.categories && _.state.categories.length && _.state.categories.find(({slug}) => listPatchGuide.some(cat => slug && slug.includes(cat)))
-console.log(_.state.categories)
+const hasCategories = _.state.categories && _.state.categories.length && _.state.categories.filter(({slug}) => listPatchGuide.some(cat => slug && slug.includes(cat)))
 
 if (hasCategory && hasCategory._id) {
   categoryConfig = _.cms(`category_list/${hasCategory.slug.endsWith('/') ? hasCategory.slug.slice(0, -1) : hasCategory.slug}`)
 }
 
-const addConfigCategory = categoryConfig && categoryConfig.slug_category && categoryConfig.slug_category.length && categoryConfig.slug_category[0]
+if (hasCategories && hasCategories.length > 1) {
+  hasCategories.forEach((element, i) => {
+    const slug = element.slug.endsWith('/') ? element.slug.slice(0, -1) : element.slug
+    if (categoryConfig && categoryConfig.slug_category && categoryConfig.slug_category.length && categoryConfig.slug_category[0].category !== slug) {
+      categoryConfigAux = _.cms(`category_list/${element.slug.endsWith('/') ? element.slug.slice(0, -1) : element.slug}`)
+      if (categoryConfigAux && categoryConfigAux.slug_category && categoryConfigAux.slug_category.length && categoryConfigAux.slug_category[0].patch_list && categoryConfigAux.slug_category[0].patch_list.length) {
+        const patchList = categoryConfig.slug_category[0].patch_list
+        concatPatch = patchList.concat(categoryConfigAux.slug_category[0].patch_list)
+        categoryConfig.slug_category[0].patch_list = concatPatch
+      }
+      
+    }
+    
+  });
+}
 
+
+const addConfigCategory = categoryConfig && categoryConfig.slug_category && categoryConfig.slug_category.length && categoryConfig.slug_category[0]
 %>
 
 <script>
