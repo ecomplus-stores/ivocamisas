@@ -14,7 +14,11 @@ module.exports = () => ({
       /* './html/ProductGallery.html': path.resolve(__dirname, 'template/js/custom-js/components/ProductGallery.html'),
       './js/ProductGallery.js': path.resolve(__dirname, 'template/js/custom-js/components/ProductGallery.js'),
       './scss/ProductGallery.scss': path.resolve(__dirname, 'template/js/custom-js/components/ProductGallery.scss'),
-       */'./html/TheProduct.html': path.resolve(__dirname, 'template/js/custom-js/components/TheProduct.html'),
+      
+      */
+      './html/ProductGallery.html': path.resolve(__dirname, 'template/js/custom-js/components/ProductGallery.html'), 
+      './js/ProductGallery.js': path.resolve(__dirname, 'template/js/custom-js/components/ProductGallery.js'),
+      './html/TheProduct.html': path.resolve(__dirname, 'template/js/custom-js/components/TheProduct.html'),
       './js/TheProduct.js': path.resolve(__dirname, 'template/js/custom-js/components/TheProduct.js'),
       './html/ProductCard.html': path.resolve(__dirname, 'template/js/custom-js/components/ProductCard.html'),
       './js/ProductCard.js': path.resolve(__dirname, 'template/js/custom-js/components/ProductCard.js'),
