@@ -547,7 +547,12 @@ import {
       }
       if (this.product) {
         if (window.patchConfig && window.patchConfig.length) {
-          window.patchConfig.forEach(({patch}) => {
+          const filteredPatches = window.patchConfig.filter((value, index, self) => 
+            index === self.findIndex((t) => (
+              t.patch.img_patch === value.patch.img_patch && t.patch.price_patch === value.patch.price_patch && t.patch.title === value.patch.title
+            ))
+          );
+          filteredPatches.forEach(({patch}) => {
             this.bodyCustomizations.push({
               "_id": genRandomObjectId(),
               "label":"Patch",
