@@ -19,9 +19,23 @@
         },
         {
           "patch": {
+            "img_patch": "/img/uploads/ELIMINATÓRIAS 2026.png",
+            "price_patch": 20,
+            "title": "ELIMINATÓRIAS 2026"
+          }
+        },
+        {
+          "patch": {
             "img_patch": "/img/uploads/uefaeuro2024-atualizado.jpg",
             "price_patch": 20,
             "title": "EURO 2024"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/LIGA DAS NAÇÕES DA EUFA.png",
+            "price_patch": 20,
+            "title": "LIGA DAS NAÇÕES"
           }
         }
       ],
