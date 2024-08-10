@@ -19,9 +19,23 @@
         },
         {
           "patch": {
+            "img_patch": "/img/uploads/PREMIER LEAGUE CAMPEÃO.png",
+            "price_patch": 20,
+            "title": "PREMIER LEAGUE CAMPEÃO"
+          }
+        },
+        {
+          "patch": {
             "img_patch": "/img/uploads/EFL CUP.jpg",
             "price_patch": 10,
             "title": "EFL CUP"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/fa-cup.jpeg",
+            "price_patch": 10,
+            "title": "FA CUP"
           }
         }
       ],
