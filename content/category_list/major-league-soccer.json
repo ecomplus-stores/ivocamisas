@@ -16,6 +16,13 @@
             "price_patch": 20,
             "title": "MLS"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/mls-campeao.jpg",
+            "price_patch": 20,
+            "title": "MLS CAMPEÃO"
+          }
         }
       ],
       "size_guide_category": {
