@@ -16,6 +16,13 @@
             "price_patch": 10,
             "title": "EREDIVISIE"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/eredivisie-campeao.png",
+            "price_patch": 10,
+            "title": "CAMPEÃO 2023-2024"
+          }
         }
       ],
       "size_guide_category": {
