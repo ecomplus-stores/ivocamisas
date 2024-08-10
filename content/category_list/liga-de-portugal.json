@@ -16,6 +16,13 @@
             "price_patch": 10,
             "title": "LIGA PORTUGAL"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/liga-portugal-campeao.jpg",
+            "price_patch": 20,
+            "title": "CAMPEÃO 2023-2024"
+          }
         }
       ],
       "size_guide_category": {
