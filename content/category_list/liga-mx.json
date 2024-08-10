@@ -16,6 +16,13 @@
             "price_patch": 10,
             "title": "LIGA MX"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/LIGA MEXICANA CAMPEÃO.png",
+            "price_patch": 20,
+            "title": "LIGA MX CAMPEÃO"
+          }
         }
       ],
       "size_guide_category": {
