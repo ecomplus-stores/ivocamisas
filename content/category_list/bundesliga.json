@@ -19,6 +19,13 @@
         },
         {
           "patch": {
+            "img_patch": "/img/uploads/bundesliga-campeao-2023-2024.jpeg",
+            "price_patch": 10,
+            "title": "CAMPEÃO 2023-2024"
+          }
+        },
+        {
+          "patch": {
             "img_patch": "/img/uploads/COPA DA ALEMANHA.jpg",
             "price_patch": 10,
             "title": "COPA DA ALEMANHA"
