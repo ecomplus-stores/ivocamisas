@@ -16,6 +16,20 @@
             "price_patch": 20,
             "title": "LEAGUE ONE"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/EFL CUP.jpg",
+            "price_patch": 10,
+            "title": "EFL CUP"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/fa-cup.jpeg",
+            "price_patch": 10,
+            "title": "FA CUP"
+          }
         }
       ],
       "size_guide_category": {
