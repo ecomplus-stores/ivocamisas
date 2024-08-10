@@ -19,6 +19,20 @@
         },
         {
           "patch": {
+            "img_patch": "/img/uploads/serie-a-campeao.jpg",
+            "price_patch": 20,
+            "title": "SERIE A CAMPEÃO"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/serie-a-campeao-copa-italia.jpg",
+            "price_patch": 20,
+            "title": "CAMPEÃO COPA ITÁLIA"
+          }
+        },
+        {
+          "patch": {
             "img_patch": "/img/uploads/COPA ITÁLIA.jpg",
             "price_patch": 10,
             "title": "COPA ITÁLIA"
