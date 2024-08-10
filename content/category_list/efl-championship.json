@@ -23,6 +23,13 @@
             "price_patch": 10,
             "title": "EFL CUP"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/fa-cup.jpeg",
+            "price_patch": 10,
+            "title": "FA CUP"
+          }
         }
       ],
       "size_guide_category": {
