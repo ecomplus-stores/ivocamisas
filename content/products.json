@@ -13,11 +13,6 @@
       }
     },
     {
-      "type": "recommended-products",
-      "title": "Quem comprou este produto, também comprou:",
-      "show_loading": true
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 24,
