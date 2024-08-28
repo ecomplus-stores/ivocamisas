@@ -37,7 +37,7 @@
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 24,
-      "page": 1,
+      "page": "",
       "sort": "news",
       "autoplay": 5000,
       "title": "Lançamentos"
