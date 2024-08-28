@@ -40,7 +40,8 @@
       "page": "",
       "sort": "news",
       "autoplay": 5000,
-      "title": "Lançamentos"
+      "title": "Lançamentos",
+      "collection_id": "665e4fe0f4e6d85ab29e3ef5:categories:Novidades:/novidades/"
     },
     {
       "type": "collection-shelf",
