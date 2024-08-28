@@ -119,7 +119,7 @@
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 24,
-      "page": 1,
+      "page": "",
       "sort": null,
       "title": "Destaques",
       "autoplay": 5000,
