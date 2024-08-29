@@ -533,12 +533,12 @@
   width: auto;
 }
 
-.account {
+.header__buttons .account {
   margin-right: 60px;
 }
 
 @media(min-width: 992px) {
-  .account, #user-button {
+  #user-button {
     margin-right: 60px;
   }
 
