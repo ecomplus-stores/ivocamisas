@@ -583,9 +583,10 @@
 }
 
 @media(max-width: 567px) {
-//  .account {
-//    display: none !important;
-//  }
+  .header__buttons .account {
+    display: none !important;
+
+  }
   .sub-container .contact {
     padding: 30px 24px 30px 16px;
     background: #fff;
