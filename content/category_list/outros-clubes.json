@@ -31,6 +31,13 @@
             "price_patch": 20,
             "title": "CONFERENCE LEAGUE"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/libertadores-24-25.jpg",
+            "price_patch": 10,
+            "title": "LIBERTADORES"
+          }
         }
       ]
     }
