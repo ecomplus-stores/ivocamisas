@@ -42,6 +42,13 @@
             "price_patch": 20,
             "title": "LIBERTADORES"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/sul-americana-24-25.jpg",
+            "price_patch": 20,
+            "title": "SUL AMERICANA"
+          }
         }
       ]
     }
