@@ -12,13 +12,6 @@
         },
         {
           "patch": {
-            "img_patch": "/img/uploads/patch-copa-america-2024.jpg",
-            "price_patch": 20,
-            "title": "Copa América"
-          }
-        },
-        {
-          "patch": {
             "img_patch": "/img/uploads/ELIMINATÓRIAS 2026.png",
             "price_patch": 20,
             "title": "ELIMINATÓRIAS 2026"
@@ -26,16 +19,23 @@
         },
         {
           "patch": {
-            "img_patch": "/img/uploads/uefaeuro2024-atualizado.jpg",
+            "img_patch": "/img/uploads/LIGA DAS NAÇÕES DA EUFA.png",
             "price_patch": 20,
-            "title": "EURO 2024"
+            "title": "LIGA DAS NAÇÕES"
           }
         },
         {
           "patch": {
-            "img_patch": "/img/uploads/LIGA DAS NAÇÕES DA EUFA.png",
+            "img_patch": "/img/uploads/patch-copa-america-2024.jpg",
             "price_patch": 20,
-            "title": "LIGA DAS NAÇÕES"
+            "title": "Copa América"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/uefaeuro2024-atualizado.jpg",
+            "price_patch": 20,
+            "title": "EURO 2024"
           }
         }
       ],
