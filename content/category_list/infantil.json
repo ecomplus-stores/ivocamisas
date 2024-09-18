@@ -6,7 +6,37 @@
       "size_guide_category": {
         "img_guide": "/img/uploads/tabela-de-medidas-infantil-23-24.jpg",
         "title": "GUIA DE TAMANHO"
-      }
+      },
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/blocktransp.png",
+            "price_patch": 0,
+            "title": "NÃO"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/ucl-24-25.jpeg",
+            "price_patch": 20,
+            "title": "UCL"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/europa-league-24-25.jpeg",
+            "price_patch": 20,
+            "title": "EUROPA LEAGUE"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/conference-league-24-25.jpeg",
+            "price_patch": 20,
+            "title": "CONFERENCE LEAGUE"
+          }
+        }
+      ]
     }
   ]
 }
