@@ -30,6 +30,34 @@
             "price_patch": 10,
             "title": "COPA DA ALEMANHA"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/ucl-24-25.jpeg",
+            "price_patch": 20,
+            "title": "UCL"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/UCL 6 TAÇAS.jpg",
+            "price_patch": 20,
+            "title": "UCL 6 TAÇAS"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/europa-league-24-25.jpeg",
+            "price_patch": 20,
+            "title": "EUROPA LEAGUE"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/conference-league-24-25.jpeg",
+            "price_patch": 20,
+            "title": "CONFERENCE LEAGUE"
+          }
         }
       ],
       "size_guide_category": {
