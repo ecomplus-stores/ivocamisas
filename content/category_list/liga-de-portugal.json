@@ -23,6 +23,27 @@
             "price_patch": 20,
             "title": "CAMPEÃO 2023-2024"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/ucl-24-25.jpeg",
+            "price_patch": 20,
+            "title": "UCL"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/europa-league-24-25.jpeg",
+            "price_patch": 20,
+            "title": "EUROPA LEAGUE"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/conference-league-24-25.jpeg",
+            "price_patch": 20,
+            "title": "CONFERENCE LEAGUE"
+          }
         }
       ],
       "size_guide_category": {
