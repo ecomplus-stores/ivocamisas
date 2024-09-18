@@ -30,6 +30,41 @@
             "price_patch": 10,
             "title": "COPA DO REI"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/ucl-24-25.jpeg",
+            "price_patch": 20,
+            "title": "UCL"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/3522f865f4155e7a867d2dc556a5fc81c6371c22d149d81a8f6bd63f736e3232.jpeg",
+            "price_patch": 20,
+            "title": "UCL 5 TAÇAS"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/ucl-campeao-real-madrid.jpg",
+            "price_patch": 30,
+            "title": "UCL CAMPEÃO 2023-2024"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/europa-league-24-25.jpeg",
+            "price_patch": 20,
+            "title": "EUROPA LEAGUE"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/conference-league-24-25.jpeg",
+            "price_patch": 20,
+            "title": "CONFERENCE LEAGUE"
+          }
         }
       ],
       "size_guide_category": {
