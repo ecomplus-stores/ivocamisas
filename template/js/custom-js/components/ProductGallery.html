@@ -40,7 +40,7 @@
     </div>
   </transition-group>
   <div class="gallery__thumbs"
-  :class="{ 'd-none': videoPopup && isMobile() }"
+  :class="{ 'd-none': videoPopup && isMobile(), 'les-than-4' : localPictures.length < 4 }"
   >
     <div
       v-for="(picture, i) in localPictures"
@@ -203,7 +203,9 @@
   </div>
   
 </section>
-<div class="mobile-gallery-functions d-flex align-items-center justify-content-center d-md-none w-100">
+<div 
+v-if="videoSrc"
+class="mobile-gallery-functions d-flex align-items-center justify-content-center d-md-none w-100">
   <button class="col justify-content-end"
   @click="toggleVideoPopup(false)"
   :class="{ 'active': !videoPopup }">
