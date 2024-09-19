@@ -21,7 +21,7 @@
           "patch": {
             "img_patch": "/img/uploads/PREMIER LEAGUE CAMPEÃO.png",
             "price_patch": 20,
-            "title": "PREMIER LEAGUE CAMPEÃO"
+            "title": "PREMIER LEAGUE CAMPEÃO 2023-2024"
           }
         },
         {
@@ -36,6 +36,27 @@
             "img_patch": "/img/uploads/fa-cup.jpeg",
             "price_patch": 10,
             "title": "FA CUP"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/ucl-24-25.jpeg",
+            "price_patch": 20,
+            "title": "UCL"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/europa-league-24-25.jpeg",
+            "price_patch": 20,
+            "title": "EUROPA LEAGUE"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/conference-league-24-25.jpeg",
+            "price_patch": 20,
+            "title": "CONFERENCE LEAGUE"
           }
         }
       ],
