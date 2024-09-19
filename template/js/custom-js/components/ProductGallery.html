@@ -1,7 +1,9 @@
 <div>
 
 
-<section class="gallery">
+<section class="gallery"
+:class="{ 'video-off': !videoPopup }">
+
   <transition-group enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
     <div
       v-if="videoSrc && videoPopup"

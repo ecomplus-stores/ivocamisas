@@ -938,45 +938,45 @@ input:not([type="radio"]):not([type="checkbox"]), button, select, textarea {
   #product-gallery{
     position: relative;
     .product__stamps{right: 7px;left: auto;}
-    .gallery{
-      
+    .gallery.video-off{     
       flex-direction: column-reverse!important;
-      .zoom-in{
-        position: absolute;
-    z-index: 2;
-    left: .5rem;
-    top: .5rem;
-    border: 1px solid #666;
-    height: 44px;
-    width: 44px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    pointer-events: none;
+    }
+    .zoom-in{
+      position: absolute;
+      z-index: 2;
+      left: .5rem;
+      top: .5rem;
+      border: 1px solid #666;
+      height: 44px;
+      width: 44px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .gallery__thumbs{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      position: relative;
+      margin: .1rem -.25rem .5rem -.25rem;
+      .gallery__item.gallery__item--selected{
+        .gallery__thumb{box-shadow: 0px 0px 2px;}
       }
-      .gallery__thumbs{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        position: relative;
-        margin: .1rem -.25rem .5rem -.25rem;
-        .gallery__item.gallery__item--selected{
-          .gallery__thumb{box-shadow: 0px 0px 2px;}
-        }
-        .gallery__item{
-          flex-basis: 0;
-          flex-grow: 1;
-          max-width: 100%;
-          padding: 0 .25rem;
-          margin: 0;
-        }
-        .gallery__item:before{display: none;}
-        .gallery__thumb{
-          display: block;
-          width: 100%;
-          img{display: block;width: 100%;}
-        }
+      .gallery__item{
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+        padding: 0 .25rem;
+        margin: 0;
+      }
+      .gallery__item:before{display: none;}
+      .gallery__thumb{
+        display: block;
+        width: 100%;
+        img{display: block;width: 100%;}
       }
     }
+    
   }
 }
