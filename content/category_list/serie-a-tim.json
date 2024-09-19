@@ -37,6 +37,34 @@
             "price_patch": 10,
             "title": "COPA ITÁLIA"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/ucl-24-25.jpeg",
+            "price_patch": 20,
+            "title": "UCL"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/5018ee63a3abea133ca36e918b9333469ad4d7ea2ad69aae0efbe2a2da353ce2.jpeg",
+            "price_patch": 20,
+            "title": "UCL 7 TAÇAS"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/europa-league-24-25.jpeg",
+            "price_patch": 20,
+            "title": "EUROPA LEAGUE"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/conference-league-24-25.jpeg",
+            "price_patch": 20,
+            "title": "CONFERENCE LEAGUE"
+          }
         }
       ],
       "size_guide_category": {
