@@ -27,6 +27,20 @@
             "price_patch": 10,
             "title": "PREMIER LEAGUE"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/serie-a-tim-retro.jpg",
+            "price_patch": 10,
+            "title": "SERIE A TIM"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/bundesliga-retro.jpg",
+            "price_patch": 10,
+            "title": "BUNDESLIGA"
+          }
         }
       ]
     }
