@@ -41,6 +41,13 @@
             "price_patch": 10,
             "title": "BUNDESLIGA"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/champions-league-retro.jpg",
+            "price_patch": 10,
+            "title": "CHAMPIONS LEAGUE"
+          }
         }
       ]
     }
