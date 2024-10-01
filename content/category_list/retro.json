@@ -48,6 +48,13 @@
             "price_patch": 10,
             "title": "CHAMPIONS LEAGUE"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/serie-a-tim-retro-2015-2018.jpg",
+            "price_patch": 10,
+            "title": "SERIE A TIM"
+          }
         }
       ]
     }
