@@ -5,7 +5,30 @@
       "size_guide_category": {
         "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
         "title": "GUIA DE TAMANHO"
-      }
+      },
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/blocktransp.png",
+            "price_patch": 0,
+            "title": "NÃO"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/la-liga-retro.jpg",
+            "price_patch": 10,
+            "title": "LA LIGA"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/premier-league-retro.jpg",
+            "price_patch": 10,
+            "title": "PREMIER LEAGUE"
+          }
+        }
+      ]
     }
   ],
   "title": "Retrô"
