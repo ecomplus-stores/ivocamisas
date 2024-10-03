@@ -1,28 +1,4 @@
 {
   "title": "Copa-América-2024",
-  "slug_category": [
-    {
-      "category": "copa-américa-2024",
-      "patch_list": [
-        {
-          "patch": {
-            "img_patch": "/img/uploads/patch-copa-america-2024.jpg",
-            "price_patch": 20,
-            "title": "COPA AMÉRICA 2024"
-          }
-        },
-        {
-          "patch": {
-            "img_patch": "/img/uploads/patch-copa-america-argentina.jpg",
-            "price_patch": 30,
-            "title": "COPA AMÉRICA CAMPEÃO"
-          }
-        }
-      ],
-      "size_guide_category": {
-        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
-        "title": "GUIA DE TAMANHO"
-      }
-    }
-  ]
+  "slug_category": []
 }
