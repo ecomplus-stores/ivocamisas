@@ -124,7 +124,7 @@ const hasAllDepartments = header.menu_all_departments
 <header class="header" id="header">
   <div class="header__container container-fluid">
     <div class="header__row row<%= isCentralizedLogo ? ' header__row--centralized-logo' : '' %><%= isCentralizedLogo && isCategoriesNavFull ? ' header__row--full-width' : '' %>">
-      <div class="col-auto p-0 header__toggler-block">
+      <div class="col col-md-auto p-0 header__toggler-block">
         <button
           class="btn header__toggler<%= hasMegamenu ? ' d-lg-none' : '' %>"
           type="button"
@@ -138,21 +138,7 @@ const hasAllDepartments = header.menu_all_departments
             </span>
           <% } %>
         </button>
-      </div>
-
-      <div class="col col-lg-auto pl-1 pl-md-2 pl-lg-3 header__logo-block">
-        <a href="/">
-          <%- await include('@/layout/inc/logo', { _ }) %>
-        </a>
-      </div>
-
-      <div class="order-lg-last col-auto p-0 header__buttons-block">
-        <div
-          class="header__buttons"
-          role="group"
-          aria-label="<%= _.dictionary('myAccount') %>"
-        >
-          <button
+        <button
             class="d-lg-none btn btn-lg"
             id="mobile-search-btn"
             type="button"
@@ -165,6 +151,21 @@ const hasAllDepartments = header.menu_all_departments
           >
             <i class="i-search"></i>
           </button>
+      </div>
+
+      <div class="col col-lg-auto p-0 pl-1 pl-md-2 pl-lg-3 header__logo-block">
+        <a href="/">
+          <%- await include('@/layout/inc/logo', { _ }) %>
+        </a>
+      </div>
+
+      <div class="order-lg-last col-md-auto col p-0 header__buttons-block">
+        <div
+          class="header__buttons"
+          role="group"
+          aria-label="<%= _.dictionary('myAccount') %>"
+        >
+          
 
           <div class="account">
             <span style="color: #fff !important"><svg class="icon-user" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">

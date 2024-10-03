@@ -985,3 +985,40 @@ input:not([type="radio"]):not([type="checkbox"]), button, select, textarea {
     }
   }
 }
+
+
+
+@media(max-width:990px){
+  .header__logo-block{
+    a{display: block;text-align: center;}
+    text-align:center;
+  }
+  #header{top: -1px;}
+  .header__toggler-block{
+    text-align: left;
+    button{
+      padding: 0;
+      height: 40px;
+      width: 40px;
+      border: 0;
+      margin: 0;
+      > img{
+        object-fit: none;
+        width: 40px;
+        height: 40px;
+      }
+      > i{font-size: 18px;margin-top: -6px;display: inline-block;vertical-align: middle;}
+    }
+  }
+  .header__buttons{
+    justify-content: flex-end;
+    > a{
+      padding: 0!important;
+      height: 40px;
+      width: 40px;
+      border: 0;
+      margin: 0!important;
+      > i{font-size: 18px;line-height: 40px;}
+    }
+  }
+}

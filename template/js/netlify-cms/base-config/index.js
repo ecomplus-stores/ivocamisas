@@ -7,7 +7,159 @@ import getExtraPages from "@ecomplus/storefront-template/template/js/netlify-cms
 import getWidgets from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/collections/widgets"
 
 export default options => {
-  options.sections = getSections(options).concat([{
+  options.sections = getSections(options).concat([
+    {
+      "label": "[ALPIX] - Produtos em Abas",
+      "name": "apx-tab-products",
+      "widget": "object",
+      "fields": [
+          {
+              "label": "Abas",
+              "name": "tabs",
+              "widget": "list",
+              "fields": [
+                  {
+                    "label": "Título",
+                    "name": "title",
+                    "widget": "string",
+                  },
+                  {
+                    label: 'Produtos (SKU)',
+                    name: 'skus',
+                    widget: 'select',
+                    multiple: true,
+                    options: [
+                      ...options.state.routes
+                      .filter(({ sku }) => typeof sku === 'string')
+                      .map(({ sku }) => ({
+                        label: 'Produto - ' + sku,
+                        value: sku
+                      }))
+                    ]                
+                  },
+                  {
+                    label: 'Categorias',
+                    name: 'categories',
+                    widget: 'select',
+                    multiple: true,
+                    options: [
+                      ...options.state.routes
+                      .filter(el => el.resource === 'categories')
+                      .map((el) => ({
+                        label: 'Categoria - ' + el.name,
+                        value: el._id
+                      }))
+                    ]               
+                  },
+              ]
+          },
+          {
+            "label": "Título da Sessão",
+            "name": "title",
+            "widget": "string",
+          }
+      ]
+  },
+  {
+    "label": "[ALPIX] - Banners em Abas",
+    "name": "apx-tab-banners",
+    "widget": "object",
+    "fields": [
+        {
+            "label": "Abas",
+            "name": "tabs",
+            "widget": "list",
+            "fields": [
+                {
+                  "label": "Título",
+                  "name": "title",
+                  "widget": "string",
+                },
+                {
+                  "label": "Banners",
+                  "name": "banners",
+                  "widget": "list",
+                  "fields": [
+                      {
+                          "label": "Imagem",
+                          "name": "img",
+                          "widget": "image"
+                      },
+                      {
+                          "label": "Link",
+                          "required": false,
+                          "name": "link",
+                          "widget": "string"
+                      },
+                      {
+                          "label": "Alt",
+                          "required": false,
+                          "name": "alt",
+                          "widget": "string"
+                      },
+                      {
+                        "label": "Título",
+                        "name": "title",
+                        "widget": "string",
+                      },
+                      {
+                        "label": "Texto botão",
+                        "name": "btn_text",
+                        "widget": "string",
+                      },
+                  ]
+              },
+            ]
+        },
+        {
+          "label": "Título da Sessão",
+          "name": "title",
+          "widget": "string",
+        }
+    ]
+},
+    {
+      "label": "[ALPIX] - Banners em Círculo",
+      "name": "apx-circle-list",
+      "widget": "object",
+      "fields": [
+          {
+              "label": "Banners",
+              "name": "banners",
+              "widget": "list",
+              "fields": [
+                  {
+                      "label": "Imagem",
+                      "name": "img",
+                      "widget": "image"
+                  },
+                  {
+                      "label": "Link",
+                      "required": false,
+                      "name": "link",
+                      "widget": "string"
+                  },
+                  {
+                      "label": "Alt",
+                      "required": false,
+                      "name": "alt",
+                      "widget": "string"
+                  },
+                  {
+                    "label": "Título",
+                    "name": "title",
+                    "widget": "string",
+                  },
+              ]
+          },
+          {
+            "label": "Título da Vitrine",
+            "name": "title",
+            "widget": "string",
+          }
+      ]
+  },
+  {
     "label": "Vitrine de imagens horizontal",
     "name": "grid-op",
     "widget": "object",
