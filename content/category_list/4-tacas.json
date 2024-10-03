@@ -1,20 +1,4 @@
 {
-  "title": "4-Taças",
-  "slug_category": [
-    {
-      "category": "4-taças",
-      "patch_list": [
-        {
-          "patch": {
-            "img_patch": "/img/uploads/libertadores-4-tacas.png",
-            "price_patch": 20,
-            "title": "4 Taças"
-          }
-        }
-      ],
-      "size_guide_category": {
-        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg"
-      }
-    }
-  ]
+  "title": null,
+  "slug_category": []
 }
