@@ -1,21 +1,4 @@
 {
   "title": "Europa-League",
-  "slug_category": [
-    {
-      "category": "europa-league",
-      "patch_list": [
-        {
-          "patch": {
-            "img_patch": "/img/uploads/c03eabbd1ec0650e3f0aa3f6791b316eef46fe7aa377ea98c2e77fc534e3a03b.jpeg",
-            "price_patch": 20,
-            "title": "EUROPA LEAGUE"
-          }
-        }
-      ],
-      "size_guide_category": {
-        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
-        "title": "GUIA DE TAMANHO"
-      }
-    }
-  ]
+  "slug_category": []
 }
