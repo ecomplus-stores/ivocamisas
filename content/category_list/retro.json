@@ -16,30 +16,30 @@
         },
         {
           "patch": {
-            "img_patch": "/img/uploads/la-liga-retro.jpg",
+            "img_patch": "/img/uploads/premier-league-retro.jpg",
             "price_patch": 10,
-            "title": "LA LIGA"
+            "title": "PREMIER LEAGUE 2007-2016"
           }
         },
         {
           "patch": {
-            "img_patch": "/img/uploads/premier-league-retro.jpg",
+            "img_patch": "/img/uploads/la-liga-retro.jpg",
             "price_patch": 10,
-            "title": "PREMIER LEAGUE"
+            "title": "LA LIGA 1993-2016"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/serie-a-tim-retro.jpg",
             "price_patch": 10,
-            "title": "SERIE A TIM"
+            "title": "SERIE A TIM 1997-2010"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/bundesliga-retro.jpg",
             "price_patch": 10,
-            "title": "BUNDESLIGA"
+            "title": "BUNDESLIGA 2002-2010"
           }
         },
         {
@@ -53,7 +53,7 @@
           "patch": {
             "img_patch": "/img/uploads/serie-a-tim-retro-2015-2018.jpg",
             "price_patch": 10,
-            "title": "SERIE A TIM"
+            "title": "SERIE A TIM 2010-2016"
           }
         }
       ]
