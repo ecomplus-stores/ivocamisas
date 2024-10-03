@@ -1,21 +1,4 @@
 {
   "title": "UCL-CAMPEÃO",
-  "slug_category": [
-    {
-      "category": "ucl-campeão",
-      "patch_list": [
-        {
-          "patch": {
-            "img_patch": "/img/uploads/img-20240621-wa0053-_1_.webp",
-            "price_patch": 30,
-            "title": "UCL CAMPEÃO"
-          }
-        }
-      ],
-      "size_guide_category": {
-        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
-        "title": "GUIA DE TAMANHO"
-      }
-    }
-  ]
+  "slug_category": []
 }
