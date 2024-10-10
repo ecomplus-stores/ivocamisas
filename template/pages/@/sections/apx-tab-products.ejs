@@ -1,0 +1,56 @@
+<%
+const search = new _.EcomSearch()
+
+
+  %>
+
+<div class="apx-tab-products mt-md-4 mb-md-4">
+  <div class="container">
+    <% if (Array.isArray(opt.tabs) && opt.tabs.length) { %>
+      <div class="row tab_menu mb-0 align-items-center">
+        <% if(opt.title) {%>
+          <div class="col-auto">
+            <h2 class="mb-md-0"><%= opt.title %></h2>
+          </div>
+        <% } %>
+        <% for (let i = 0; i < opt.tabs.length; i++) { %>
+        <div class="col-auto pr-0">
+          <button data-tab="product_tab_<%= opt.tabs[i].title %>" class="<%=  i == 0 ? 'active' : ''%>">
+            <%= opt.tabs[i].title %>
+          </button>
+        </div>
+        <% } %>
+      </div>      
+    <% } %>
+  </div>
+  <% if (Array.isArray(opt.tabs) && opt.tabs.length) { %>
+    
+      <% for (let i = 0; i < opt.tabs.length; i++) { 
+          let products = []
+          if (Array.isArray(opt.tabs[i].skus) && opt.tabs[i].skus.length) {
+            await search.setSkus(opt.tabs[i].skus).fetch(true)
+            let items_ = search.getItems().filter(item => _.ecomUtils.inStock(item))
+
+            products.push(items_)
+          }
+
+          if (Array.isArray(opt.tabs[i].categories) && opt.tabs[i].categories.length) {
+            await search.setCategoryIds(opt.tabs[i].categories).fetch(true)
+            let items_ = search.getItems().filter(item => _.ecomUtils.inStock(item))
+
+            products.push(items_)
+          }
+
+          //console.log(`aaaa`,items)
+        %>
+        <div style="<%=  i != 0 ? 'display:none' : ''%>" data-tab-content="product_tab_<%= opt.tabs[i].title %>">
+          <div class="collection-shelf">
+            <%- await include('@/sections/inc/products-carousel', {
+              _, opt: { items: products, headless:true, }
+            }) %>
+          </div>
+        </div>         
+      <% } %>
+    
+  <% } %>
+</div>

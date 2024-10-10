@@ -59,18 +59,20 @@ if (opt.collection_ids) {
 
 <% if (shelfTabs && shelfTabs.length) { %>
   <div class="shelfs-nav my-lg-5">
-    <% if (opt.shelfs_title) { %>
-      <h3 class="shelfs-nav__title">
-        <%= opt.shelfs_title  %>
-      </h3>
-    <% } %>
-    <ul class="shelfs-nav__tabs">
-      <% for (let i = 0; i < shelfTabs.length; i++) { %>
-        <li class="shelfs-nav__tab<%= i === 0 ? ' active' : '' %>" data-tab="<%= i %>">
-          <h4><%= shelfTabs[i].title %></h4>
-        </li>
+    <div class="shelfs-nav-box">
+      <% if (opt.shelfs_title) { %>
+        <h3 class="shelfs-nav__title">
+          <%= opt.shelfs_title  %>
+        </h3>
       <% } %>
-    </ul>
+      <ul class="shelfs-nav__tabs">
+        <% for (let i = 0; i < shelfTabs.length; i++) { %>
+          <li class="shelfs-nav__tab<%= i === 0 ? ' active' : '' %>" data-tab="<%= i %>">
+            <h4><%= shelfTabs[i].title %></h4>
+          </li>
+        <% } %>
+      </ul>
+    </div>
     <% for (let i = 0; i < shelfTabs.length; i++) { %>
       <div class="collection-shelf" data-shelf="<%= i %>"
         style="display: <%= i === 0 ? 'block' : 'none' %>">

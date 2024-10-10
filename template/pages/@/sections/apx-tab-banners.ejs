@@ -1,0 +1,46 @@
+<div class="apx-tab-banners mt-md-4 mb-md-4">
+  <div class="container">
+    <% if (Array.isArray(opt.tabs) && opt.tabs.length) { %>
+      <div class="row tab_menu mb-3">
+        <% if(opt.title) {%>
+          <div class="col-md-auto col-12">
+            <h2 class="mb-md-0"><%= opt.title %></h2>
+          </div>
+        <% } %>
+        <% for (let i = 0; i < opt.tabs.length; i++) { %>
+        <div class="col-auto pr-0">
+          <button data-tab="tab_<%= opt.tabs[i].title %>" class="<%=  i == 0 ? 'active' : ''%>">
+            <%= opt.tabs[i].title %>
+          </button>
+        </div>
+        <% } %>
+      </div>
+      <div class="row">
+        <% for (let i = 0; i < opt.tabs.length; i++) { %>
+          <div class="col-12" style="<%=  i != 0 ? 'display:none' : ''%>" data-tab-content="tab_<%= opt.tabs[i].title %>">
+          <% if (Array.isArray(opt.tabs[i].banners) && opt.tabs[i].banners.length) { %>
+            <div class="bento-box">
+            <% for (let x = 0; x < opt.tabs[i].banners.length; x++) { %>
+              
+                <div class="item">
+                  <%- await include('@/sections/inc/banner', { _, opt: opt.tabs[i].banners[x] }) %>
+                  
+                  <% if(opt.tabs[i].banners[x].title) { %>
+                  <div class="content">
+                    <h3><%= opt.tabs[i].banners[x].title %></h3>
+                    <% if(opt.tabs[i].banners[x].link) { %><a href="<%= opt.tabs[i].banners[x].link %>"><% } %>
+                      <%= opt.tabs[i].banners[x].btn_text %>
+                    <% if(opt.tabs[i].banners[x].link) { %></a><% } %>
+                  </div>
+                  <% } %>
+                </div>
+              
+            <% } %>
+          </div>
+          <% } %>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+  </div>
+</div>

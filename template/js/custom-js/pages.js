@@ -49,3 +49,14 @@ $('#col-leagues .stamps').click((e) => {
         }
     }
 });
+
+
+$(`body`).on(`click`, `button[data-tab]`, function(){
+    let tab_id = $(this).attr(`data-tab`);
+    let block = $(this).closest(`.apx-tab-banners, .apx-tab-products`)
+    console.log(tab_id)
+    block.find(`[data-tab]`).removeClass(`active`)
+    $(this).addClass(`active`)
+    block.find(`[data-tab-content]`).hide()
+    block.find(`[data-tab-content="${tab_id}"]`).show()
+})

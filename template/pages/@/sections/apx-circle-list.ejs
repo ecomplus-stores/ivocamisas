@@ -1,0 +1,23 @@
+<div class="apx-circle-list mt-md-2 mt-0">
+  <div class="container-fluid">
+    <% if (Array.isArray(opt.banners) && opt.banners.length) { %>
+      <div class="row">
+        <% for (let i = 0; i < opt.banners.length; i++) { %>
+          <div class="col">
+            <div  class="item">
+              <%- await include('@/sections/inc/banner', { _, opt: opt.banners[i] }) %>
+              <% if(opt.banners[i].title) { %>
+              <div>
+                <% if(opt.banners[i].link) { %><a href="<%= opt.banners[i].link %>"><% } %>
+                  <h3><%= opt.banners[i].title %></h3>
+                  <% if(opt.banners[i].link) { %></a><% } %>
+              </div>
+              <% } %>
+            </div>
+            
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+  </div>
+</div>
