@@ -1,21 +1,4 @@
 {
   "title": "Conference-League",
-  "slug_category": [
-    {
-      "category": "conference-league",
-      "patch_list": [
-        {
-          "patch": {
-            "img_patch": "/img/uploads/8fe1b75faaa5cb8e2b3de814fadd3090b7fe4347b2f636c2b97e59e611a4338b.jpeg",
-            "price_patch": 20,
-            "title": "CONFERENCE LEAGUE"
-          }
-        }
-      ],
-      "size_guide_category": {
-        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
-        "title": "GUIA DE TAMANHO"
-      }
-    }
-  ]
+  "slug_category": []
 }

@@ -1,21 +1,4 @@
 {
-  "title": "Libertadores",
-  "slug_category": [
-    {
-      "category": "libertadores",
-      "patch_list": [
-        {
-          "patch": {
-            "img_patch": "/img/uploads/libertadores.png",
-            "price_patch": 10,
-            "title": "Libertadores"
-          }
-        }
-      ],
-      "size_guide_category": {
-        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg",
-        "title": "GUIA DE TAMANHO"
-      }
-    }
-  ]
+  "title": null,
+  "slug_category": []
 }
