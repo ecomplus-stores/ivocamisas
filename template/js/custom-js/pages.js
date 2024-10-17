@@ -59,4 +59,19 @@ $(`body`).on(`click`, `button[data-tab]`, function(){
     $(this).addClass(`active`)
     block.find(`[data-tab-content]`).hide()
     block.find(`[data-tab-content="${tab_id}"]`).show()
-})
+});
+
+
+if($(`#page-home #col-leagues`).length > 0){
+    $(`#page-home #col-leagues`).closest(`.html-clearfix`).addClass(`apx-clearfix`)
+    $(`#page-home #col-leagues`).find(`.stamps`).wrap(`<div class="Logolist-Slider"></div>`);
+    // let clone = $(`#page-home #col-leagues`).find(`.stamps`).clone()
+    // $(`#page-home #col-leagues`).find(`.stamps`).after(clone)
+    // $(`#page-home #col-leagues`).find(`.stamps`).addClass(`apx_banners-stripe`).addClass(`animate_true`)
+    let list = $(`#page-home #col-leagues`).find(`.stamps`).html()
+    $(`#page-home #col-leagues`).find(`.stamps`).html(list + list + list + list + list + list + list + list + list + list)
+    
+    $(`#page-home #col-leagues`).find(`.stamps`).addClass(`Logolist-Content`)
+    $(`#page-home #col-leagues`).find(`.stamps`).find(`li`).addClass(`logolist`)
+    $(`#page-home #col-leagues`).find(`.stamps`).toggleClass(`stamps`)
+}

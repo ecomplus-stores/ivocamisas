@@ -8,48 +8,49 @@
         {
           "img": "/img/uploads/300x300.png",
           "link": "",
-          "title": "Categoria 1"
+          "title":"Categoria 1"
         },
         {
           "img": "/img/uploads/300x300.png",
-          "title": "Categoria 2"
+          "title":"Categoria 2"
         },
         {
           "img": "/img/uploads/300x300.png",
-          "title": "Categoria 3"
+          "title":"Categoria 3"
         },
         {
           "img": "/img/uploads/300x300.png",
-          "title": "Categoria 4"
+          "title":"Categoria 4"
         },
         {
           "img": "/img/uploads/300x300.png",
-          "title": "Categoria 5"
+          "title":"Categoria 5"
         },
         {
           "img": "/img/uploads/300x300.png",
-          "title": "Categoria 6"
+          "title":"Categoria 6"
         },
         {
           "img": "/img/uploads/300x300.png",
-          "title": "Categoria 7"
+          "title":"Categoria 7"
         },
         {
           "img": "/img/uploads/300x300.png",
-          "title": "Categoria 8"
+          "title":"Categoria 8"
         }
       ],
-      "title": "Compre por Categoria"
+      "title":"Compre por Categoria"
     },
+   
     {
       "type": "shelfs-nav",
       "shuffle": false,
       "limit": 12,
       "page": 1,
       "collection_ids": [
-        "670fcb739e4b2e07f537a646:collections:Masculino:/masculino",
-        "66429493f4e6d85ab283c033:categories:Feminino:/feminino/",
-        "66442121f4e6d85ab285749f:categories:Infantil:/infantil/"
+        "660dbc290fc534303debe9b4:categories:Loja Masculina:/selecoes/",
+        "660dbc380fc534303debea03:categories:Loja Feminina:/serie-a-tim/",
+        "660dbc380fc534303debea03:categories:Loja Infantil:/serie-a-tim/"
       ],
       "sort": "views",
       "shelfs_title": "Melhores escolhas",
@@ -59,53 +60,53 @@
       "type": "apx-tab-banners",
       "tabs": [
         {
-          "title": "Título 1",
+          "title" : "Título 1",
           "banners": [
             {
               "img": "/img/uploads/300x300.png",
               "link": "/",
-              "title": "A Título do Banner 1",
-              "btn_text": "Texto do botão"
+              "title":"A Título do Banner 1",
+              "btn_text":"Texto do botão"
             },
             {
               "img": "/img/uploads/300x300.png",
               "link": "/",
-              "title": "A Título do Banner 2",
-              "btn_text": "Texto do botão"
+              "title":"A Título do Banner 2",
+              "btn_text":"Texto do botão"
             },
             {
               "img": "/img/uploads/300x300.png",
               "link": "/",
-              "title": "A Título do Banner 3",
-              "btn_text": "Texto do botão"
+              "title":"A Título do Banner 3",
+              "btn_text":"Texto do botão"
             }
           ]
         },
         {
-          "title": "Título 2",
+          "title" : "Título 2",
           "banners": [
             {
               "img": "/img/uploads/300x300.png",
               "link": "/",
-              "title": "B Título do Banner 1",
-              "btn_text": "Texto do botão"
+              "title":"B Título do Banner 1",
+              "btn_text":"Texto do botão"
             },
             {
               "img": "/img/uploads/300x300.png",
               "link": "/",
-              "title": "B Título do Banner 2",
-              "btn_text": "Texto do botão"
+              "title":"B Título do Banner 2",
+              "btn_text":"Texto do botão"
             },
             {
               "img": "/img/uploads/300x300.png",
               "link": "/",
-              "title": "B Título do Banner 3",
-              "btn_text": "Texto do botão"
+              "title":"B Título do Banner 3",
+              "btn_text":"Texto do botão"
             }
           ]
         }
       ],
-      "title": "Abas de Banners"
+      "title":"Abas de Banners"
     },
     {
       "type": "custom-html",
