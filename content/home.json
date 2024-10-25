@@ -11,14 +11,14 @@
           "title": "Infantil"
         },
         {
-          "img": "/img/uploads/feminino.png",
-          "title": "Feminino",
-          "link": "https://www.ivocamisas.com.br/feminino/"
-        },
-        {
           "img": "/img/uploads/nba.png",
           "title": "NBA",
           "link": "https://www.ivocamisas.com.br/nba/"
+        },
+        {
+          "img": "/img/uploads/feminino.png",
+          "title": "Feminino",
+          "link": "https://www.ivocamisas.com.br/feminino/"
         },
         {
           "img": "/img/uploads/agasalho.png",
