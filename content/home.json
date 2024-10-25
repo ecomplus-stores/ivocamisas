@@ -16,16 +16,6 @@
           "link": "https://www.ivocamisas.com.br/nba/"
         },
         {
-          "img": "/img/uploads/feminino.png",
-          "title": "Feminino",
-          "link": "https://www.ivocamisas.com.br/feminino/"
-        },
-        {
-          "img": "/img/uploads/agasalho.png",
-          "title": "Agasalho",
-          "link": "https://www.ivocamisas.com.br/corta-vento/"
-        },
-        {
           "img": "/img/uploads/nfl.png",
           "title": "NFL",
           "link": "https://www.ivocamisas.com.br/nfl/"
@@ -39,6 +29,16 @@
           "img": "/img/uploads/formula-1.png",
           "title": "Fórmula 1 ",
           "link": "https://www.ivocamisas.com.br/formula-1/"
+        },
+        {
+          "img": "/img/uploads/feminino.png",
+          "title": "Feminino",
+          "link": "https://www.ivocamisas.com.br/feminino/"
+        },
+        {
+          "img": "/img/uploads/agasalho.png",
+          "title": "Agasalho",
+          "link": "https://www.ivocamisas.com.br/corta-vento/"
         },
         {
           "img": "/img/uploads/futebol.png",
