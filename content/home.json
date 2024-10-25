@@ -66,13 +66,13 @@
       "type": "apx-tab-banners",
       "tabs": [
         {
-          "title": "Título 1",
+          "title": "Premier League",
           "banners": [
             {
-              "img": "/img/uploads/300x300.png",
-              "link": "/",
-              "title": "A Título do Banner 1",
-              "btn_text": "Texto do botão"
+              "img": "/img/uploads/aston-villa-02.png",
+              "link": "https://www.ivocamisas.com.br/aston-villa/",
+              "title": "Aston Villa",
+              "btn_text": "COMPRAR"
             },
             {
               "img": "/img/uploads/300x300.png",
@@ -112,7 +112,7 @@
           ]
         }
       ],
-      "title": "Abas de Banners"
+      "title": "Melhores ligas"
     },
     {
       "type": "custom-html",
