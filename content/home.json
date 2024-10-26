@@ -89,13 +89,13 @@
           ]
         },
         {
-          "title": "Título 2",
+          "title": "La Liga",
           "banners": [
             {
-              "img": "/img/uploads/300x300.png",
-              "link": "/",
-              "title": "B Título do Banner 1",
-              "btn_text": "Texto do botão"
+              "img": "/img/uploads/catalao-01.png",
+              "link": "https://www.ivocamisas.com.br/barcelona/",
+              "title": "On",
+              "btn_text": "Fire"
             },
             {
               "img": "/img/uploads/300x300.png",
