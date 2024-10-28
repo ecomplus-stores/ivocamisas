@@ -88,7 +88,8 @@ export default options => {
                   {
                     "label": "Imagem Mobile",
                     "name": "mobile_img",
-                    "widget": "image"
+                    "widget": "image",
+                    "required": false,
                 },
                   {
                       "label": "Link",
