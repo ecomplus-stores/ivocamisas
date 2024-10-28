@@ -86,6 +86,11 @@ export default options => {
                       "widget": "image"
                   },
                   {
+                    "label": "Imagem Mobile",
+                    "name": "mobile_img",
+                    "widget": "image"
+                },
+                  {
                       "label": "Link",
                       "required": false,
                       "name": "link",
