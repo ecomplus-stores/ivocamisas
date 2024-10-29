@@ -72,19 +72,22 @@
               "img": "/img/uploads/aston-villa-02.png",
               "link": "https://www.ivocamisas.com.br/aston-villa/",
               "title": "On",
-              "btn_text": "Fire"
+              "btn_text": "Fire",
+              "mobile_img": "/img/uploads/aston-villa_mobile.png"
             },
             {
               "img": "/img/uploads/chelsea-03.png",
               "link": "https://www.ivocamisas.com.br/chelsea/",
               "title": "On",
-              "btn_text": "Fire"
+              "btn_text": "Fire",
+              "mobile_img": "/img/uploads/chelsea-023.png"
             },
             {
               "img": "/img/uploads/espirito-red-04.png",
               "link": "https://www.ivocamisas.com.br/manchester-united/",
               "title": "On",
-              "btn_text": "Fire"
+              "btn_text": "Fire",
+              "mobile_img": "/img/uploads/espirito-red_mobile.png"
             }
           ]
         },
