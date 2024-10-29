@@ -98,19 +98,22 @@
               "img": "/img/uploads/catalao-01.png",
               "link": "https://www.ivocamisas.com.br/barcelona/",
               "title": "On",
-              "btn_text": "Fire"
+              "btn_text": "Fire",
+              "mobile_img": "/img/uploads/catalao_mobile.png"
             },
             {
               "img": "/img/uploads/real-madrid-02.png",
               "link": "https://www.ivocamisas.com.br/real-madrid/",
               "title": "On",
-              "btn_text": "Fire"
+              "btn_text": "Fire",
+              "mobile_img": "/img/uploads/realmadrid-mobile.png"
             },
             {
               "img": "/img/uploads/atletico-de-madrid-01.png",
               "link": "https://www.ivocamisas.com.br/atletico-de-madrid/",
               "title": "On",
-              "btn_text": "Fire"
+              "btn_text": "Fire",
+              "mobile_img": "/img/uploads/atletico-madrid_mobile.png"
             }
           ]
         }
