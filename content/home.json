@@ -229,21 +229,6 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/c1_20240619_14455832.jpeg",
-          "link": "https://m.17track.net/pt?v=2"
-        },
-        {
-          "img": "/img/uploads/BANNER-Prancheta-3-1_PdGD6SPB9S.jpeg"
-        },
-        {
-          "img": "/img/uploads/BANNER-Prancheta-2_ifGIa6nV63.jpeg"
-        }
-      ]
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
           "img": "/img/uploads/c1_20240619_14455856.jpeg",
           "link": "https://api.whatsapp.com/send?phone=5551994688672&text=Ol%C3%A1%2C%20Como%20podemos%20ajudar%3F"
         }
