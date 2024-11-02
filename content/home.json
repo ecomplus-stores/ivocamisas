@@ -229,7 +229,7 @@
       "limit": 24,
       "offset": 0,
       "autoplay": 5000,
-      "sort": "name"
+      "sort": null
     },
     {
       "type": "custom-html",
