@@ -54,11 +54,11 @@
       "limit": 12,
       "page": "",
       "collection_ids": [
-        "670fcb739e4b2e07f537a646:collections:Masculino:/masculino",
+        "665e4fe0f4e6d85ab29e3ef5:categories:Novidades:/novidades/",
         "66429493f4e6d85ab283c033:categories:Feminino:/feminino/",
         "66442121f4e6d85ab285749f:categories:Infantil:/infantil/"
       ],
-      "sort": "news",
+      "sort": "views",
       "shelfs_title": "Melhores escolhas ",
       "autoplay": 5000
     },
