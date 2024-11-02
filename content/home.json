@@ -166,20 +166,6 @@
       "title": "Ofertas em destaque"
     },
     {
-      "type": "grid-op",
-      "banners": [
-        {
-          "img": "/img/uploads/inverno.png",
-          "link": "https://www.ivocamisas.com.br/conjunto-de-treino/"
-        },
-        {
-          "img": "/img/uploads/lancamentos.png",
-          "link": "https://www.ivocamisas.com.br/"
-        }
-      ],
-      "title": "MAIS"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
