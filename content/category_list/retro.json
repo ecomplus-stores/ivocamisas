@@ -83,6 +83,13 @@
             "price_patch": 10,
             "title": "LA LIGA 2016-2023"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/copa-do-mundo-2014.jpg",
+            "price_patch": 20,
+            "title": "COPA DO MUNDO 2014"
+          }
         }
       ]
     }
