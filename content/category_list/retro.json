@@ -90,6 +90,13 @@
             "price_patch": 20,
             "title": "COPA DO MUNDO 2014"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/copa-do-mundo-2018.jpg",
+            "price_patch": 20,
+            "title": "COPA DO MUNDO 2018"
+          }
         }
       ]
     }
