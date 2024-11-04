@@ -27,6 +27,13 @@
             "price_patch": 10,
             "title": "BARCLAYS WOMEN'S"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/copa-do-mundo-feminina-2023-ii.jpg",
+            "price_patch": 20,
+            "title": "COPA DO MUNDO 2023"
+          }
         }
       ]
     }
