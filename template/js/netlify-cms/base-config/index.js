@@ -61,6 +61,59 @@ export default options => {
 //   ]
 // },
 {
+  "label": "[ALPIX] - Banners com Botões",
+  "name": "apx-button-banners",
+  "widget": "object",
+  "fields": [
+    {
+      "label": "Banners",
+      "name": "banners",
+      "widget": "list",
+      "fields": [
+          {
+              "label": "Imagem",
+              "name": "img",
+              "widget": "image"
+          },
+          {
+            "label": "Imagem Mobile",
+            "name": "mobile_img",
+            "widget": "image",
+            "required": false,
+          },
+          {
+            "label": "Título",
+            "name": "title",
+            "widget": "string",
+          },
+          {
+            "label": "Botões",
+            "name": "buttons",
+            "widget": "list",
+            "fields": [
+                {
+                    "label": "Link",
+                    "required": false,
+                    "name": "link",
+                    "widget": "string"
+                },
+                {
+                  "label": "Texto botão",
+                  "name": "btn_text",
+                  "widget": "string",
+                },
+            ]
+          },
+      ]
+    },
+    {
+      "label": "Título da Sessão",
+      "name": "title",
+      "widget": "string",
+    }
+  ]
+},
+{
   "label": "[ALPIX] - Banners em Abas",
   "name": "apx-tab-banners",
   "widget": "object",

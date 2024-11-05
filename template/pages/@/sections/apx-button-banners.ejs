@@ -1,0 +1,27 @@
+<div class="apx-button-banners mt-md-4 mb-md-4">
+  <div class="container">
+    <% if (Array.isArray(opt.banners) && opt.banners.length) { %>      
+      <div class="row">
+        <% for (let i = 0; i < opt.banners.length; i++) { %>
+          <div class="col-md-4 col-12 mb-md-0 mb-3">
+            <div class="position-relative item">
+              <%- await include('@/sections/inc/banner', { _, opt: opt.banners[i] }) %>
+              <div class="content">
+                <% if (opt.banners[i].title) { %>
+                  <h4><%= opt.banners[i].title %></h4>
+                <% } %>
+                <% for (let x = 0; x < opt.banners[i].buttons.length; x++) { %>
+                  <% if(opt.banners[i].buttons[x].link) { %>
+                    <a href="<%= opt.banners[i].buttons[x].link %>">
+                      <%= opt.banners[i].buttons[x].btn_text %>
+                    </a>
+                  <% } %>                  
+                <% } %>
+              </div>
+            </div>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+  </div>
+</div>

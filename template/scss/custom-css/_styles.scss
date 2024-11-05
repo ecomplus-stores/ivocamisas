@@ -1351,3 +1351,81 @@ input:not([type="radio"]):not([type="checkbox"]), button, select, textarea {
     
   }
 }
+
+
+
+.apx-button-banners{
+  .container{
+    margin: var(--spacer-4) auto;
+    max-width: var(--content-max-width);
+    padding: 0 4rem;
+    width: 100%;
+  }
+  .item{
+    .banner{
+      pointer-events: none;
+      width: 100%;
+      *{width: 100%;}
+    }
+    .content{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h4{
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 45px;
+        text-align: center;
+        text-shadow: 1px 1px 0px var(--primary);
+      }
+      a{
+        background: #fff;
+        color: var(--primary);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        padding: .75rem 1rem;
+        cursor: pointer;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+        margin-top: 1rem;
+        transition: background .2s ease-in-out;
+      }
+      a:hover{
+        text-decoration: none;
+        background: #f2f2f2;
+      }
+    }
+  }
+}
+
+@media(max-width:1230px){
+  .apx-button-banners{
+    .item{
+      .content{
+        h4{
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+@media(max-width:400px){
+  .apx-button-banners{
+    .item{
+      .content{
+        h4{
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
