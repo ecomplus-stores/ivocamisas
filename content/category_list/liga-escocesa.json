@@ -19,6 +19,13 @@
         },
         {
           "patch": {
+            "img_patch": "/img/uploads/liga-escocesa-campeao-2023-24.jpg",
+            "price_patch": 10,
+            "title": "CAMPEÃO 2023-2024"
+          }
+        },
+        {
+          "patch": {
             "img_patch": "/img/uploads/ucl-24-25.jpeg",
             "price_patch": 20,
             "title": "UCL"
@@ -36,13 +43,6 @@
             "img_patch": "/img/uploads/conference-league-24-25.jpeg",
             "price_patch": 20,
             "title": "CONFERENCE LEAGUE"
-          }
-        },
-        {
-          "patch": {
-            "img_patch": "/img/uploads/liga-escocesa-campeao-2023-24.jpg",
-            "price_patch": 10,
-            "title": "CAMPEÃO 2023-2024"
           }
         }
       ],
