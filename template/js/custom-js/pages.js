@@ -62,7 +62,7 @@ $(`body`).on(`click`, `button[data-tab]`, function(){
 });
 
 
-if($(`#page-home #col-leagues`).length > 0){
+if($(`#page-home #col-leagues`).length > 0 && window.innerWidth < 990){
     $(`#page-home #col-leagues`).closest(`.html-clearfix`).addClass(`apx-clearfix`)
     $(`#page-home #col-leagues`).find(`.stamps`).wrap(`<div class="Logolist-Slider"></div>`);
     // let clone = $(`#page-home #col-leagues`).find(`.stamps`).clone()
