@@ -125,50 +125,49 @@
       "banners": [
         {
           "title": "MASCULINO",
-          "img": "/img/uploads/350x600.svg",
-          "mobile_img": "/img/uploads/350x600.svg",
+          "img": "/img/uploads/02.png",
+          "mobile_img": "/img/uploads/02.png",
           "buttons": [
             {
-              "link": "https://www.ivocamisas.com.br/",
-              "btn_text": "Roupas Masculinas"
+              "link": "https://www.ivocamisas.com.br/outros-clubes/",
+              "btn_text": "Outros Clubes"
             },
             {
-              "link": "https://www.ivocamisas.com.br/",
-              "btn_text": "Bundesliga"
+              "link": "https://www.ivocamisas.com.br/major-league-soccer/",
+              "btn_text": "Major League Soccer"
             }
           ]
         },
         {
           "title": "FEMININO",
-          "img": "/img/uploads/350x600.svg",
-          "mobile_img": "/img/uploads/350x600.svg",
+          "img": "/img/uploads/03.png",
+          "mobile_img": "/img/uploads/03.png",
           "buttons": [
             {
-              "link": "https://www.ivocamisas.com.br/",
+              "link": "https://www.ivocamisas.com.br/feminino/",
               "btn_text": "Roupas Femininas"
             },
             {
-              "link": "https://www.ivocamisas.com.br/",
-              "btn_text": "La Liga"
+              "link": "https://www.ivocamisas.com.br/barcelona/",
+              "btn_text": "Barcelona"
             }
           ]
         },
         {
           "title": "INFANTIL",
-          "img": "/img/uploads/350x600.svg",
-          "mobile_img": "/img/uploads/350x600.svg",
+          "img": "/img/uploads/01.png",
+          "mobile_img": "/img/uploads/01.png",
           "buttons": [
             {
-              "link": "https://www.ivocamisas.com.br/",
+              "link": "https://www.ivocamisas.com.br/infantil/",
               "btn_text": "Roupas Infantis"
             },
             {
-              "link": "https://www.ivocamisas.com.br/",
-              "btn_text": "Série A"
+              "link": "https://www.ivocamisas.com.br/liga-saudita/",
+              "btn_text": "Liga Saudita"
             }
           ]
         }
-        
       ],
       "title": "Título da sessão"
     },
