@@ -97,6 +97,20 @@
             "price_patch": 20,
             "title": "COPA DO MUNDO 2018"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/copa-do-mundo-2006.jpg",
+            "price_patch": 20,
+            "title": "COPA DO MUNDO 2006"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/copa-do-mundo-2010.jpg",
+            "price_patch": 20,
+            "title": "COPA DO MUNDO 2010"
+          }
         }
       ]
     }
