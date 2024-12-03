@@ -83,7 +83,7 @@ export default options => {
           "name": "largura",
           "widget": "string"
         },          
-      ]
+      ] 
     },      
   ]
 },
