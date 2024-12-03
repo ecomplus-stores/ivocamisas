@@ -8,85 +8,7 @@ import getWidgets from "@ecomplus/storefront-template/template/js/netlify-cms/ba
 
 export default options => {
   options.sections = getSections(options).concat([
-{
-  "label": "[ALPIX] - Tabela de Medidas",
-  "name": "apx-sizetab-products",
-  "widget": "object",
-  "fields": [
-    {
-      "label": "Título",
-      "name": "title",
-      "widget": "string",
-    },
-    {
-      label: 'Produtos (SKU)',
-      name: 'skus',
-      widget: 'select',
-      multiple: true,
-      options: [
-        ...options.state.routes
-        .filter(({ sku }) => typeof sku === 'string')
-        .map(({ sku }) => ({
-          label: 'Produto - ' + sku,
-          value: sku
-        }))
-      ]                
-    },
-    {
-      label: 'Categorias',
-      name: 'categories',
-      widget: 'select',
-      multiple: true,
-      options: [
-        ...options.state.routes
-        .filter(el => el.resource === 'categories')
-        .map((el) => ({
-          label: 'Categoria - ' + el.name,
-          value: el._id
-        }))
-      ]               
-    },
-    {
-      "label": "Imagem do Manequim",
-      "name": "image",
-      "widget": "image",
-      required: false,
-    },
-    {
-      "label": "Instruções",
-      hint: 'Exibido logo abaixo da imagem do manequim',
-      "name": "instructions",
-      "widget": "text",
-      required: false,
-    },
-    {
-      "label": "Tamanhos",
-      "name": "sizes",
-      "widget": "list",
-      "fields": [
-        {
-          "label": "Nome do Tamanho (P, M, G, 41, 42...)",
-          "name": "title",
-          "widget": "string",
-        },
-        {
-            "label": "Comprimento (cm)",
-            hint: 'Caso não preencha a medida não será exibida',
-            "required": false,
-            "name": "comprimento",
-            "widget": "string"
-        },
-        {
-          "label": "Largura (cm)",
-          hint: 'Caso não preencha a medida não será exibida',
-          "required": false,
-          "name": "largura",
-          "widget": "string"
-        },          
-      ] 
-    },      
-  ]
-},
+
 {
   "label": "[ALPIX] - Banners com Botões",
   "name": "apx-button-banners",
@@ -487,7 +409,89 @@ export default options => {
                 ]
             }
         ]
-      }
+      },
+      {
+        name: 'apx_product_sizetable',        
+        label: 'Tabela de medidas inteligente',
+        folder: `${options.baseDir}content/apx_sizetables`,
+        extension: 'json',
+        create: true,
+        slug: '{{slug}}',
+        "fields": [
+          {
+            "label": "Título",
+            "name": "title",
+            "widget": "string",
+          },
+          {
+            label: 'Produtos (SKU)',
+            name: 'skus',
+            widget: 'select',
+            multiple: true,
+            options: [
+              ...options.state.routes
+              .filter(({ sku }) => typeof sku === 'string')
+              .map(({ sku }) => ({
+                label: 'Produto - ' + sku,
+                value: sku
+              }))
+            ]                
+          },
+          {
+            label: 'Categorias',
+            name: 'categories',
+            widget: 'select',
+            multiple: true,
+            options: [
+              ...options.state.routes
+              .filter(el => el.resource === 'categories')
+              .map((el) => ({
+                label: 'Categoria - ' + el.name,
+                value: el._id
+              }))
+            ]               
+          },
+          {
+            "label": "Imagem do Manequim",
+            "name": "image",
+            "widget": "image",
+            required: false,
+          },
+          {
+            "label": "Instruções",
+            hint: 'Exibido logo abaixo da imagem do manequim',
+            "name": "instructions",
+            "widget": "text",
+            required: false,
+          },
+          {
+            "label": "Tamanhos",
+            "name": "sizes",
+            "widget": "list",
+            "fields": [
+              {
+                "label": "Nome do Tamanho (P, M, G, 41, 42...)",
+                "name": "title",
+                "widget": "string",
+              },
+              {
+                  "label": "Comprimento (cm)",
+                  hint: 'Caso não preencha a medida não será exibida',
+                  "required": false,
+                  "name": "comprimento",
+                  "widget": "string"
+              },
+              {
+                "label": "Largura (cm)",
+                hint: 'Caso não preencha a medida não será exibida',
+                "required": false,
+                "name": "largura",
+                "widget": "string"
+              },          
+            ] 
+          },      
+        ]
+      },
     ]
   }
 }
