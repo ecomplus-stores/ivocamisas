@@ -1,0 +1,37 @@
+{
+  "title": "TESTE",
+  "image": "/img/uploads/captura-de-tela-2024-12-06-222151.png",
+  "skus": [
+    "HVW7050"
+  ],
+  "sizes": [
+    {
+      "title": "P",
+      "comprimento": "76",
+      "largura": "53"
+    },
+    {
+      "title": "M",
+      "comprimento": "78",
+      "largura": "55"
+    },
+    {
+      "title": "G",
+      "comprimento": "80",
+      "largura": "57"
+    },
+    {
+      "title": "GG",
+      "comprimento": "82",
+      "largura": "59"
+    },
+    {
+      "title": "XGG",
+      "comprimento": "85",
+      "largura": "61"
+    }
+  ],
+  "categories": [
+    "660dbc260fc534303debe9a8"
+  ]
+}
