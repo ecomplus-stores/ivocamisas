@@ -1,0 +1,35 @@
+{
+  "title": "Jaqueta Viagem",
+  "image": "/img/uploads/TAB_JAQUETA.png",
+  "skus": [
+    "ELJ9284"
+  ],
+  "sizes": [
+    {
+      "title": "P",
+      "comprimento": "68",
+      "largura": "50"
+    },
+    {
+      "title": "M",
+      "comprimento": "71",
+      "largura": "53"
+    },
+    {
+      "title": "G",
+      "comprimento": "73",
+      "largura": "55"
+    },
+    {
+      "title": "GG",
+      "comprimento": "75",
+      "largura": "57"
+    },
+    {
+      "title": "XGG",
+      "comprimento": "78",
+      "largura": "60"
+    }
+  ],
+  "categories": []
+}

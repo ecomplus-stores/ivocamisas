@@ -167,7 +167,14 @@ import {
         kitItems: [],
         currentTimer: null,
         selectedPatch: null,
-        updateCustomization: 0
+        updateCustomization: 0,
+        apx_sizeTableConfig:{
+          visible:false,
+          step:0,
+          comprimento:60,
+          largura:60,
+          tables: []
+        }
       }
     },
   
@@ -310,7 +317,56 @@ import {
     methods: {
       getVariationsGrids,
       getSpecValueByText,
-  
+      checkSize(tableValue, userValue, type) {
+        const difference = tableValue - userValue;
+        
+        if(type == "color"){
+          if (difference === 0) {
+            return "#ffeaa7";
+            
+          } else if (difference > 0 && difference <= 2) {
+            return "#55efc4";
+          } else if (difference > 2 ) {
+            return "#74b9ff";
+          } else {
+            return "#ff7675";
+          }
+        }else{
+          if (difference === 0) {
+            return "justo";
+          } else if (difference > 0 && difference <= 2) {
+            return "levemente folgado";
+          } else if (difference > 2 ) {
+            return "folgado";
+          } else {
+            return "apertado";
+          }
+        }
+        
+        
+      },
+      resultSizeCheckMessage(){
+        let tables = this.getApxSizeTable().sizes
+        tables.forEach((value, index) => {
+          console.log(value.title)
+          tables[index].result_comprimento = this.checkSize(value.comprimento, this.apx_sizeTableConfig.comprimento, 'text')
+          tables[index].result_largura = this.checkSize(value.largura, this.apx_sizeTableConfig.largura, 'text')
+          if(tables[index].result_comprimento  == tables[index].result_largura){
+            tables[index].result_message =  `As medidas de largura e comprimento estão ${tables[index].result_comprimento}.`
+          }else{
+            tables[index].result_message =  `A medida de largura ficou ${tables[index].result_largura} e a de comprimento está ${tables[index].result_comprimento}.`
+          }
+          
+        })
+        this.apx_sizeTableConfig.tables = tables        
+      },
+      getApxSizeTable(){
+        //console.log(window.apx_sizetables)
+        if(window.apx_sizetables.title){
+          $('.size_guide').hide()
+        }
+        return window.apx_sizetables
+      },
       setBody (data) {
         this.body = {
           ...data,
@@ -579,6 +635,7 @@ import {
     },
   
     mounted () {
+      this.resultSizeCheckMessage()
       if (this.$refs.sticky && !this.isWithoutPrice) {
         let isBodyPaddingSet = false
         const setStickyBuyObserver = (isToVisible = true) => {

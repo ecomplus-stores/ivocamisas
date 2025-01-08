@@ -1,0 +1,40 @@
+{
+  "title": "NFL",
+  "image": "/img/uploads/TAB_MASC_FUT.png",
+  "skus": [
+    
+  ],
+  "sizes": [
+    {
+      "title": "P",
+      "comprimento": "71",
+      "largura": "51"
+    },
+    {
+      "title": "M",
+      "comprimento": "73",
+      "largura": "53"
+    },
+    {
+      "title": "G",
+      "comprimento": "75",
+      "largura": "55"
+    },
+    {
+      "title": "GG",
+      "comprimento": "77",
+      "largura": "57"
+    },
+    {
+      "title": "XGG",
+      "comprimento": "81",
+      "largura": "60"
+    },
+    {
+      "title": "XGGG",
+      "comprimento": "83",
+      "largura": "63"
+    }
+  ],
+  "categories": []
+}

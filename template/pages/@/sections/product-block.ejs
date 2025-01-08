@@ -139,7 +139,7 @@ const addConfigCategory = categoryConfig && categoryConfig.slug_category && cate
                   <!-- Custom info for products with variations, such as sizes table link -->
                   <% if (addConfigCategory && addConfigCategory.size_guide_category && addConfigCategory.size_guide_category.img_guide) { %>
                     <% const sizeGuideTitle =  addConfigCategory.size_guide_category.title || _.dictionary('sizeGuide') %>
-                    <div class="mb-3">
+                    <div class="mb-3 size_guide">
                       <a 
                         href="javascript:;"
                         data-toggle="modal"
@@ -230,6 +230,32 @@ const addConfigCategory = categoryConfig && categoryConfig.slug_category && cate
   </div>
 </div>
 
+<%
+  const current_lib_ = []
+  const apx_products_ = _.cms('apx_sizetables')
+  if (Array.isArray(apx_products_) && apx_products_.length > 0) {      
+    apx_products_.forEach(item => { 
+      const lib = (_.cms(`apx_sizetables/${item}`))
+      if(current_lib_.length == 0 && (lib.skus.find(el => el == _.state.sku) || lib.skus == 'default')){
+        current_lib_.push(lib)
+        return
+      }
+      if(_.state.categories && _.state.categories.length > 0){
+        _.state.categories.forEach(cat => {
+          if(current_lib_.length == 0 && lib.categories.find(el => el == cat._id)){
+            current_lib_.push(lib)
+            return
+          }
+        })
+      }
+    })
+  }
+
+  //console.log(_.state.categories)
+%>
+<script>
+  window.apx_sizetables = JSON.parse(<%- JSON.stringify(JSON.stringify(current_lib_[0] || [])) %>)
+</script>
 <%
 const productJsonLd = {
   '@context': 'http://schema.org',

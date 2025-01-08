@@ -1,0 +1,50 @@
+{
+  "title": "NFL",
+  "image": "/img/uploads/TAB_KIT_INFANTIL.png",
+  "skus": [
+    
+  ],
+  "sizes": [
+    {
+      "title": "14",
+      "comprimento": "40",
+      "largura": "33"
+    },
+    {
+      "title": "16",
+      "comprimento": "44",
+      "largura": "36"
+    },
+    {
+      "title": "18",
+      "comprimento": "47",
+      "largura": "37"
+    },
+    {
+      "title": "20",
+      "comprimento": "50",
+      "largura": "39"
+    },
+    {
+      "title": "22",
+      "comprimento": "53",
+      "largura": "41"
+    },
+    {
+      "title": "24",
+      "comprimento": "56",
+      "largura": "43"
+    },
+    {
+      "title": "26",
+      "comprimento": "59",
+      "largura": "45"
+    },
+    {
+      "title": "28",
+      "comprimento": "62",
+      "largura": "47"
+    }
+  ],
+  "categories": []
+}

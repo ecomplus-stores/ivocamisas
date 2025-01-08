@@ -228,7 +228,169 @@
                 </div>
 
               </div>
-
+            <div v-if="getApxSizeTable().title">
+              <div class="mb-3">
+                <button type="button" class="pl-0 btn text-uppercase" @click="apx_sizeTableConfig.visible = true">
+                  <i class="i-ruler mr-1"></i> TABELA DE MEDIDAS
+                </button>
+              </div>
+              <div id="apxSizeTablePopup" v-if="apx_sizeTableConfig.visible">
+                <div class="backshadow"></div>
+                <div class="modal-container d-flex justify-content-between">
+                  <div class="modal-content">
+                    <div v-if="apx_sizeTableConfig.step == 0">
+                      <div class="row align-items-center">
+                        <div class="col-md-5" v-if="getApxSizeTable().image"><img :src="getApxSizeTable().image" class="w-100"/></div>
+                        <div class="col">
+                          <div class="text-center mb-4">
+                            <strong class="d-block">Compare as medidas com esta tabela.</strong>
+                            <small>Arraste as barras laterais para ver mais medidas e tamanhos</small>
+                          </div>
+                          <div v-if="getApxSizeTable().sizes.length > 0">
+                            <table>
+                              <thead>
+                                <tr>
+                                  <td>Tamanho</td>
+                                  <td v-if="getApxSizeTable().sizes[0].comprimento">Comprimento</td>
+                                  <td v-if="getApxSizeTable().sizes[0].largura">Largura</td>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr v-for="size in getApxSizeTable().sizes">
+                                  <td>{{size.title}}</td>
+                                  <td v-if="getApxSizeTable().sizes[0].comprimento">{{size.comprimento}}</td>
+                                  <td v-if="getApxSizeTable().sizes[0].largura">{{size.largura}}</td>
+                                </tr>
+                              </tbody>
+                              <tfoot>
+                                <tr>
+                                  <td colspan="3">
+                                    *Medidas em centímetros (cm)
+                                  </td>
+                                </tr>
+                              </tfoot>
+                            </table>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div v-if="apx_sizeTableConfig.step == 1">
+                      <div class="row align-items-center">
+                        <div class="col-md-5" v-if="getApxSizeTable().image"><img :src="getApxSizeTable().image" class="w-100"/></div>
+                        <div class="col">
+                          <div class="mb-4">
+                            <strong class="d-block h4 mb-0">Minhas medidas</strong>
+                            <small>Ajuste as medidas conforme o necessário</small>
+                          </div>
+                          <div class="medidas">
+                            <div class="row my-3 align-items-center"  v-if="getApxSizeTable().sizes[0].comprimento">
+                              <div class="col-md-4 col-12">Comprimento</div>
+                              <div class="col">
+                                <input type="range" min="0" max="180" step="1" v-model="apx_sizeTableConfig.comprimento">
+                              </div>
+                              <div class="col-auto">
+                                <div class="d-flex align-items-center">
+                                  <input type="number" min="0" max="180" step="1" autocomplete="off" v-model="apx_sizeTableConfig.comprimento">
+                                  <span>cm</span>
+                                </div>                                
+                              </div>
+                            </div>
+                            <div class="row my-3 align-items-center"  v-if="getApxSizeTable().sizes[0].largura">
+                              <div class="col-md-4 col-12">Largura</div>
+                              <div class="col">
+                                <input type="range" min="0" max="180" step="1" v-model="apx_sizeTableConfig.largura">
+                              </div>
+                              <div class="col-auto">
+                                <div class="d-flex align-items-center">
+                                  <input type="number" min="0" max="180" step="1" autocomplete="off" v-model="apx_sizeTableConfig.largura">
+                                  <span>cm</span>
+                                </div>                                
+                              </div>
+                            </div>
+                          </div>                         
+                        </div>
+                      </div>
+                    </div>
+                
+                    <div v-if="apx_sizeTableConfig.step == 2">
+                      <div class="row align-items-center">
+                        <div class="col-md-5" v-if="getApxSizeTable().image"><img :src="getApxSizeTable().image" class="w-100"/></div>
+                        <div class="col">
+                          <div class="text-center mb-4">
+                            <strong class="d-block">Compare as medidas com esta tabela.</strong>
+                            <small>Arraste as barras laterais para ver mais medidas e tamanhos</small>
+                          </div>
+                          <div v-if="getApxSizeTable().sizes.length > 0">
+                            <table>
+                              <thead>
+                                <tr>
+                                  <td>Tamanho</td>
+                                  <td  v-if="getApxSizeTable().sizes[0].comprimento">Comprimento</td>
+                                  <td  v-if="getApxSizeTable().sizes[0].largura">Largura</td>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr v-for="size in getApxSizeTable().sizes">
+                                  <td>{{size.title}}</td>
+                                  <td  v-if="getApxSizeTable().sizes[0].comprimento" :style="'background-color:' + checkSize(size.comprimento, apx_sizeTableConfig.comprimento, 'color', size.title)" >{{size.comprimento}}</td>
+                                  <td  v-if="getApxSizeTable().sizes[0].largura" :style="'background-color:' + checkSize(size.largura, apx_sizeTableConfig.largura,'color', size.title)" >{{size.largura}}</td>
+                                </tr>
+                              </tbody>
+                              <tfoot>
+                                <tr>
+                                  <td colspan="3">
+                                    *Medidas em centímetros (cm)
+                                  </td>
+                                </tr>
+                              </tfoot>
+                            </table>
+                            <div class="legenda">
+                              <div class="row">
+                                <div class="col-md-auto col-12 my-1 my-md-0">
+                                  <div class="d-flex align-items-center">
+                                    <span class="mr-1" style="background:#ff7675"></span>
+                                    <p>Apertado</p>
+                                  </div>
+                                </div>
+                                <div class="col-md-auto col-12 my-1 my-md-0">
+                                  <div class="d-flex align-items-center">
+                                    <span class="mr-1" style="background:#ffeaa7"></span>
+                                    <p>Justo</p>
+                                  </div>
+                                </div>
+                                <div class="col-md-auto col-12 my-1 my-md-0">
+                                  <div class="d-flex align-items-center">
+                                    <span class="mr-1" style="background:#55efc4"></span>
+                                    <p>Levemente Folgado</p>
+                                  </div>
+                                </div>
+                                <div class="col-md-auto col-12 my-1 my-md-0">
+                                  <div class="d-flex align-items-center">
+                                    <span class="mr-1" style="background:#74b9ff"></span>
+                                    <p>Largo</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer p-0 mt-4">
+                    <div class="row justify-content-between">
+                      <button v-if="apx_sizeTableConfig.step == 0" @click="apx_sizeTableConfig.step++" class="btn ml-2" type="button">Provador Virtual</button>
+                      <button v-if="apx_sizeTableConfig.step > 0" @click="apx_sizeTableConfig.step--" class="btn" type="button">Voltar</button>
+                      <button v-if="apx_sizeTableConfig.step < 2 && apx_sizeTableConfig.step > 0" @click="apx_sizeTableConfig.step++" class="btn ml-3" type="button">Avançar</button>
+                      <button v-if="apx_sizeTableConfig.step > 1" @click="apx_sizeTableConfig.step = 0;apx_sizeTableConfig.visible = false" class="btn ml-3" type="button">Fechar</button>
+                    </div>
+                  </div>
+                  <button type="button" aria-label="Fechar" class="close" @click="apx_sizeTableConfig.visible = false"><span aria-hidden="true">×</span></button>
+                </div>
+              </div>
+            </div>
             <div
               v-if="isKit"
               class="product__kit"

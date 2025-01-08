@@ -1,0 +1,40 @@
+{
+  "title": "NFL",
+  "image": "/img/uploads/TAB_NFL.png",
+  "skus": [
+    
+  ],
+  "sizes": [
+    {
+      "title": "P",
+      "comprimento": "79",
+      "largura": "58"
+    },
+    {
+      "title": "M",
+      "comprimento": "81",
+      "largura": "60"
+    },
+    {
+      "title": "G",
+      "comprimento": "83",
+      "largura": "63"
+    },
+    {
+      "title": "GG",
+      "comprimento": "85",
+      "largura": "66"
+    },
+    {
+      "title": "XGG",
+      "comprimento": "87",
+      "largura": "68"
+    },
+    {
+      "title": "XGGG",
+      "comprimento": "89",
+      "largura": "70"
+    }
+  ],
+  "categories": ["660dbe4a0fc534303debf1fb"]
+}

@@ -428,6 +428,7 @@ export default options => {
             name: 'skus',
             widget: 'select',
             multiple: true,
+            required:false,
             options: [
               ...options.state.routes
               .filter(({ sku }) => typeof sku === 'string')
@@ -442,6 +443,7 @@ export default options => {
             name: 'categories',
             widget: 'select',
             multiple: true,
+            required:false,
             options: [
               ...options.state.routes
               .filter(el => el.resource === 'categories')

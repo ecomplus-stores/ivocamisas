@@ -1,0 +1,30 @@
+{
+  "title": "NFL",
+  "image": "/img/uploads/TAB_FEMININO.png",
+  "skus": [
+    
+  ],
+  "sizes": [
+    {
+      "title": "P",
+      "comprimento": "61",
+      "largura": "40"
+    },
+    {
+      "title": "M",
+      "comprimento": "63",
+      "largura": "41"
+    },
+    {
+      "title": "G",
+      "comprimento": "66",
+      "largura": "44"
+    },
+    {
+      "title": "GG",
+      "comprimento": "69",
+      "largura": "47"
+    }
+  ],
+  "categories": []
+}
