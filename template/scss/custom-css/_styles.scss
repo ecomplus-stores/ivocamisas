@@ -1582,11 +1582,20 @@ input:not([type="radio"]):not([type="checkbox"]), button, select, textarea {
     .modal-container{
       max-width:calc(100% - 70px);
       padding: 1rem!important;
-      .modal-content{overflow-y:auto}
+      .modal-content{overflow-y:auto;overflow-x: hidden;}
     }
     .close{
       width: 30px;
       height: 30px;
     }
   }
+}
+
+.justify-content-center{justify-content: center;}
+.aviso-medidas{
+  background: #ffafaf;
+  font-weight: normal;
+  display: block;
+  padding: .5rem;
+  border-radius: .25rem;
 }

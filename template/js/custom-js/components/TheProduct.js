@@ -201,6 +201,14 @@ import {
       i19unitsInStock: () => i18n(i19unitsInStock),
       i19workingDays: () => i18n(i19workingDays),
 
+      filteredSizes() {
+        return this.getApxSizeTable().sizes.filter(size => {
+          const comprimentoCheck = this.checkSize(size.comprimento, this.apx_sizeTableConfig.comprimento, 'text', size.title);
+          const larguraCheck = this.checkSize(size.largura, this.apx_sizeTableConfig.largura, 'text', size.title);
+          return (comprimentoCheck === 'justo' || comprimentoCheck === 'levemente folgado') ||
+                 (larguraCheck === 'justo' || larguraCheck === 'levemente folgado');
+        });
+      },
       urlWhatsapp () {
         return `https://wa.me/5551994688672?text=Ol%C3%A1,%20estou%20na%20Ivo%20Camisas%20e%20gostaria%20de%20 comprar o produto ${window.location.href}`
       },
