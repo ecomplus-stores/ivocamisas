@@ -325,34 +325,61 @@ import {
     methods: {
       getVariationsGrids,
       getSpecValueByText,
+      // checkSize(tableValue, userValue, type) {
+      //   const difference = tableValue - userValue;
+        
+      //   if(type == "color"){
+      //     if (difference === 0) {
+      //       return "#ffeaa7";
+            
+      //     } else if (difference > 0 && difference <= 2) {
+      //       return "#55efc4";
+      //     } else if (difference > 2 ) {
+      //       return "#74b9ff";
+      //     } else {
+      //       return "#ff7675";
+      //     }
+      //   }else{
+      //     if (difference === 0) {
+      //       return "justo";
+      //     } else if (difference > 0 && difference <= 2) {
+      //       return "levemente folgado";
+      //     } else if (difference > 2 ) {
+      //       return "folgado";
+      //     } else {
+      //       return "apertado";
+      //     }
+      //   }
+        
+        
+      // },
+
       checkSize(tableValue, userValue, type) {
         const difference = tableValue - userValue;
+        const percentageDifference = (difference / tableValue) * 100;
         
-        if(type == "color"){
-          if (difference === 0) {
-            return "#ffeaa7";
-            
-          } else if (difference > 0 && difference <= 2) {
-            return "#55efc4";
-          } else if (difference > 2 ) {
-            return "#74b9ff";
-          } else {
-            return "#ff7675";
-          }
-        }else{
-          if (difference === 0) {
-            return "justo";
-          } else if (difference > 0 && difference <= 2) {
-            return "levemente folgado";
-          } else if (difference > 2 ) {
-            return "folgado";
-          } else {
-            return "apertado";
-          }
+        if (type == "color") {
+            if (difference === 0) {
+                return "#ffeaa7";
+            } else if (percentageDifference > 0 && percentageDifference <= 5) {
+                return "#55efc4";
+            } else if (percentageDifference > 5 && percentageDifference <= 10) {
+                return "#74b9ff";
+            } else {
+                return "#ff7675";
+            }
+        } else {
+            if (difference === 0) {
+                return "justo";
+            } else if (percentageDifference > 0 && percentageDifference <= 5) {
+                return "levemente folgado";
+            } else if (percentageDifference > 5 && percentageDifference <= 10) {
+                return "folgado";
+            } else {
+                return "apertado";
+            }
         }
-        
-        
-      },
+    },
       resultSizeCheckMessage(){
         let tables = this.getApxSizeTable().sizes
         tables.forEach((value, index) => {
