@@ -149,85 +149,6 @@
 
               <slot name="variations-info"/>
             </slot>
-
-            <slot
-              name="customizations"
-              v-if="body.customizations"
-            >
-              <div
-                v-for="custom in body.customizations"
-                v-if="custom.custom_value"
-                :key="custom._id"
-                class="product__customization form-group"
-                :class="custom.grid_id ? `product__customization--${custom.grid_id}` : null"
-              >
-                <label :for="`c-${custom._id}`">
-                  {{ custom.label }}
-                  <span
-                    v-if="custom.add_to_price"
-                    class="badge badge-secondary"
-                  >
-                    {{ formatAdditionalPrice(custom.add_to_price) }}
-                  </span>
-                </label>
-
-                <input
-                  type="text"
-                  v-if="!custom.img"
-                  class="form-control"
-                  :id="`c-${custom._id}`"
-                  @keyup="ev => setCustomizationOption(custom, ev.target.value)"
-                >
-
-                <span
-                  v-else 
-                >
-                  <img :src="custom.img" alt="" width="100px">
-                </span>
-              </div>
-            </slot>
-
-            <div
-                v-if="bodyCustomizations && bodyCustomizations.length"
-                class="product__customization__block__patch"
-              >
-                Escolha o seu Patch
-                <div class="choose-patch">
-                  <ul>
-                    <li
-                      v-for="custom in bodyCustomizations"
-                      v-if="custom.custom_value"
-                      :key="custom._id"
-                      class="product__customization form-group patch-select"
-                      :class="custom.grid_id ? `product__customization--${custom.grid_id}` : null"
-                    >
-                    <label :for="`c-${custom._id}`">
-                      {{ custom.label }}
-                      <span
-                        v-if="custom.add_to_price"
-                        class="badge badge-secondary"
-                      >
-                        {{ formatAdditionalPrice(custom.add_to_price) || `R$ 00,00` }}
-                      </span>
-                    </label>
-    
-                    <img
-                      type="text"
-                      v-if="custom.img"
-                      class="form-control"
-                      :class="custom.value === selectedPatch ? 'active' : ''"
-                      :id="`c-${custom._id}`"
-                      :src="custom.img"
-                      width="100"
-                      height="100"
-                      @click="ev => setCustomizationOption(custom, custom.value)"
-                    >
-                    <small>{{ custom.value }}</small>
-                  </li>
-                  </ul>
-                </div>
-
-              </div>
             <div v-if="getApxSizeTable().title">
               <div class="mb-3">
                 <button type="button" class="pl-0 btn text-uppercase" @click="apx_sizeTableConfig.visible = true">
@@ -400,6 +321,85 @@
                 </div>
               </div>
             </div>
+            <slot
+              name="customizations"
+              v-if="body.customizations"
+            >
+              <div
+                v-for="custom in body.customizations"
+                v-if="custom.custom_value"
+                :key="custom._id"
+                class="product__customization form-group"
+                :class="custom.grid_id ? `product__customization--${custom.grid_id}` : null"
+              >
+                <label :for="`c-${custom._id}`">
+                  {{ custom.label }}
+                  <span
+                    v-if="custom.add_to_price"
+                    class="badge badge-secondary"
+                  >
+                    {{ formatAdditionalPrice(custom.add_to_price) }}
+                  </span>
+                </label>
+
+                <input
+                  type="text"
+                  v-if="!custom.img"
+                  class="form-control"
+                  :id="`c-${custom._id}`"
+                  @keyup="ev => setCustomizationOption(custom, ev.target.value)"
+                >
+
+                <span
+                  v-else 
+                >
+                  <img :src="custom.img" alt="" width="100px">
+                </span>
+              </div>
+            </slot>
+
+            <div
+                v-if="bodyCustomizations && bodyCustomizations.length"
+                class="product__customization__block__patch"
+              >
+                Escolha o seu Patch
+                <div class="choose-patch">
+                  <ul>
+                    <li
+                      v-for="custom in bodyCustomizations"
+                      v-if="custom.custom_value"
+                      :key="custom._id"
+                      class="product__customization form-group patch-select"
+                      :class="custom.grid_id ? `product__customization--${custom.grid_id}` : null"
+                    >
+                    <label :for="`c-${custom._id}`">
+                      {{ custom.label }}
+                      <span
+                        v-if="custom.add_to_price"
+                        class="badge badge-secondary"
+                      >
+                        {{ formatAdditionalPrice(custom.add_to_price) || `R$ 00,00` }}
+                      </span>
+                    </label>
+    
+                    <img
+                      type="text"
+                      v-if="custom.img"
+                      class="form-control"
+                      :class="custom.value === selectedPatch ? 'active' : ''"
+                      :id="`c-${custom._id}`"
+                      :src="custom.img"
+                      width="100"
+                      height="100"
+                      @click="ev => setCustomizationOption(custom, custom.value)"
+                    >
+                    <small>{{ custom.value }}</small>
+                  </li>
+                  </ul>
+                </div>
+
+              </div>
+            
             <div
               v-if="isKit"
               class="product__kit"
