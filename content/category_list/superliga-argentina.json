@@ -58,6 +58,13 @@
             "price_patch": 20,
             "title": "LIBERTADORES 6 TAÇAS"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/libertadores-7-tacas.jpg",
+            "price_patch": 20,
+            "title": "LIBERTADORES 7 TAÇAS"
+          }
         }
       ],
       "size_guide_category": {
