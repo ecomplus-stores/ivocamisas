@@ -1,0 +1,35 @@
+{
+  "title": "NBA",
+  "image": "/img/uploads/TAB_NBA.png",
+  "skus": [
+    
+  ],
+  "sizes": [
+    {
+      "title": "P",
+      "comprimento": "76",
+      "largura": "53"
+    },
+    {
+      "title": "M",
+      "comprimento": "78",
+      "largura": "55"
+    },
+    {
+      "title": "G",
+      "comprimento": "80",
+      "largura": "57"
+    },
+    {
+      "title": "GG",
+      "comprimento": "82",
+      "largura": "59"
+    },
+    {
+      "title": "XGG",
+      "comprimento": "85",
+      "largura": "61"
+    }
+  ],
+  "categories": ["660dbcda0fc534303debec88"]
+}
