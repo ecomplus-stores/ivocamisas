@@ -1,0 +1,42 @@
+{
+  "title": "Brasileirão",
+  "slug_category": [
+    {
+      "category": "brasileirão",
+      "size_guide_category": {
+        "title": "GUIA DE TAMANHO",
+        "img_guide": "/img/uploads/tabela-de-medidas-masculino-atualizado.jpg"
+      },
+      "patch_list": [
+        {
+          "patch": {
+            "img_patch": "/img/uploads/blocktransp.png",
+            "price_patch": 0,
+            "title": "NÃO"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/brasileirao-2025.jpg",
+            "price_patch": 20,
+            "title": "BRASILEIRÃO"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/campeao-brasileiro-2024.jpg",
+            "price_patch": 20,
+            "title": "CAMPEÃO BRASILEIRO 2024"
+          }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/campeao-copa-do-brasil-2024.jpg",
+            "price_patch": 20,
+            "title": "CAMPEÃO COPA DO BRASIL 2024"
+          }
+        }
+      ]
+    }
+  ]
+}
