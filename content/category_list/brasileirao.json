@@ -35,6 +35,13 @@
             "price_patch": 20,
             "title": "CAMPEÃO COPA DO BRASIL 2024"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/campeao-mineiro-2025.jpg",
+            "price_patch": 20,
+            "title": "CAMPEÃO MINEIRO 2025"
+          }
         }
       ]
     }
