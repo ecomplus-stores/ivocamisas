@@ -24,6 +24,11 @@
       "type": "product-description",
       "title": "Quem comprou este produto, também comprou:",
       "enabled": true
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/descricao-1.png",
+      "link": "https://www.ivocamisas.com.br/pages/feedback-de-clientes"
     }
   ]
 }
