@@ -27,6 +27,14 @@
     },
     {
       "type": "responsive-banner",
+      "img": "/img/uploads/dicas-de-uso.png"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/durabilidade.png"
+    },
+    {
+      "type": "responsive-banner",
       "img": "/img/uploads/descricao-1.png",
       "link": "https://www.ivocamisas.com.br/pages/feedback-de-clientes"
     }
