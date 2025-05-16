@@ -282,7 +282,6 @@
       "autoplay": 5000,
       "sort": null
     },
-    [
     {
     "type": "review-carousel",
     "autoplay": 9000,
@@ -327,3 +326,4 @@
     ]
     }
     ]
+    }
