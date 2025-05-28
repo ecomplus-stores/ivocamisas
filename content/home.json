@@ -92,14 +92,14 @@
           ]
         },
         {
-          "title": "La Liga",
+          "title": "Serie A",
           "banners": [
             {
-              "img": "/img/uploads/barcelona-pc.jpg",
-              "link": "https://www.ivocamisas.com.br/barcelona/",
+              "img": "/img/uploads/milan-pc.jpg",
+              "link": "https://www.ivocamisas.com.br/milan/",
               "title": "On",
               "btn_text": "Fire",
-              "mobile_img": "/img/uploads/barcelona-mobile.jpg"
+              "mobile_img": "/img/uploads/milan-mobile.jpg"
             },
             {
               "img": "/img/uploads/los-celticos.jpg",
