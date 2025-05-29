@@ -23,6 +23,13 @@
             "price_patch": 20,
             "title": "LIGA MX CAMPEÃO"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/mundial-de-clubes-2025.jpg",
+            "price_patch": 20,
+            "title": "MUNDIAL DE CLUBES 2025"
+          }
         }
       ],
       "size_guide_category": {
