@@ -1,9 +1,7 @@
 {
   "title": "Jaqueta Viagem",
   "image": "/img/uploads/TAB_JAQUETA.png",
-  "skus": [
-    "ELJ9284"
-  ],
+  "skus": null,
   "sizes": [
     {
       "title": "P",
@@ -31,5 +29,8 @@
       "largura": "60"
     }
   ],
-  "categories": []
+  "categories": [
+    "660dbc9c0fc534303debebb9",
+    "660dbce20fc534303debeca4"
+  ]
 }
