@@ -1,9 +1,7 @@
 {
   "title": "FUTEBOL",
   "image": "/img/uploads/TAB_MASC_FUT.png",
-  "skus": [
-    
-  ],
+  "skus": [],
   "sizes": [
     {
       "title": "P",
@@ -36,5 +34,35 @@
       "largura": "63"
     }
   ],
-  "categories": ["660dbcc50fc534303debec48","660dbc310fc534303debe9e9","660dbc2e0fc534303debe9d4","660dbcdb0fc534303debec8b","660dbc380fc534303debea03","660dbdc90fc534303debf011","660dbc770fc534303debeb16","660dbe1b0fc534303debf155","660dbc290fc534303debe9b4"]
+  "categories": [
+    "660dbcc50fc534303debec48",
+    "660dbc310fc534303debe9e9",
+    "660dbc2e0fc534303debe9d4",
+    "660dbcdb0fc534303debec8b",
+    "660dbc380fc534303debea03",
+    "660dbdc90fc534303debf011",
+    "660dbc770fc534303debeb16",
+    "660dbe1b0fc534303debf155",
+    "660dbc290fc534303debe9b4",
+    "660dbc370fc534303debe9ff",
+    "660dbdcc0fc534303debf01a",
+    "660dbc2f0fc534303debe9db",
+    "660dbdca0fc534303debf013",
+    "660dbd130fc534303debed4b",
+    "660dbdac0fc534303debefa5",
+    "660dbc2c0fc534303debe9ba",
+    "660dbc2d0fc534303debe9c4",
+    "660dbc320fc534303debe9ee",
+    "660dbc740fc534303debeb0f",
+    "660dbc750fc534303debeb13",
+    "660dbca20fc534303debebcf",
+    "660dbca30fc534303debebd5",
+    "660dbce00fc534303debec9a",
+    "660dbdb10fc534303debefb7",
+    "660dbdb50fc534303debefca",
+    "660dbe1c0fc534303debf15a",
+    "660dbe1d0fc534303debf15f",
+    "660dbe270fc534303debf180",
+    "67cf6e7d53d3dd5b9c90989b"
+  ]
 }
