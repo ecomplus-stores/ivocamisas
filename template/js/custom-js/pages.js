@@ -5,8 +5,8 @@ $('.tabs').click((e) => {
     if (e.target && e.target.dataset && e.target.dataset.tab) {
         const league = e.target.dataset.tab
         const tabs = $('.tabs-container .tabs .tab')
-        for (tabO in tabs) {
-            let tab = tabs[tabO]
+        for (let tab0 in tabs) {
+            let tab = tabs[tab0]
             if (tab.childNodes) {
                 const dataTab = tab.childNodes[0] && tab.childNodes[0].dataset && tab.childNodes[0].dataset.tab
                 if (tab.classList) {
@@ -29,8 +29,9 @@ $('#col-leagues .stamps').click((e) => {
     if (e.target && e.target.dataset && e.target.dataset.liga) {
         const league = e.target.dataset.liga
         const tabs = $('.tabs-container .tabs .tab')
-        for (tabO in tabs) {
-            let tab = tabs[tabO]
+        console.log(tabs)
+        for (let tab0 in tabs) {
+            let tab = tabs[tab0]
             if (tab.childNodes) {
                 const dataTab = tab.childNodes[0] && tab.childNodes[0].dataset && tab.childNodes[0].dataset.tab
                 console.log(dataTab)
