@@ -65,6 +65,13 @@
             "price_patch": 20,
             "title": "CAMPEÃO CONFERENCE LEAGUE 2024"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/f9eb94624ac8d3fdbe49cb61ebe02829191f33f430f5b49695d91e776e3669b5.jpeg",
+            "price_patch": 20,
+            "title": "CAMPEÃO EUROPA LEAGUE 2024"
+          }
         }
       ],
       "size_guide_category": {
