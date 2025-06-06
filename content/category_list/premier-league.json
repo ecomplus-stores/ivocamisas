@@ -58,6 +58,13 @@
             "price_patch": 20,
             "title": "CONFERENCE LEAGUE"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/cbdb01342bef931d8ac621d6387a0bee16538aab95fd628bc9a7b6a5e8eb1de3.jpeg",
+            "price_patch": 20,
+            "title": "CAMPEÃO CONFERENCE LEAGUE 2024"
+          }
         }
       ],
       "size_guide_category": {
