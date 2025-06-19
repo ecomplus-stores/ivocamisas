@@ -63,6 +63,13 @@
             "price_patch": 20,
             "title": "LIGA COLOMBIANA"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/mundial-de-clubes-2025-branco.jpg",
+            "price_patch": 30,
+            "title": "MUNDIAL DE CLUBES 2025"
+          }
         }
       ]
     }
