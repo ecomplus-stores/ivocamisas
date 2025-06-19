@@ -65,6 +65,13 @@
             "price_patch": 30,
             "title": "MUNDIAL DE CLUBES (AZUL)"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/mundial-de-clubes-2025-branco.jpg",
+            "price_patch": 30,
+            "title": "MUNDIAL DE CLUBES 2025"
+          }
         }
       ],
       "size_guide_category": {
