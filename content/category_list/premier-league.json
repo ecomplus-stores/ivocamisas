@@ -72,6 +72,13 @@
             "price_patch": 20,
             "title": "CAMPEÃO EUROPA LEAGUE 2024"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/mundial-de-clubes-2025-azul-escuro.jpg",
+            "price_patch": 30,
+            "title": "MUNDIAL DE CLUBES 2025 (AZUL)"
+          }
         }
       ],
       "size_guide_category": {
