@@ -175,8 +175,6 @@
                                   <td>Tamanho</td>
                                   <td v-if="getApxSizeTable().sizes[0].comprimento">Comprimento</td>
                                   <td v-if="getApxSizeTable().sizes[0].largura">Largura</td>
-                                  <td v-if="getApxSizeTable().sizes[0].comprimento_2">Comprimento (2ª medida)</td>
-                                  <td v-if="getApxSizeTable().sizes[0].largura_2">Largura (2ª medida)</td>
                                 </tr>
                               </thead>
                               <tbody>
@@ -184,8 +182,6 @@
                                   <td>{{size.title}}</td>
                                   <td v-if="getApxSizeTable().sizes[0].comprimento">{{size.comprimento}}</td>
                                   <td v-if="getApxSizeTable().sizes[0].largura">{{size.largura}}</td>
-                                  <td v-if="getApxSizeTable().sizes[0].comprimento_2">{{size.comprimento_2}}</td>
-                                  <td v-if="getApxSizeTable().sizes[0].largura_2">{{size.largura_2}}</td>
                                 </tr>
                               </tbody>
                               <tfoot>
@@ -213,11 +209,11 @@
                             <div class="row my-3 align-items-center"  v-if="getApxSizeTable().sizes[0].comprimento">
                               <div class="col-md-4 col-12">Comprimento</div>
                               <div class="col">
-                                <input type="range" min="0" max="120" step="1" v-model="apx_sizeTableConfig.comprimento">
+                                <input type="range" min="0" max="180" step="1" v-model="apx_sizeTableConfig.comprimento">
                               </div>
                               <div class="col-auto">
                                 <div class="d-flex align-items-center">
-                                  <input type="number" min="0" max="120" step="1" autocomplete="off" v-model="apx_sizeTableConfig.comprimento">
+                                  <input type="number" min="0" max="180" step="1" autocomplete="off" v-model="apx_sizeTableConfig.comprimento">
                                   <span>cm</span>
                                 </div>                                
                               </div>
@@ -225,36 +221,11 @@
                             <div class="row my-3 align-items-center"  v-if="getApxSizeTable().sizes[0].largura">
                               <div class="col-md-4 col-12">Largura</div>
                               <div class="col">
-                                <input type="range" min="0" max="120" step="1" v-model="apx_sizeTableConfig.largura">
+                                <input type="range" min="0" max="180" step="1" v-model="apx_sizeTableConfig.largura">
                               </div>
                               <div class="col-auto">
                                 <div class="d-flex align-items-center">
-                                  <input type="number" min="0" max="120" step="1" autocomplete="off" v-model="apx_sizeTableConfig.largura">
-                                  <span>cm</span>
-                                </div>                                
-                              </div>
-                            </div>
-                            <div class="row my-3 align-items-center"  v-if="getApxSizeTable().sizes[0].comprimento_2">
-                              <div class="col-md-4 col-12">Comprimento (2ª medida)</div>
-                              <div class="col">
-                                <input type="range" min="0" max="120" step="1" v-model="apx_sizeTableConfig.comprimento_2">
-                              </div>
-                              <div class="col-auto">
-                                <div class="d-flex align-items-center">
-                                  <input type="number" min="0" max="180" step="1" autocomplete="off" v-model="apx_sizeTableConfig.comprimento_2">
-                                  <span>cm</span>
-                                </div>                                
-                              </div>
-                            </div>
-
-                            <div class="row my-3 align-items-center"  v-if="getApxSizeTable().sizes[0].largura_2">
-                              <div class="col-md-4 col-12">Largura (2ª medida)</div>
-                              <div class="col">
-                                <input type="range" min="0" max="180" step="1" v-model="apx_sizeTableConfig.largura_2">
-                              </div>
-                              <div class="col-auto">
-                                <div class="d-flex align-items-center">
-                                  <input type="number" min="0" max="180" step="1" autocomplete="off" v-model="apx_sizeTableConfig.largura_2">
+                                  <input type="number" min="0" max="180" step="1" autocomplete="off" v-model="apx_sizeTableConfig.largura">
                                   <span>cm</span>
                                 </div>                                
                               </div>
@@ -275,7 +246,7 @@
                           <div v-if="getApxSizeTable().sizes.length > 0">
                             <div class="row justify-content-center mb-3 align-items-center">
                               <div class="col-auto">
-                                <b class="d-block d-md-inline">Suas medidas:</b> <span v-if="apx_sizeTableConfig.comprimento"><b>{{apx_sizeTableConfig.comprimento}}cm</b> de comprimento</span> <span v-if="apx_sizeTableConfig.largura">e <b>{{apx_sizeTableConfig.largura}}cm</b> de largura</span> <span v-if="apx_sizeTableConfig.comprimento_2"><b>{{apx_sizeTableConfig.comprimento_2}}cm</b> de comprimento (2ª medida)</span> <span v-if="apx_sizeTableConfig.largura_2">e <b>{{apx_sizeTableConfig.largura_2}}cm</b> de largura (2ª medida)</span>
+                                <b class="d-block d-md-inline">Suas medidas:</b> <span v-if="apx_sizeTableConfig.comprimento"><b>{{apx_sizeTableConfig.comprimento}}cm</b> de comprimento</span> <span v-if="apx_sizeTableConfig.largura">e <b>{{apx_sizeTableConfig.largura}}cm</b> de largura</span> 
                               </div>
                             </div>
                             <div v-if="filteredSizes.length == 0" class="d-block text-center">
@@ -287,8 +258,6 @@
                                   <td>Tamanho</td>
                                   <td  v-if="getApxSizeTable().sizes[0].comprimento">Comprimento</td>
                                   <td  v-if="getApxSizeTable().sizes[0].largura">Largura</td>
-                                  <td  v-if="getApxSizeTable().sizes[0].comprimento_2">Comprimento (2ª medida)</td>
-                                  <td  v-if="getApxSizeTable().sizes[0].largura_2">Largura (2ª medida)</td>
                                 </tr>
                               </thead>
                               <tbody>
@@ -296,8 +265,6 @@
                                   <td>{{size.title}}</td>
                                   <td  v-if="getApxSizeTable().sizes[0].comprimento" :style="'background-color:' + checkSize(size.comprimento, apx_sizeTableConfig.comprimento, 'color', size.title)" >{{size.comprimento}}</td>
                                   <td  v-if="getApxSizeTable().sizes[0].largura" :style="'background-color:' + checkSize(size.largura, apx_sizeTableConfig.largura,'color', size.title)" >{{size.largura}}</td>
-                                  <td  v-if="getApxSizeTable().sizes[0].comprimento_2" :style="'background-color:' + checkSize(size.comprimento_2, apx_sizeTableConfig.comprimento_2,'color', size.title)" >{{size.comprimento_2}}</td>
-                                  <td  v-if="getApxSizeTable().sizes[0].largura_2" :style="'background-color:' + checkSize(size.largura_2, apx_sizeTableConfig.largura_2,'color', size.title)" >{{size.largura_2}}</td>
                                 </tr>
                               </tbody>
                               <tfoot>

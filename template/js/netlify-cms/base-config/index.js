@@ -489,6 +489,20 @@ export default options => {
                 "required": false,
                 "name": "largura",
                 "widget": "string"
+              },    
+              {
+                  "label": "Comprimento (cm) (2ª medida - Conjuntos)",
+                  hint: 'Caso o produto não tenha um segundo tamanho, deixe em branco',
+                  "required": false,
+                  "name": "comprimento_2",
+                  "widget": "string"
+              },
+              {
+                "label": "Largura (cm) (2ª medida - Conjuntos)",
+                hint: 'Caso o produto não tenha um segundo tamanho, deixe em branco',
+                "required": false,
+                "name": "largura_2",
+                "widget": "string"
               },          
             ] 
           },      

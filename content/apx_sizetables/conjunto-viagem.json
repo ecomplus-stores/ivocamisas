@@ -1,0 +1,47 @@
+{
+  "title": "Jaqueta Viagem",
+  "image": "/img/uploads/TAB_CONJ_VIAGEM.png",
+  "skus": [
+    ""
+  ],
+  "sizes": [
+    {
+      "title": "P",
+      "comprimento": "68",
+      "largura": "50",
+      "comprimento_2": "96"
+      
+      
+    },
+    {
+      "title": "M",
+      "comprimento": "71",
+      "largura": "53",
+      "comprimento_2": "98"
+      
+    },
+    {
+      "title": "G",
+      "comprimento": "73",
+      "largura": "55",
+      "comprimento_2": "101"
+      
+    },
+    {
+      "title": "GG",
+      "comprimento": "75",
+      "largura": "57",
+      "comprimento_2": "104"
+      
+    },
+    {
+      "title": "XGG",
+      "comprimento": "78",
+      "largura": "60",
+      "comprimento_2": "107"
+      
+    }
+    
+  ],
+  "categories": ["660dbc900fc534303debeb8b"]
+}

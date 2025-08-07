@@ -173,8 +173,6 @@ import {
           step:0,
           comprimento:60,
           largura:60,
-          comprimento_2:60,
-          largura_2:60,
           tables: []
         }
       }
@@ -203,30 +201,14 @@ import {
       i19unitsInStock: () => i18n(i19unitsInStock),
       i19workingDays: () => i18n(i19workingDays),
 
-     filteredSizes() {
-      return this.getApxSizeTable().sizes.filter(size => {
-        const comprimentoCheck = this.checkSize(size.comprimento, this.apx_sizeTableConfig.comprimento, 'text', size.title);
-        const larguraCheck = this.checkSize(size.largura, this.apx_sizeTableConfig.largura, 'text', size.title);
-        
-        // Verificar se há comprimento_2 e largura_2
-        let comprimento2Check = null;
-        let largura2Check = null;
-        
-        if (size.comprimento_2 && this.apx_sizeTableConfig.comprimento_2) {
-          comprimento2Check = this.checkSize(size.comprimento_2, this.apx_sizeTableConfig.comprimento_2, 'text', size.title);
-        }
-        
-        if (size.largura_2 && this.apx_sizeTableConfig.largura_2) {
-          largura2Check = this.checkSize(size.largura_2, this.apx_sizeTableConfig.largura_2, 'text', size.title);
-        }
-        
-        // Criar array com todos os checks válidos
-        const allChecks = [comprimentoCheck, larguraCheck, comprimento2Check, largura2Check].filter(check => check !== null);
-        
-        // Retornar true se pelo menos uma medida for "justo" ou "levemente folgado"
-        return allChecks.some(check => check === 'justo' || check === 'levemente folgado');
-      });
-    },
+      filteredSizes() {
+        return this.getApxSizeTable().sizes.filter(size => {
+          const comprimentoCheck = this.checkSize(size.comprimento, this.apx_sizeTableConfig.comprimento, 'text', size.title);
+          const larguraCheck = this.checkSize(size.largura, this.apx_sizeTableConfig.largura, 'text', size.title);
+          return (comprimentoCheck === 'justo' || comprimentoCheck === 'levemente folgado') ||
+                 (larguraCheck === 'justo' || larguraCheck === 'levemente folgado');
+        });
+      },
       urlWhatsapp () {
         return `https://wa.me/5551994688672?text=Ol%C3%A1,%20estou%20na%20Ivo%20Camisas%20e%20gostaria%20de%20 comprar o produto ${window.location.href}`
       },
@@ -398,46 +380,21 @@ import {
             }
         }
     },
-    resultSizeCheckMessage(){
-      let tables = this.getApxSizeTable().sizes
-      tables.forEach((value, index) => {
-        console.log(value.title)
-        tables[index].result_comprimento = this.checkSize(value.comprimento, this.apx_sizeTableConfig.comprimento, 'text')
-        tables[index].result_largura = this.checkSize(value.largura, this.apx_sizeTableConfig.largura, 'text')
-        
-        // Adicionar verificações para comprimento_2 e largura_2
-        if (value.comprimento_2 && this.apx_sizeTableConfig.comprimento_2) {
-          tables[index].result_comprimento_2 = this.checkSize(value.comprimento_2, this.apx_sizeTableConfig.comprimento_2, 'text')
-        }
-        
-        if (value.largura_2 && this.apx_sizeTableConfig.largura_2) {
-          tables[index].result_largura_2 = this.checkSize(value.largura_2, this.apx_sizeTableConfig.largura_2, 'text')
-        }
-        
-        // Construir mensagem baseada em todas as medidas disponíveis
-        const measurements = [];
-        if (tables[index].result_comprimento) {
-          measurements.push(`comprimento está ${tables[index].result_comprimento}`);
-        }
-        if (tables[index].result_largura) {
-          measurements.push(`largura está ${tables[index].result_largura}`);
-        }
-        if (tables[index].result_comprimento_2) {
-          measurements.push(`comprimento (2ª medida) está ${tables[index].result_comprimento_2}`);
-        }
-        if (tables[index].result_largura_2) {
-          measurements.push(`largura (2ª medida) está ${tables[index].result_largura_2}`);
-        }
-        
-        if (measurements.length > 1) {
-          const lastMeasurement = measurements.pop();
-          tables[index].result_message = `As medidas de ${measurements.join(', ')} e ${lastMeasurement}.`;
-        } else if (measurements.length === 1) {
-          tables[index].result_message = `A medida de ${measurements[0]}.`;
-        }
-      })
-      this.apx_sizeTableConfig.tables = tables        
-    },
+      resultSizeCheckMessage(){
+        let tables = this.getApxSizeTable().sizes
+        tables.forEach((value, index) => {
+          console.log(value.title)
+          tables[index].result_comprimento = this.checkSize(value.comprimento, this.apx_sizeTableConfig.comprimento, 'text')
+          tables[index].result_largura = this.checkSize(value.largura, this.apx_sizeTableConfig.largura, 'text')
+          if(tables[index].result_comprimento  == tables[index].result_largura){
+            tables[index].result_message =  `As medidas de largura e comprimento estão ${tables[index].result_comprimento}.`
+          }else{
+            tables[index].result_message =  `A medida de largura ficou ${tables[index].result_largura} e a de comprimento está ${tables[index].result_comprimento}.`
+          }
+          
+        })
+        this.apx_sizeTableConfig.tables = tables        
+      },
       getApxSizeTable(){
         //console.log(window.apx_sizetables)
         if(window.apx_sizetables.title){
