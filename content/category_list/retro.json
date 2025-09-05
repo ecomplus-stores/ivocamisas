@@ -73,14 +73,14 @@
         {
           "patch": {
             "img_patch": "/img/uploads/premier-league-retro-2004.jpg",
-            "price_patch": 10,
+            "price_patch": 30,
             "title": "PREMIER LEAGUE 2004-2007"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/la-liga-retro-2016-2023.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "LA LIGA 2016-2023"
           }
         },
@@ -101,14 +101,14 @@
         {
           "patch": {
             "img_patch": "/img/uploads/copa-do-mundo-2006.jpg",
-            "price_patch": 31,
+            "price_patch": 30,
             "title": "COPA DO MUNDO 2006"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/copa-do-mundo-2010.jpg",
-            "price_patch": 33,
+            "price_patch": 30,
             "title": "COPA DO MUNDO 2010"
           }
         }
