@@ -17,21 +17,21 @@
         {
           "patch": {
             "img_patch": "/img/uploads/uwcl.jpeg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "UWCL"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/barclays-womens.jpeg",
-            "price_patch": 10,
+            "price_patch": 30,
             "title": "BARCLAYS WOMEN'S"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/copa-do-mundo-feminina-2023-ii.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "COPA DO MUNDO 2023"
           }
         },
