@@ -17,28 +17,28 @@
         {
           "patch": {
             "img_patch": "/img/uploads/premier-league-retro.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "PREMIER LEAGUE 2007-2016"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/la-liga-retro.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "LA LIGA 1993-2016"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/serie-a-tim-retro.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "SERIE A TIM 1997-2010"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/bundesliga-retro.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "BUNDESLIGA 2002-2010"
           }
         },
@@ -52,7 +52,7 @@
         {
           "patch": {
             "img_patch": "/img/uploads/serie-a-tim-retro-2015-2018.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "SERIE A TIM 2010-2016"
           }
         },
@@ -66,7 +66,7 @@
         {
           "patch": {
             "img_patch": "/img/uploads/premier-league-retro-1993.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "PREMIER LEAGUE 1993-2003"
           }
         },
@@ -87,7 +87,7 @@
         {
           "patch": {
             "img_patch": "/img/uploads/copa-do-mundo-2014.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "COPA DO MUNDO 2014"
           }
         },
@@ -101,14 +101,14 @@
         {
           "patch": {
             "img_patch": "/img/uploads/copa-do-mundo-2006.jpg",
-            "price_patch": 20,
+            "price_patch": 31,
             "title": "COPA DO MUNDO 2006"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/copa-do-mundo-2010.jpg",
-            "price_patch": 20,
+            "price_patch": 33,
             "title": "COPA DO MUNDO 2010"
           }
         }
