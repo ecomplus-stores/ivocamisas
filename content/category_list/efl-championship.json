@@ -13,21 +13,21 @@
         {
           "patch": {
             "img_patch": "/img/uploads/CHAMPIONSHIP.png",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "CHAMPIONSHIP"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/EFL CUP.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "EFL CUP"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/fa-cup.jpeg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "FA CUP"
           }
         }
