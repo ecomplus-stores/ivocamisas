@@ -18,49 +18,49 @@
         {
           "patch": {
             "img_patch": "/img/uploads/ucl-24-25.jpeg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "UCL"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/europa-league-24-25.jpeg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "EUROPA LEAGUE"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/conference-league-24-25.jpeg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "CONFERENCE LEAGUE"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/PREMIER LEAGUE.png",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "PREMIER LEAGUE"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/la-liga-2024-25.jpeg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "LA LIGA"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/serie-a-2024-25.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "SERIE A"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/BUNDESLIGA.png",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "BUNDESLIGA"
           }
         },
