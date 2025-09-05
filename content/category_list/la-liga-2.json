@@ -14,21 +14,21 @@
         {
           "patch": {
             "img_patch": "/img/uploads/dd6e23b8abd84b0397a08c92e0c9d87f0edf5e331e739fb2cd64ba0795279508.jpeg",
-            "price_patch": 10,
+            "price_patch": 30,
             "title": "LA LIGA "
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/la-liga-campeao-2023-2024.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "LA LIGA CAMPEÃO 2023-2024"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/COPA DO REI.jpg",
-            "price_patch": 10,
+            "price_patch": 30,
             "title": "COPA DO REI"
           }
         }
