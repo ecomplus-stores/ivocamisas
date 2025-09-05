@@ -13,14 +13,14 @@
         {
           "patch": {
             "img_patch": "/img/uploads/mls-2024.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "MLS"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/mls-campeao.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "MLS CAMPEÃO"
           }
         },
