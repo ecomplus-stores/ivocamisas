@@ -13,35 +13,35 @@
         {
           "patch": {
             "img_patch": "/img/uploads/ligue-1-2024-25.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "LIGUE 1"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/ligue-1-campeao-2023-2024.jpg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "CAMPEÃO 2023-2024"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/ucl-24-25.jpeg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "UCL"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/europa-league-24-25.jpeg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "EUROPA LEAGUE"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/conference-league-24-25.jpeg",
-            "price_patch": 20,
+            "price_patch": 30,
             "title": "CONFERENCE LEAGUE"
           }
         },
