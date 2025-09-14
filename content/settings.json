@@ -6,7 +6,7 @@
     "bootswatch": "_",
     "custom": "_"
   },
-  "bg_color": "#7200dd",
+  "bg_color": "#000000",
   "repository": "ecomplus-stores/ivocamisas",
   "logo": "/img/uploads/logo.png",
   "name": "Ivo Camisas",
@@ -19,8 +19,8 @@
   "icons_font": "_",
   "country_code": "BR",
   "secondary_color": "#808080",
-  "icon": "/img/uploads/logoredesocialpretasemfundo.png",
+  "icon": "/img/uploads/img-20250914-wa0074.jpg",
   "store_id": 1196,
   "description": "A Loja Ivo Camisas é um E-commerce de vendas de produtos importados. Nascemos no ano de 2015 com a fundação da Ivo Camisas – Uma Loja virtual com produtos a pronta entrega em Porto Alegre - RS. Ampliamos nossa atuação para o atacado em 2017, Decidimos focar todos os nossos esforços a uma operação exclusivamente online, com a venda de produtos sob encomenda.\n\n- Missão:\n\nConectar as pessoas a uma vida com mais estilo e simplicidade.\n\n- Visão\n\n- Transparência\n\n- Inovação\n\n- Foco no resultado",
-  "large_icon": "/img/uploads/logoredesocialpretasemfundo.png"
+  "large_icon": "/img/uploads/img-20250914-wa0074.jpg"
 }
