@@ -69,11 +69,11 @@
           "title": "Premier League",
           "banners": [
             {
-              "img": "/img/uploads/newcastle-pc.jpg",
-              "link": "https://www.ivocamisas.com.br/newcastle-united/",
+              "img": "/img/uploads/the-gunners-pc.png",
+              "link": "https://www.ivocamisas.com.br/search?term=the+gunners",
               "title": "On",
               "btn_text": "Fire",
-              "mobile_img": "/img/uploads/newcastle-moba.jpg"
+              "mobile_img": "/img/uploads/the-gunners-mobile.png"
             },
             {
               "img": "/img/uploads/the-vilans.jpg",
