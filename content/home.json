@@ -92,14 +92,14 @@
           ]
         },
         {
-          "title": "Serie A",
+          "title": "Bundesliga",
           "banners": [
             {
-              "img": "/img/uploads/milan-pc.jpg",
-              "link": "https://www.ivocamisas.com.br/milan/",
+              "img": "/img/uploads/st.-pauli-pc.png",
+              "link": "https://www.ivocamisas.com.br/search?term=st.+pauli",
               "title": "On",
               "btn_text": "Fire",
-              "mobile_img": "/img/uploads/milan-mobile.jpg"
+              "mobile_img": "/img/uploads/st.-pauli-mobile.png"
             },
             {
               "img": "/img/uploads/signora.jpg",
