@@ -133,6 +133,13 @@
               "link": "https://www.ivocamisas.com.br/search?term=atlético+mineiro",
               "img": "/img/uploads/mineiro.png",
               "mobile_img": "/img/uploads/mineiro.png"
+            },
+            {
+              "link": "https://www.ivocamisas.com.br/search?term=cruzeiro",
+              "title": "On",
+              "btn_text": "Fire",
+              "img": "/img/uploads/cruzeiro.png",
+              "mobile_img": "/img/uploads/cruzeiro.png"
             }
           ]
         }
