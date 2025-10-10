@@ -116,6 +116,18 @@
               "mobile_img": "/img/uploads/suabios-2.png"
             }
           ]
+        },
+        {
+          "title": "Brasileirão",
+          "banners": [
+            {
+              "title": "On",
+              "btn_text": "Fire",
+              "link": "https://www.ivocamisas.com.br/search?term=Grêmio",
+              "img": "/img/uploads/gremio-1.png",
+              "mobile_img": "/img/uploads/gremio-2.png"
+            }
+          ]
         }
       ],
       "title": "Melhores ligas"
