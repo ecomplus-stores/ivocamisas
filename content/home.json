@@ -66,28 +66,28 @@
       "type": "apx-tab-banners",
       "tabs": [
         {
-          "title": "Premier League",
+          "title": "Brasileirão",
           "banners": [
             {
-              "img": "/img/uploads/arsenal-pc.png",
-              "link": "https://www.ivocamisas.com.br/search?term=the+gunners",
               "title": "On",
               "btn_text": "Fire",
-              "mobile_img": "/img/uploads/arsenal-mobile.png"
+              "link": "https://www.ivocamisas.com.br/search?term=Grêmio",
+              "img": "/img/uploads/gremio-1.png",
+              "mobile_img": "/img/uploads/gremio-2.png"
             },
             {
-              "img": "/img/uploads/the-reds-2.png",
-              "link": "https://www.ivocamisas.com.br/search?term=the+reds",
               "title": "On",
               "btn_text": "Fire",
-              "mobile_img": "/img/uploads/the-reds-2.png"
+              "link": "https://www.ivocamisas.com.br/search?term=atlético+mineiro",
+              "img": "/img/uploads/mineiro.png",
+              "mobile_img": "/img/uploads/mineiro.png"
             },
             {
-              "img": "/img/uploads/the-blues-2.png",
-              "link": "https://www.ivocamisas.com.br/chelsea/",
+              "link": "https://www.ivocamisas.com.br/search?term=cruzeiro",
               "title": "On",
               "btn_text": "Fire",
-              "mobile_img": "/img/uploads/the-blues-2.png"
+              "img": "/img/uploads/cruzeiro.png",
+              "mobile_img": "/img/uploads/cruzeiro.png"
             }
           ]
         },
@@ -118,28 +118,28 @@
           ]
         },
         {
-          "title": "Brasileirão",
+          "title": "Premier League",
           "banners": [
             {
+              "img": "/img/uploads/arsenal-pc.png",
+              "link": "https://www.ivocamisas.com.br/search?term=the+gunners",
               "title": "On",
               "btn_text": "Fire",
-              "link": "https://www.ivocamisas.com.br/search?term=Grêmio",
-              "img": "/img/uploads/gremio-1.png",
-              "mobile_img": "/img/uploads/gremio-2.png"
+              "mobile_img": "/img/uploads/arsenal-mobile.png"
             },
             {
+              "img": "/img/uploads/the-reds-2.png",
+              "link": "https://www.ivocamisas.com.br/search?term=the+reds",
               "title": "On",
               "btn_text": "Fire",
-              "link": "https://www.ivocamisas.com.br/search?term=atlético+mineiro",
-              "img": "/img/uploads/mineiro.png",
-              "mobile_img": "/img/uploads/mineiro.png"
+              "mobile_img": "/img/uploads/the-reds-2.png"
             },
             {
-              "link": "https://www.ivocamisas.com.br/search?term=cruzeiro",
+              "img": "/img/uploads/the-blues-2.png",
+              "link": "https://www.ivocamisas.com.br/chelsea/",
               "title": "On",
               "btn_text": "Fire",
-              "img": "/img/uploads/cruzeiro.png",
-              "mobile_img": "/img/uploads/cruzeiro.png"
+              "mobile_img": "/img/uploads/the-blues-2.png"
             }
           ]
         }
