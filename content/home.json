@@ -126,6 +126,13 @@
               "link": "https://www.ivocamisas.com.br/search?term=Grêmio",
               "img": "/img/uploads/gremio-1.png",
               "mobile_img": "/img/uploads/gremio-2.png"
+            },
+            {
+              "title": "On",
+              "btn_text": "Fire",
+              "link": "https://www.ivocamisas.com.br/search?term=atlético+mineiro",
+              "img": "/img/uploads/mineiro.png",
+              "mobile_img": "/img/uploads/mineiro.png"
             }
           ]
         }
