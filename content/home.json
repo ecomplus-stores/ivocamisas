@@ -66,7 +66,7 @@
       "type": "apx-tab-banners",
       "tabs": [
         {
-          "title": "Brasileirão",
+          "title": "Seleções",
           "banners": [
             {
               "title": "On",
@@ -78,9 +78,9 @@
             {
               "title": "On",
               "btn_text": "Fire",
-              "link": "https://www.ivocamisas.com.br/search?term=atlético+mineiro",
-              "img": "/img/uploads/mineiro.png",
-              "mobile_img": "/img/uploads/mineiro.png"
+              "link": "https://www.ivocamisas.com.br/search?term=argentina",
+              "img": "/img/uploads/argentina-2026.png",
+              "mobile_img": "/img/uploads/argentina-2026.png"
             },
             {
               "link": "https://www.ivocamisas.com.br/search?term=cruzeiro",
