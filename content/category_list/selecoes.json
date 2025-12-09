@@ -37,6 +37,13 @@
             "price_patch": 30,
             "title": "EURO 2024"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/patch-copa-do-mundo-2026.jpg",
+            "price_patch": 30,
+            "title": "COPA DO MUNDO 2026"
+          }
         }
       ],
       "size_guide_category": {
