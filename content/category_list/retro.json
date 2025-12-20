@@ -111,6 +111,13 @@
             "price_patch": 30,
             "title": "COPA DO MUNDO 2010"
           }
+        },
+        {
+          "patch": {
+            "img_patch": "/img/uploads/imagem_2025-12-20_141254310.png",
+            "price_patch": 30,
+            "title": "EURO 2012 "
+          }
         }
       ]
     }
