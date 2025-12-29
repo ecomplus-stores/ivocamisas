@@ -56,6 +56,13 @@
             "price_patch": 30,
             "title": "MUNDIAL DE CLUBES 2025 (AZUL)"
           }
+        },
+        {
+          "patch": {
+            "price_patch": 50,
+            "title": "CAMPEÃO LIBERTADORES 2025",
+            "img_patch": "/img/uploads/imagem_2025-12-28_234103115.png"
+          }
         }
       ]
     }
