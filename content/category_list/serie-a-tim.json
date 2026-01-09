@@ -13,70 +13,70 @@
         {
           "patch": {
             "img_patch": "/img/uploads/serie-a-2024-25.jpg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "SERIE A"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/serie-a-campeao.jpg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "SERIE A CAMPEÃO"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/serie-a-campeao-copa-italia.jpg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "CAMPEÃO COPA ITÁLIA"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/COPA ITÁLIA.jpg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "COPA ITÁLIA"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/ucl-24-25.jpeg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "UCL"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/5018ee63a3abea133ca36e918b9333469ad4d7ea2ad69aae0efbe2a2da353ce2.jpeg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "UCL 7 TAÇAS"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/europa-league-24-25.jpeg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "EUROPA LEAGUE"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/conference-league-24-25.jpeg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "CONFERENCE LEAGUE"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/mundial-de-clubes-2025-azul-escuro.jpg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "MUNDIAL DE CLUBES 2025 (AZUL)"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/mundial-de-clubes-2025-branco.jpg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "MUNDIAL DE CLUBES 2025"
           }
         }
