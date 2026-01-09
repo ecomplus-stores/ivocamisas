@@ -13,28 +13,28 @@
         {
           "patch": {
             "img_patch": "/img/uploads/liga-turca-2024-25.jpg",
-            "price_patch": 20,
+            "price_patch": 60,
             "title": "LIGA TURCA"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/ucl-24-25.jpeg",
-            "price_patch": 20,
+            "price_patch": 60,
             "title": "UCL"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/europa-league-24-25.jpeg",
-            "price_patch": 20,
+            "price_patch": 60,
             "title": "EUROPA LEAGUE"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/conference-league-24-25.jpeg",
-            "price_patch": 20,
+            "price_patch": 60,
             "title": "CONFERENCE LEAGUE"
           }
         }
