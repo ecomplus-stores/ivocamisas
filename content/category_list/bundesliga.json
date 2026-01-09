@@ -13,63 +13,63 @@
         {
           "patch": {
             "img_patch": "/img/uploads/BUNDESLIGA.png",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "BUNDESLIGA"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/bundesliga-campeao-2023-2024.jpeg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "CAMPEÃO 2024-2025"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/COPA DA ALEMANHA.jpg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "COPA DA ALEMANHA"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/ucl-24-25.jpeg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "UCL"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/UCL 6 TAÇAS.jpg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "UCL 6 TAÇAS"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/europa-league-24-25.jpeg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "EUROPA LEAGUE"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/conference-league-24-25.jpeg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "CONFERENCE LEAGUE"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/mundial-de-clubes-2025-azul-escuro.jpg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "MUNDIAL DE CLUBES  2025 (AZUL)"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/mundial-de-clubes-2025-branco.jpg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "MUNDIAL DE CLUBES 2025"
           }
         }
