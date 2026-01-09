@@ -13,42 +13,42 @@
         {
           "patch": {
             "img_patch": "/img/uploads/EREDIVISIE.png",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "EREDIVISIE"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/eredivisie-campeao.png",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "CAMPEÃO 2023-2024"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/ucl-24-25.jpeg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "UCL"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/ulc-4-tacas.jpg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "UCL 4 TAÇAS"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/europa-league-24-25.jpeg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "EUROPA LEAGUE"
           }
         },
         {
           "patch": {
             "img_patch": "/img/uploads/conference-league-24-25.jpeg",
-            "price_patch": 30,
+            "price_patch": 60,
             "title": "CONFERENCE LEAGUE"
           }
         }
