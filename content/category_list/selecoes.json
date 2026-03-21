@@ -44,13 +44,6 @@
             "price_patch": 60,
             "title": "COPA DO MUNDO 2026"
           }
-        },
-        {
-          "patch": {
-            "title": "COPA DO MUNDO DE 2014",
-            "img_patch": "/img/uploads/imagem_2026-03-21_141216034.png",
-            "price_patch": 60
-          }
         }
       ],
       "size_guide_category": {
