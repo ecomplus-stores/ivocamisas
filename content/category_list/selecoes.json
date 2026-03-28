@@ -12,6 +12,13 @@
         },
         {
           "patch": {
+            "img_patch": "/img/uploads/patch-copa-do-mundo-2026.jpg",
+            "price_patch": 60,
+            "title": "COPA DO MUNDO 2026"
+          }
+        },
+        {
+          "patch": {
             "img_patch": "/img/uploads/ELIMINATÓRIAS 2026.png",
             "price_patch": 60,
             "title": "ELIMINATÓRIAS 2026"
@@ -36,13 +43,6 @@
             "img_patch": "/img/uploads/uefaeuro2024-atualizado.jpg",
             "price_patch": 60,
             "title": "EURO 2024"
-          }
-        },
-        {
-          "patch": {
-            "img_patch": "/img/uploads/patch-copa-do-mundo-2026.jpg",
-            "price_patch": 60,
-            "title": "COPA DO MUNDO 2026"
           }
         }
       ],
