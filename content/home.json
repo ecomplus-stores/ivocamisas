@@ -118,14 +118,14 @@
           ]
         },
         {
-          "title": "Premier League",
+          "title": "Copa Do Mundo",
           "banners": [
             {
-              "img": "/img/uploads/arsenal-pc.png",
-              "link": "https://www.ivocamisas.com.br/search?term=the+gunners",
+              "img": "/img/uploads/jamaica-pc.png",
+              "link": "https://www.ivocamisas.com.br/jamaica/",
               "title": "On",
               "btn_text": "Fire",
-              "mobile_img": "/img/uploads/arsenal-mobile.png"
+              "mobile_img": "/img/uploads/jamaica-mobile.png"
             },
             {
               "img": "/img/uploads/the-reds-2.png",
