@@ -66,7 +66,33 @@
       "type": "apx-tab-banners",
       "tabs": [
         {
-          "title": "Seleções",
+          "title": "Mais vendidos",
+          "banners": [
+            {
+              "img": "/img/uploads/jamaica-pc.png",
+              "link": "https://www.ivocamisas.com.br/jamaica/",
+              "title": "On",
+              "btn_text": "Fire",
+              "mobile_img": "/img/uploads/jamaica-mobile.png"
+            },
+            {
+              "img": "/img/uploads/noruega.png",
+              "link": "https://www.ivocamisas.com.br/noruega/",
+              "title": "On",
+              "btn_text": "Fire",
+              "mobile_img": "/img/uploads/noruega.png"
+            },
+            {
+              "img": "/img/uploads/grecia.png",
+              "link": "https://www.ivocamisas.com.br/grecia/",
+              "title": "On",
+              "btn_text": "Fire",
+              "mobile_img": "/img/uploads/grecia.png"
+            }
+          ]
+        },
+        {
+          "title": "Copa do Mundo 2026",
           "banners": [
             {
               "title": "On",
@@ -114,32 +140,6 @@
               "title": "On",
               "btn_text": "Fire",
               "mobile_img": "/img/uploads/inter-miami.png"
-            }
-          ]
-        },
-        {
-          "title": "Copa Do Mundo",
-          "banners": [
-            {
-              "img": "/img/uploads/jamaica-pc.png",
-              "link": "https://www.ivocamisas.com.br/jamaica/",
-              "title": "On",
-              "btn_text": "Fire",
-              "mobile_img": "/img/uploads/jamaica-mobile.png"
-            },
-            {
-              "img": "/img/uploads/noruega.png",
-              "link": "https://www.ivocamisas.com.br/noruega/",
-              "title": "On",
-              "btn_text": "Fire",
-              "mobile_img": "/img/uploads/noruega.png"
-            },
-            {
-              "img": "/img/uploads/grecia.png",
-              "link": "https://www.ivocamisas.com.br/grecia/",
-              "title": "On",
-              "btn_text": "Fire",
-              "mobile_img": "/img/uploads/grecia.png"
             }
           ]
         }
