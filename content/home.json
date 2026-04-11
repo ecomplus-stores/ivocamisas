@@ -250,12 +250,12 @@
           "link": "https://www.ivocamisas.com.br/brasil/"
         },
         {
-          "img": "/img/uploads/paraguai.jpg",
-          "link": "https://www.ivocamisas.com.br/paraguai/"
-        },
-        {
           "img": "/img/uploads/argentina.jpg",
           "link": "https://www.ivocamisas.com.br/argentina/"
+        },
+        {
+          "img": "/img/uploads/paraguai.jpg",
+          "link": "https://www.ivocamisas.com.br/paraguai/"
         },
         {
           "img": "/img/uploads/uruguai.jpg",
