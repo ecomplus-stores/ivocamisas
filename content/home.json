@@ -156,11 +156,11 @@
           "buttons": [
             {
               "link": "https://www.ivocamisas.com.br/outros-clubes/",
-              "btn_text": "Outros Clubes"
+              "btn_text": "Roupas Masculinas"
             },
             {
-              "link": "https://www.ivocamisas.com.br/major-league-soccer/",
-              "btn_text": "Major League Soccer"
+              "link": "https://www.ivocamisas.com.br/inglaterra/",
+              "btn_text": "Inglaterra"
             }
           ]
         },
@@ -174,8 +174,8 @@
               "btn_text": "Roupas Femininas"
             },
             {
-              "link": "https://www.ivocamisas.com.br/barcelona/",
-              "btn_text": "Barcelona"
+              "link": "https://www.ivocamisas.com.br/alemanha/",
+              "btn_text": "Alemanha"
             }
           ]
         },
@@ -189,8 +189,8 @@
               "btn_text": "Roupas Infantis"
             },
             {
-              "link": "https://www.ivocamisas.com.br/liga-saudita/",
-              "btn_text": "Liga Saudita"
+              "link": "https://www.ivocamisas.com.br/brasil/",
+              "btn_text": "Brasil"
             }
           ]
         }
