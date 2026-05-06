@@ -24,6 +24,13 @@
         },
         {
           "patch": {
+            "price_patch": 60,
+            "title": "COPA DO BRASIL 2026",
+            "img_patch": "/img/uploads/copa-do-brasil-2026.jpg"
+          }
+        },
+        {
+          "patch": {
             "img_patch": "/img/uploads/mundial-de-clubes-2025-branco.jpg",
             "price_patch": 60,
             "title": "MUNDIAL DE CLUBES 2025"
@@ -34,13 +41,6 @@
             "img_patch": "/img/uploads/mundial-de-clubes-2025-azul-escuro.jpg",
             "price_patch": 60,
             "title": "MUNDIAL DE CLUBES 2025 (AZUL)"
-          }
-        },
-        {
-          "patch": {
-            "price_patch": 60,
-            "title": "COPA DO BRASIL 2026",
-            "img_patch": "/img/uploads/copa-do-brasil-2026.jpg"
           }
         }
       ]
